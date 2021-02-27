@@ -1,0 +1,3 @@
+.container.svelte-4npetv{min-height:50vh;width:50vw;display:grid;grid-template-columns:1fr 1fr;grid-template-areas:"titre titre"
+        "image form";background-color:#000;margin:auto;margin-top:10%;border:solid 2px #EF11A1;border-radius:5px;box-shadow:0px 6px 15px black}h1.svelte-4npetv{font-family:interstate thin;grid-area:titre;text-align:center;color:#fff;padding-top:15px}img.svelte-4npetv{grid-area:image;max-width:90%;margin:auto;margin-bottom:20px}form.svelte-4npetv{color:#fff;margin:auto;grid-area:form;display:flex;flex-direction:column;width:90%}label.svelte-4npetv{margin:5px}input.svelte-4npetv{height:20px;margin:5px}button.svelte-4npetv{margin-top:20px;margin-bottom:20px}@media(max-width:660px){.container.svelte-4npetv{margin-top:0px;padding-top:40px
+	  } 
