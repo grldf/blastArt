@@ -36,9 +36,11 @@
 .numbertext {
   color:  rgb(228, 46, 245);
   font-size: 12px;
-  padding-top: 8px ;
+  padding: 8px 5px;
   position: absolute;
   background-color:rgba(0,0,0,0.5);
+  width:35px;
+  height:15px;
     }
 img,video{
     width: 100%;
@@ -47,6 +49,7 @@ img,video{
     justify-self: stretch;
     object-fit: contain;
 }
+video{object-fit: cover;}
 .img-full-size {
     width: 100%;
     max-height: 100vh;

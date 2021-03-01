@@ -115,7 +115,6 @@
   }
   nav img {
     position: relative;
-    left: -3%;
   }
 
   [aria-current] {
@@ -159,9 +158,8 @@
     h1{
       position:absolute;
       left:25%;
-      top:-10px;
-      background-color: #fff;
       color: #000;
+      font-size:20px;
     }
     a{
       font-size:22px;

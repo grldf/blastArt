@@ -12,10 +12,12 @@
     "apollo-boost": "^0.4.9",
     "compression": "^1.7.1",
     "graphql": "^15.5.0",
+    "happy-svelte-scrollbar": "^1.1.0",
     "polka": "next",
     "sirv": "^1.0.0",
     "snarkdown": "^2.0.0",
-    "svelte-burger-menu": "^1.0.5"
+    "svelte-burger-menu": "^1.0.5",
+    "svelte-slimscroll": "^1.0.6"
   },
   "devDependencies": {
     "sapper": "^0.28.0",
