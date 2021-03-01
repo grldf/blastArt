@@ -54,7 +54,7 @@
     margin-top: 0px;
     margin-bottom: 0px;
     padding-bottom: 0px;
-    margin-right: 20%;
+    margin-right: 15%;
   }
   a {
     color: #000;
