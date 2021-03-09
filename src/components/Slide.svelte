@@ -69,8 +69,8 @@
   .link {
     position: absolute;
     margin-top: 2px;
-    border: solid 2px rgb(228, 46, 245);
-    border-radius: 5px;
+    border-left:  solid  rgb(228, 46, 245);
+    border-right:  solid  rgb(228, 46, 245);
   }
   @media (max-width: 660px) {
     .mySlides {

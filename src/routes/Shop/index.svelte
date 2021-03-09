@@ -1,24 +1,88 @@
-<svelte:head>
+<script context="module">
+  import ApolloClient, { gql } from "apollo-boost";
+  import Produit from "./../../components/Produit.svelte";
   
-<title>My E-Book Shop</title>
+  const produitsQuery = gql`
+    query produit {
+      categories(sort: "ordre") {
+        nom
+        ordre
+        produits {
+          id
+          nom
+          description
+          prix
+          image {
+            url
+          }
+        }
+      }
+    }
+  `;
+  export async function preload({ params, query }) {
+    const client = new ApolloClient({
+      uri: "http://51.210.96.39:1337/graphql",
+      fetch: this.fetch,
+    });
+    const results = await client.query({
+      query: produitsQuery,
+    });
+    return { article: results.data.categories };
+  }
+  let urlpApi = "http://51.210.96.39:1337";
+</script>
+
+<script>
+  export let article;
+  
+</script>
+
+<svelte:head>
+  <title>Blast Shop</title>
 </svelte:head>
+  <div class="all">
+    
+  {#each article as produit}
+  {#if produit.produits.length >0}
+  <h2>{produit.nom}</h2>
 
+  <div class="container">
+    {#each produit.produits as product}
+    <Produit 
+    itemGategorie={produit.nom}
+    imgProduit={urlpApi + product.image.url}
+    nomProduit={product.nom}
+    descriptionProduit={product.description}
+    prixProduit={product.prix}
+    idProduit={product.id}
+    imgModalProduit={urlpApi + product.image.url}
+    />
+    
+    {/each}
+  </div>
+  {:else}
+  <span></span>
+  {/if}
+  {/each}
+</div>
 
-<h1>My E-Book Shop</h1>
-<h2>Learn Tech 1</h2>
-<img  src="https://placeimg.com/200/300/tech" alt="test" />
-<p>$19.99</p>
-<button on:click={console.log("coucou")}
-  class="snipcart-add-item"
-  data-item-id="learn-tech"
-  data-item-price="19.99"
-  data-item-url="/learn-tech"
-  data-item-image="https://placeimg.com/200/300/tech"
-  data-item-name="Learn Tech 1"
->
-  Add to cart
-</button>
+<style>
+  .container {
+    margin: 0px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2rem;
+    grid-auto-flow: dense;
+  }
+  .all{
+    margin: 75px 20px;
+  }
 
-<hr />
-
-
+  h2{
+    width:fit-content;
+    max-width: -moz-fit-content;
+    border-bottom: solid 1px #ef11a1;
+    margin-left:-20px;
+    padding-left: 20px;
+  }
+</style>

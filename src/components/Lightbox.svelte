@@ -39,7 +39,7 @@
   padding: 8px 5px;
   position: absolute;
   background-color:rgba(0,0,0,0.5);
-  width:35px;
+  width:40px;
   height:15px;
     }
 img,video{

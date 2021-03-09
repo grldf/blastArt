@@ -28,7 +28,6 @@
   </script>
   
   <script>
-import { assertIdValue } from "apollo-cache-inmemory";
 
     export let posts;
   </script>
@@ -42,7 +41,6 @@ import { assertIdValue } from "apollo-cache-inmemory";
       
   <img src={urlpApi + article.logoSite.url} alt={article.commentaire} />
   <p><a href={article.lien} target="_blank">{article.commentaire}<br/> <span>&#9758;</span></a></p>
- 
 </article>
 
 {/each}
@@ -53,12 +51,11 @@ img{
     max-width: 100%;
 }
 .container{
-    margin:65px 20px 0 20px;
+    margin:85px 20px 0 20px;
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     grid-gap: 2rem;
     grid-auto-flow: dense;
-    
     }
 .container > article {
     border:solid 1px #ef11a1;
@@ -90,18 +87,5 @@ span{
     font-size: 30px;
     color:#000;
 }
-.container{
-        position:relative;
-        
-        top:60px;
-      margin-top: 0;
-    }
-    .container{
-        position:relative;
-        margin: 0 auto;
-        top:60px;
-      min-height: 0vh;
-      width: 90vw;
-      margin-top: 0;
-    }
+
 </style>

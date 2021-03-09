@@ -5,7 +5,7 @@
 </script>
 
 <svelte:window bind:innerWidth={navBurger} />
-{#if navBurger > 800}
+{#if navBurger > 810}
   <div
     id="snipcart"
     data-api-key="MjU2OTVmMmMtZDI5ZS00ODEzLTkwYjUtZjU4NzdiYzRhMDRiNjM3NTAyMDgzMTIwNDQ5OTUw"
@@ -13,7 +13,9 @@
   />
 
   <nav>
-    <img src="logo-192.png" alt="Blast Art Logo" />
+    <a aria-current={segment === undefined ? "page" : undefined} href="."
+      ><img src="logo.png" alt="Blast Art Logo" /></a
+    >
     <a aria-current={segment === undefined ? "page" : undefined} href="."
       >Projets</a
     >
@@ -145,7 +147,8 @@
   </nav>
 {:else}
   <div class="burger">
-    <h1>BLAST ART LYON</h1>
+    <header>
+    <img src="/logo.png" alt="logo blast" />
     <button class="snipcart-checkout"
       ><svg
         version="1.0"
@@ -233,6 +236,7 @@
     Quantité : <span class="snipcart-items-count" /><br />
     Prix : <span class="snipcart-total-price" />
   </p>
+</header>
   <BurgerMenu padding={"25px"} backgroundColor={"#000"} menuColor={"#ef11a1"}>
     <a aria-current={segment === undefined ? "page" : undefined} href="."
       >Projets</a
@@ -311,8 +315,10 @@
   p {
     margin: 5px 0px 0px 10px;
   }
-  nav img {
+  nav a img {
     position: relative;
+    top: -10px;
+    width:55px;
   }
 
   [aria-current] {
@@ -343,24 +349,33 @@
   .burger {
     position: relative;
     z-index: 500;
-    background-color: #000;
     text-align: center;
   }
   .burger a {
     color: #fff;
   }
-  @media (max-width: 660px) {
+  @media (max-width: 810px) {
     nav {
       display: none;
     }
-    h1 {
-      position: absolute;
-      left: 25%;
-      color: #000;
-      font-size: 20px;
+    header{
+      padding:10px 0px 0px 50px;
+      display:flex;
+      justify-content: space-around;
+      height:50px;
+    }
+    .burger{
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      z-index:1;
     }
     a {
       font-size: 22px;
+      padding:0.5em;
+    } 
+    .info-prix{
+      display: none;
     }
   }
 </style>
