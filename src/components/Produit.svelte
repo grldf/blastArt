@@ -43,12 +43,9 @@
 </article>
 <style>
   article header{
-    background-color:#708090;
     border-bottom:1px solid #ef11a1;
-    color:#fff;
   }
   article{
-    background-color:rgba(112, 128, 144, 0.6);
     display:flex;
     flex-direction: column;
     border: 1px solid #ef11a1;
@@ -60,7 +57,6 @@
     max-width:95%;
     max-height: 300px;
     align-self: center;
-    border:solid 5px #fff;
     cursor: zoom-in;
   }
   .btns{

@@ -31,7 +31,6 @@
   }
   let urlpApi = "http://51.210.96.39:1337";
 </script>
-
 <script>
   export let article;
   
