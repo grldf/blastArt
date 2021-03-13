@@ -16,7 +16,7 @@
   `;
   export async function preload({ params, query }) {
 	const client = new ApolloClient({
-	  uri: "http://51.210.96.39:1337/graphql",
+	  uri: "https://www.grldfaure.xyz/graphql",
 	    fetch: this.fetch,
 	});
 	const results = await client.query({
@@ -25,7 +25,7 @@
 	return { posts: results.data.projets };
 }
 
-  const urlpApi = "http://51.210.96.39:1337";
+  const urlpApi = "https://www.grldfaure.xyz";
   const urlSlug = "Projet/";
 	
 </script>

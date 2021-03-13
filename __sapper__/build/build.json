@@ -2,7 +2,7 @@
   "bundler": "rollup",
   "shimport": "2.0.4",
   "assets": {
-    "main": "client.0e6fe5b6.js"
+    "main": "client.133bac4b.js"
   },
   "css": {
     "main": [
@@ -11,62 +11,62 @@
   },
   "dependencies": {
     "index.svelte": [
-      "index.5c6da1ce.js",
+      "index.c3bc953f.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "index-1bf1b775.css"
     ],
     "newsLetter/index.svelte": [
-      "index.d2edff2c.js",
+      "index.d172406c.js",
       "inject_styles.5607aec6.js",
       "index-36813672.css"
     ],
     "collectif/index.svelte": [
-      "index.7f5c1577.js",
+      "index.bf865cff.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "index-f5692dba.css"
     ],
     "contact/index.svelte": [
-      "index.08223319.js",
+      "index.85fd6ddc.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "index-5cde7286.css"
     ],
     "presse/index.svelte": [
-      "index.adfdd0fa.js",
+      "index.edff1a30.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "index-0788a60c.css"
     ],
     "projet/[slug].svelte": [
-      "[slug].3eb4b6da.js",
+      "[slug].515f6c96.js",
       "snarkdown.es.257e5e6b.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "[slug]-85405eb1.css"
     ],
     "cgvcgu/index.svelte": [
-      "index.7d999a76.js",
+      "index.afb57978.js",
       "snarkdown.es.257e5e6b.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "index-f272817a.css"
     ],
     "news/index.svelte": [
-      "index.81f18725.js",
+      "index.711c77ca.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "index-f5692dba.css"
     ],
     "shop/index.svelte": [
-      "index.05992124.js",
+      "index.c5291d17.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "index-8ce59d44.css"
     ]
   },
   "legacy_assets": {
-    "main": "client.74155e3b.js"
+    "main": "client.6ae2c760.js"
   }
 }
