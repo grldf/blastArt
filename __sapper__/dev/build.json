@@ -2,65 +2,65 @@
   "bundler": "rollup",
   "shimport": "2.0.4",
   "assets": {
-    "main": "client.cd6449ad.js"
+    "main": "client.2e508cd4.js"
   },
   "css": {
     "main": [
-      "client-6b96d1b0.css"
+      "client-3bd2e6c8.css"
     ]
   },
   "dependencies": {
     "index.svelte": [
-      "index.968c89c8.js",
+      "index.75c48988.js",
       "bundle.esm.ce987c6b.js",
       "inject_styles.5607aec6.js",
-      "index-1bf1b775.css"
+      "index-d2a992d7.css"
     ],
     "newsLetter/index.svelte": [
-      "index.245f80e4.js",
+      "index.18d2c3ac.js",
       "inject_styles.5607aec6.js",
       "index-36813672.css"
     ],
     "collectif/index.svelte": [
-      "index.f455a35b.js",
+      "index.2c0d3846.js",
       "bundle.esm.ce987c6b.js",
       "inject_styles.5607aec6.js",
       "index-f5692dba.css"
     ],
     "contact/index.svelte": [
-      "index.b177495d.js",
+      "index.49eab8e3.js",
       "bundle.esm.ce987c6b.js",
       "inject_styles.5607aec6.js",
       "index-5cde7286.css"
     ],
     "presse/index.svelte": [
-      "index.5c6541fa.js",
+      "index.c5923209.js",
       "bundle.esm.ce987c6b.js",
       "inject_styles.5607aec6.js",
       "index-0788a60c.css"
     ],
     "projet/[slug].svelte": [
-      "[slug].4bb959f2.js",
+      "[slug].ad82bc43.js",
       "snarkdown.es.257e5e6b.js",
       "bundle.esm.ce987c6b.js",
       "inject_styles.5607aec6.js",
-      "[slug]-85405eb1.css"
+      "[slug]-d681d0c3.css"
     ],
     "cgvcgu/index.svelte": [
-      "index.c6a68c9e.js",
+      "index.003c16fb.js",
       "snarkdown.es.257e5e6b.js",
       "bundle.esm.ce987c6b.js",
       "inject_styles.5607aec6.js",
       "index-f272817a.css"
     ],
     "news/index.svelte": [
-      "index.772079a4.js",
+      "index.f57f9530.js",
       "bundle.esm.ce987c6b.js",
       "inject_styles.5607aec6.js",
       "index-f5692dba.css"
     ],
     "shop/index.svelte": [
-      "index.d47de6e4.js",
+      "index.f20e3a94.js",
       "bundle.esm.ce987c6b.js",
       "inject_styles.5607aec6.js",
       "index-8ce59d44.css"

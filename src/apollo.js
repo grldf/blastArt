@@ -13,7 +13,7 @@ const cache = new InMemoryCache();
 
 
 const httpLink = new HttpLink({
-  uri: "http://51.210.96.39:1337/graphql",
+  uri: "https://grldfaure.xyz/graphql",
   headers: getHeaders()
 });
 
@@ -26,6 +26,7 @@ const link = split(
 );
 
 export const client = new ApolloClient({
+  ssrMode: true,
   link,
   cache
 });

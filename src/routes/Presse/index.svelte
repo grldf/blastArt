@@ -1,4 +1,3 @@
-
 <script context="module">
     import ApolloClient, { gql } from "apollo-boost";
   
@@ -14,7 +13,7 @@
         }
     }
     `;
-    export async function preload({ params, query }) {
+    export async function preload({ query }) {
       const client = new ApolloClient({
         uri: "https://www.grldfaure.xyz/graphql",
         fetch: this.fetch,

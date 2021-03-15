@@ -1,19 +1,16 @@
 <script>
-	import Nav from '../components/Nav.svelte';
- 
-	export let segment;
-
+  import Nav from "../components/Nav.svelte";
+  export let segment;
 </script>
 
-
-
-<Nav {segment}/>
+<Nav {segment} />
 
 <main>
-	<slot></slot>
+  <slot />
 </main>
+
 <style>
-	main{
-		font-family: interstate;
-	}
+  main {
+    font-family: interstate;
+  }
 </style>

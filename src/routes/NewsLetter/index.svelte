@@ -1,6 +1,4 @@
 <script>
-  
-
   const regex = "{2,}";
   // send infos
 </script>

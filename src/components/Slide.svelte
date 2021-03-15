@@ -30,7 +30,6 @@
     flex-wrap: wrap;
     align-items: flex-start;
     height: 90%;
-    background-color: #000;
   }
   .numbertext {
     color: rgb(228, 46, 245);

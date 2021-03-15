@@ -143,31 +143,35 @@
         Prix : <span class="snipcart-total-price" />
       </p>
     </div>
-   
   </nav>
 {:else}
+<div
+    id="snipcart"
+    data-api-key="MjU2OTVmMmMtZDI5ZS00ODEzLTkwYjUtZjU4NzdiYzRhMDRiNjM3NTAyMDgzMTIwNDQ5OTUw"
+    hidden
+  />
   <div class="burger">
     <header>
-    <img src="/logo.png" alt="logo blast" />
-    <button class="snipcart-checkout"
-      ><svg
-        version="1.0"
-        xmlns="http://www.w3.org/2000/svg"
-        width="1280.0000pt"
-        height="1225.000000pt"
-        viewBox="0 0 1280.000000 1225.000000"
-        preserveAspectRatio="xMidYMid meet"
-      >
-        <metadata>
-          Created by potrace 1.15, written by Peter Selinger 2001-2017
-        </metadata>
-        <g
-          transform="translate(0.000000,1225.000000) scale(0.100000,-0.100000)"
-          fill="#ec51fd"
-          stroke="none"
+      <img src="/logo.png" alt="logo blast" />
+      <button class="snipcart-checkout"
+        ><svg
+          version="1.0"
+          xmlns="http://www.w3.org/2000/svg"
+          width="1280.0000pt"
+          height="1225.000000pt"
+          viewBox="0 0 1280.000000 1225.000000"
+          preserveAspectRatio="xMidYMid meet"
         >
-          <path
-            d="M11390 12078 c-547 -94 -1018 -179 -1047 -190 -28 -10 -70 -34 -93
+          <metadata>
+            Created by potrace 1.15, written by Peter Selinger 2001-2017
+          </metadata>
+          <g
+            transform="translate(0.000000,1225.000000) scale(0.100000,-0.100000)"
+            fill="#ec51fd"
+            stroke="none"
+          >
+            <path
+              d="M11390 12078 c-547 -94 -1018 -179 -1047 -190 -28 -10 -70 -34 -93
      -52 -80 -63 -75 -53 -318 -676 -55 -140 -236 -605 -403 -1032 l-303 -778 -77
      0 c-42 0 -702 -16 -1466 -35 -763 -19 -2117 -53 -3008 -75 -4532 -113 -4369
      -108 -4421 -126 -65 -21 -100 -44 -151 -96 -51 -53 -93 -140 -100 -210 -3 -34
@@ -219,66 +223,65 @@
      -262 -119 -561 39 -610 324 -31 179 68 369 235 451 110 54 263 56 371 5z
      m6971 -6 c80 -39 167 -128 201 -204 164 -371 -214 -737 -583 -565 -163 75
      -264 270 -235 448 48 287 358 449 617 321z"
-          />
-          <path
-            d="M1455 937 c-60 -29 -87 -57 -114 -117 -81 -178 86 -370 274 -316 105
+            />
+            <path
+              d="M1455 937 c-60 -29 -87 -57 -114 -117 -81 -178 86 -370 274 -316 105
      31 168 114 168 221 1 131 -86 223 -218 232 -49 3 -69 0 -110 -20z"
-          />
-          <path
-            d="M8439 946 c-56 -20 -96 -53 -126 -104 -24 -39 -28 -58 -28 -117 1
+            />
+            <path
+              d="M8439 946 c-56 -20 -96 -53 -126 -104 -24 -39 -28 -58 -28 -117 1
      -78 14 -113 66 -163 48 -46 95 -66 164 -65 74 0 128 25 178 84 150 175 -36
      443 -254 365z"
-          />
-        </g>
-      </svg></button
-    >
-  <p class="info-prix">
-    Quantité : <span class="snipcart-items-count" /><br />
-    Prix : <span class="snipcart-total-price" />
-  </p>
-</header>
-  <BurgerMenu padding={"25px"} backgroundColor={"#000"} menuColor={"#ef11a1"}>
-    <a aria-current={segment === undefined ? "page" : undefined} href="."
-      >Projets</a
-    >
-    <a
-      rel="prefetch"
-      aria-current={segment === "Collectif" ? "page" : undefined}
-      href="Collectif">Collectif</a
-    >
-    <a
-      rel="prefetch"
-      aria-current={segment === "Presse" ? "page" : undefined}
-      href="Presse">Presse</a
-    >
-    <a
-      rel="prefetch"
-      aria-current={segment === "News" ? "page" : undefined}
-      href="News">News</a
-    >
-    <a
-      rel="prefetch"
-      aria-current={segment === "Shop" ? "page" : undefined}
-      href="Shop">Shop</a
-    >
-    <a
-      rel="prefetch"
-      aria-current={segment === "cgvcgu" ? "page" : undefined}
-      href="cgvcgu">CGV/CGU</a
-    >
-    <a
-      rel="prefetch"
-      aria-current={segment === "Contact" ? "page" : undefined}
-      href="Contact">Contact</a
-    >
-    <a
-      rel="prefetch"
-      aria-current={segment === "NewsLetter" ? "page" : undefined}
-      href="NewsLetter">News Letter</a
-    >
-  </BurgerMenu>
-</div>
-
+            />
+          </g>
+        </svg></button
+      >
+      <p class="info-prix">
+        Quantité : <span class="snipcart-items-count" /><br />
+        Prix : <span class="snipcart-total-price" />
+      </p>
+    </header>
+    <BurgerMenu padding={"25px"} backgroundColor={"#000"} menuColor={"#ef11a1"}>
+      <a aria-current={segment === undefined ? "page" : undefined} href="."
+        >Projets</a
+      >
+      <a
+        rel="prefetch"
+        aria-current={segment === "Collectif" ? "page" : undefined}
+        href="Collectif">Collectif</a
+      >
+      <a
+        rel="prefetch"
+        aria-current={segment === "Presse" ? "page" : undefined}
+        href="Presse">Presse</a
+      >
+      <a
+        rel="prefetch"
+        aria-current={segment === "News" ? "page" : undefined}
+        href="News">News</a
+      >
+      <a
+        rel="prefetch"
+        aria-current={segment === "Shop" ? "page" : undefined}
+        href="Shop">Shop</a
+      >
+      <a
+        rel="prefetch"
+        aria-current={segment === "cgvcgu" ? "page" : undefined}
+        href="cgvcgu">CGV/CGU</a
+      >
+      <a
+        rel="prefetch"
+        aria-current={segment === "Contact" ? "page" : undefined}
+        href="Contact">Contact</a
+      >
+      <a
+        rel="prefetch"
+        aria-current={segment === "NewsLetter" ? "page" : undefined}
+        href="NewsLetter">News Letter</a
+      >
+    </BurgerMenu>
+  </div>
 {/if}
 
 <style>
@@ -300,12 +303,12 @@
     width: 30px;
     height: 30px;
   }
-  .price-checkout{
-    display:flex;
+  .price-checkout {
+    display: flex;
     justify-content: space-around;
     min-width: 100px;
   }
-  .info-prix{
+  .info-prix {
     padding-right: 20px;
   }
   button {
@@ -318,7 +321,7 @@
   nav a img {
     position: relative;
     top: -10px;
-    width:55px;
+    width: 55px;
   }
 
   [aria-current] {
@@ -358,23 +361,23 @@
     nav {
       display: none;
     }
-    header{
-      padding:10px 0px 0px 50px;
-      display:flex;
+    header {
+      padding: 10px 0px 0px 50px;
+      display: flex;
       justify-content: space-around;
-      height:50px;
+      height: 50px;
     }
-    .burger{
+    .burger {
       display: flex;
       flex-direction: row-reverse;
       justify-content: space-between;
-      z-index:1;
+      z-index: 1;
     }
     a {
       font-size: 22px;
-      padding:0.5em;
-    } 
-    .info-prix{
+      padding: 0.5em;
+    }
+    .info-prix {
       display: none;
     }
   }
