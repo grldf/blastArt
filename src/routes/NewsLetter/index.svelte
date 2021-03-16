@@ -1,1 +1,3 @@
-<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/2d9d55f1ccc764f7d5a16dc0f/919742bb485513f808873c0f3.js");</script>
+<svelte:head>
+  <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/2d9d55f1ccc764f7d5a16dc0f/919742bb485513f808873c0f3.js");</script>
+</svelte:head>
