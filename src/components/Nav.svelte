@@ -6,38 +6,33 @@
 
 <svelte:window bind:innerWidth={navBurger} />
 {#if navBurger > 810}
-  <div
-    id="snipcart"
-    data-api-key="MjU2OTVmMmMtZDI5ZS00ODEzLTkwYjUtZjU4NzdiYzRhMDRiNjM3NTAyMDgzMTIwNDQ5OTUw"
-    hidden
-  />
-
   <nav>
-    <a aria-current={segment === undefined ? "page" : undefined} href="."
+    <a aria-current={segment === undefined ? "page" : undefined} href="/"
       ><img src="logo.png" alt="Blast Art Logo" /></a
     >
-    <a aria-current={segment === undefined ? "page" : undefined} href="."
-      >Projets</a
+    <a
+      aria-current={segment === undefined ? "page" : undefined}
+      href="/">Projets</a
     >
     <a
       rel="prefetch"
-      aria-current={segment === "Collectif" ? "page" : undefined}
-      href="Collectif">Collectif</a
+      aria-current={segment === "collectif" ? "page" : undefined}
+      href="collectif">Collectif</a
     >
     <a
       rel="prefetch"
-      aria-current={segment === "Presse" ? "page" : undefined}
-      href="Presse">Presse</a
+      aria-current={segment === "presse" ? "page" : undefined}
+      href="presse">Presse</a
     >
     <a
       rel="prefetch"
-      aria-current={segment === "News" ? "page" : undefined}
-      href="News">News</a
+      aria-current={segment === "news" ? "page" : undefined}
+      href="news">News</a
     >
     <a
       rel="prefetch"
-      aria-current={segment === "Shop" ? "page" : undefined}
-      href="Shop">Shop</a
+      aria-current={segment === "shop" ? "page" : undefined}
+      href="shop">Shop</a
     >
     <a
       rel="prefetch"
@@ -46,13 +41,13 @@
     >
     <a
       rel="prefetch"
-      aria-current={segment === "Contact" ? "page" : undefined}
-      href="Contact">Contact</a
+      aria-current={segment === "contact" ? "page" : undefined}
+      href="contact">Contact</a
     >
     <a
       rel="prefetch"
-      aria-current={segment === "NewsLetter" ? "page" : undefined}
-      href="NewsLetter">News Letter</a
+      aria-current={segment === "newsLetter" ? "page" : undefined}
+      href="newsLetter">News Letter</a
     >
     <div class="price-checkout">
       <button class="snipcart-checkout"
@@ -144,12 +139,12 @@
       </p>
     </div>
   </nav>
-{:else}
-<div
+  <div
     id="snipcart"
     data-api-key="MjU2OTVmMmMtZDI5ZS00ODEzLTkwYjUtZjU4NzdiYzRhMDRiNjM3NTAyMDgzMTIwNDQ5OTUw"
     hidden
   />
+{:else}
   <div class="burger">
     <header>
       <img src="/logo.png" alt="logo blast" />
@@ -282,6 +277,11 @@
       >
     </BurgerMenu>
   </div>
+  <div
+    id="snipcart"
+    data-api-key="MjU2OTVmMmMtZDI5ZS00ODEzLTkwYjUtZjU4NzdiYzRhMDRiNjM3NTAyMDgzMTIwNDQ5OTUw"
+    hidden
+  />
 {/if}
 
 <style>

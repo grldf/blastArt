@@ -11,7 +11,7 @@ const cgvQuery = gql`
       }
     }   
   `;
-  export async function preload({ params, query }) {
+  export async function preload() {
 	const client = new ApolloClient({
 	  uri: "https://www.grldfaure.xyz/graphql",
 	    fetch: this.fetch,
@@ -19,19 +19,19 @@ const cgvQuery = gql`
 	const results = await client.query({
 	  query: cgvQuery,
 	});
-	return { posts: results.data.ccvCgu };
+	return { cgu: results.data.ccvCgu };
 }
 </script>
 
 <script>
-    export let posts;
+    export let cgu;
 </script>
 <svelte:head>
   <title />
 </svelte:head>
 <div class="content">
-  <h1>{posts.titre}</h1>
-  {@html snarkdown(posts.conditions)}
+  <h1>{cgu.titre}</h1>
+  {@html snarkdown(cgu.conditions)}
 </div>
 <style>
     h1{

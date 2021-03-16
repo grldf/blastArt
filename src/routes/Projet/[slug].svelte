@@ -1,7 +1,7 @@
 <script context="module">
   import ApolloClient, { gql } from "apollo-boost";
   import snarkdown from "snarkdown";
-  import Lightbox from "./../../components/Lightbox.svelte";
+  import Lightbox from "../../components/Lightbox.svelte";
 
   const projetQuery = gql`
     query Projets($Slug: String!) {
@@ -26,37 +26,37 @@
       }
     }
   `;
-  export async function preload({ params, query }) {
+  export async function preload(page) {
     const client = new ApolloClient({
       uri: "https://www.grldfaure.xyz/graphql",
       fetch: this.fetch,
     });
     const results = await client.query({
       query: projetQuery,
-      variables: { Slug: params.slug },
+      variables: { Slug: page.params.slug },
     });
-    return { post: results.data.projets };
+    return { projets: results.data.projets };
   }
   const urlpApi = "https://www.grldfaure.xyz";
-  const urlSlug = "Projet/";
+  const urlSlug = "projet/";
 </script>
 
 <script>
-  export let post;
+  export let projets;
   let imageShowIndex = 1;
   const firstImage = () => {
     imageShowIndex = 1;
   };
   const prevSlide = () => {
-    if (imageShowIndex === 1 || imageShowIndex > post[0].galery.length) {
-      imageShowIndex = post[0].galery.length;
+    if (imageShowIndex === 1 || imageShowIndex > projets[0].galery.length) {
+      imageShowIndex = projets[0].galery.length;
     } else {
       imageShowIndex -= 1;
     }
   };
 
   const nextSlide = () => {
-    if (imageShowIndex === post[0].galery.length) {
+    if (imageShowIndex === projets[0].galery.length) {
       imageShowIndex = 1;
     } else {
       imageShowIndex += 1;
@@ -69,7 +69,7 @@
   <title>Projet</title>
 </svelte:head>
 <div class="projet {fullSize}">
-  {#each post as info}
+  {#each projets as info}
     <div class="post-info">
       <nav>
         {#each info.lien as projet}

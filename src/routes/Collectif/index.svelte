@@ -13,7 +13,7 @@
         }
       }
     `;
-    export async function preload({ params, query }) {
+    export async function preload() {
       const client = new ApolloClient({
         uri: "https://www.grldfaure.xyz/graphql",
         fetch: this.fetch,
@@ -21,13 +21,13 @@
       const results = await client.query({
         query: membreQuery,
       });
-      return { posts: results.data.collectifs };
+      return { membres: results.data.collectifs };
     }
     let urlpApi = "https://www.grldfaure.xyz";
   </script>
   
   <script>
-    export let posts;
+    export let membres;
   </script>
   
   <svelte:head>
@@ -36,18 +36,18 @@
   </svelte:head>
   
   <div class="content">
-  {#each posts as post, i}
+  {#each membres as personne, i}
     <div class={i % 2 == 0 ? "impair" : "pair"}>
       <article>
-        <h2>{post.nom}</h2>
+        <h2>{personne.nom}</h2>
         <p>
-          {post.description}
+          {personne.description}
         </p>
       </article>
       <aside>
         <img
-          src={urlpApi + post.profilimage.url}
-          alt={"portrait de " + post.nom}
+          src={urlpApi + personne.profilimage.url}
+          alt={"portrait de " + personne.nom}
         />
       </aside>
     </div>

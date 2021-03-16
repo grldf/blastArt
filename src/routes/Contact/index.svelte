@@ -10,7 +10,7 @@
         }
       }
     `;
-    export async function preload({ params, query }) {
+    export async function preload() {
       const client = new ApolloClient({
         uri: "https://www.grldfaure.xyz/graphql",
         fetch: this.fetch,

@@ -26,7 +26,6 @@ const link = split(
 );
 
 export const client = new ApolloClient({
-  ssrMode: true,
   link,
   cache
 });

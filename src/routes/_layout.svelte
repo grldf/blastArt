@@ -6,7 +6,7 @@
 <Nav {segment} />
 
 <main>
-  <slot />
+  <slot></slot>
 </main>
 
 <style>

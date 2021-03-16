@@ -13,7 +13,7 @@
         }
     }
     `;
-    export async function preload({ query }) {
+    export async function preload() {
       const client = new ApolloClient({
         uri: "https://www.grldfaure.xyz/graphql",
         fetch: this.fetch,
@@ -21,20 +21,20 @@
       const results = await client.query({
         query: presseQuery,
       });
-      return { posts: results.data.presses };
+      return { liens: results.data.presses };
     }
     let urlpApi = "https://www.grldfaure.xyz";
   </script>
   
   <script>
 
-    export let posts;
+    export let liens;
   </script>
   <svelte:head>
     <title>Presse</title>
   </svelte:head>
 <div class="container">
-{#each posts as article}
+{#each liens as article}
 
 <article>
       

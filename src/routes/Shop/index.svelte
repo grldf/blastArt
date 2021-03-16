@@ -1,6 +1,6 @@
 <script context="module">
   import ApolloClient, { gql } from "apollo-boost";
-  import Produit from "./../../components/Produit.svelte";
+  import Produit from "../../components/Produit.svelte";
   
   const produitsQuery = gql`
     query produit {
@@ -19,7 +19,7 @@
       }
     }
   `;
-  export async function preload({ params, query }) {
+  export async function preload() {
     const client = new ApolloClient({
       uri: "https://www.grldfaure.xyz/graphql",
       fetch: this.fetch,
