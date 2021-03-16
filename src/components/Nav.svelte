@@ -14,8 +14,8 @@
     >
     <a
       rel="prefetch"
-      aria-current={segment === undefined ? "page" : undefined}
-      href="/">Projets</a
+      aria-current={segment === "blast" ? "page" : undefined}
+      href="blast">Projets</a
     >
     <a
       rel="prefetch"
