@@ -85,10 +85,7 @@
   img {
     max-width: 10rem;
   }
-  .pair {
-    display: flex;
-    flex-direction: row-reverse;
-  }
+  
   
   @media (max-width: 660px) {
     .content {
