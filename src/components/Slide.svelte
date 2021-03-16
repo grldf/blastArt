@@ -44,17 +44,13 @@
   }
   .infos {
     width: 100%;
-    font-size: 2rem;
-    text-align: center;
+    display:flex;
+		justify-content:center;
+		align-items:center;
+		text-align:center;
     background-color: #fff;
   }
-  .infos p {
-    padding-top: 0;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    margin-right: 15%;
-  }
+  
   a {
     color: #000;
     font-size: 1.6rem;
@@ -66,8 +62,6 @@
     color: rgb(228, 46, 245);
   }
   .link {
-    position: absolute;
-    margin-top: 2px;
     border-left:  solid  rgb(228, 46, 245);
     border-right:  solid  rgb(228, 46, 245);
   }
@@ -85,18 +79,6 @@
       width: 100%;
       max-height: 95vh;
     }
-    .infos {
-    max-width: 100%;
-    text-align:center;
-  }
-  .infos p{
-    margin-right: 0%;
-  }
-  .link{
-    position:relative;
-  }
-  a{
-    font-size:1.2rem;
-  }
+    
   }
 </style>

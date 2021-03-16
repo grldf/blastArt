@@ -2,70 +2,69 @@
   "bundler": "rollup",
   "shimport": "2.0.4",
   "assets": {
-    "main": "client.216dc75f.js"
+    "main": "client.497707e6.js"
   },
   "css": {
     "main": [
-      "client-e1afb146.css"
+      "client-44779ad0.css"
     ]
   },
   "dependencies": {
     "index.svelte": [
-      "index.0ff3112e.js",
+      "index.e2cbdec0.js",
       "inject_styles.5607aec6.js",
-      "index-a81053c8.css"
+      "index-c1dedf11.css"
     ],
     "newsLetter/index.svelte": [
-      "index.be19e1eb.js",
-      "inject_styles.5607aec6.js",
-      "index-36813672.css"
+      "index.c012ed74.js",
+      "inject_styles.5607aec6.js"
     ],
     "collectif/index.svelte": [
-      "index.1ef512c8.js",
+      "index.43ab1adb.js",
       "bundle.esm.ce987c6b.js",
       "inject_styles.5607aec6.js",
       "index-f5692dba.css"
     ],
     "contact/index.svelte": [
-      "index.40b0274d.js",
+      "index.3658c313.js",
       "bundle.esm.ce987c6b.js",
       "inject_styles.5607aec6.js",
       "index-5cde7286.css"
     ],
     "cgvcgu/index.svelte": [
-      "index.181c7590.js",
+      "index.008cb5a8.js",
       "snarkdown.es.257e5e6b.js",
       "bundle.esm.ce987c6b.js",
       "inject_styles.5607aec6.js",
       "index-f272817a.css"
     ],
     "presse/index.svelte": [
-      "index.6809996d.js",
+      "index.4b2e7352.js",
       "bundle.esm.ce987c6b.js",
       "inject_styles.5607aec6.js",
       "index-0788a60c.css"
     ],
     "projet/[slug].svelte": [
-      "[slug].5e21c1df.js",
+      "[slug].e576c8b1.js",
       "snarkdown.es.257e5e6b.js",
       "bundle.esm.ce987c6b.js",
       "inject_styles.5607aec6.js",
       "[slug]-d681d0c3.css"
     ],
     "blast/index.svelte": [
-      "index.a5ccbc29.js",
+      "index.d69654ac.js",
       "bundle.esm.ce987c6b.js",
       "inject_styles.5607aec6.js",
-      "index-b8b5f207.css"
+      "index-3543ecaf.css"
     ],
     "news/index.svelte": [
-      "index.3e5fad9a.js",
+      "index.e5dc1f03.js",
       "bundle.esm.ce987c6b.js",
       "inject_styles.5607aec6.js",
       "index-d719d531.css"
     ],
     "shop/index.svelte": [
-      "index.35f506d6.js",
+      "index.bf43d4ba.js",
       "bundle.esm.ce987c6b.js",
       "inject_styles.5607aec6.js",
       "index-8ce59d44.css"

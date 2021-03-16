@@ -8,12 +8,10 @@
 {#if navBurger > 810}
   <nav>
     <a
-      rel="prefetch"
       aria-current={segment === undefined ? "page" : undefined}
       href="/"><img src="logo.png" alt="Blast Art Logo" /></a
     >
     <a
-      rel="prefetch"
       aria-current={segment === "blast" ? "page" : undefined}
       href="blast">Projets</a
     >
@@ -240,12 +238,10 @@
     </header>
     <BurgerMenu padding={"25px"} backgroundColor={"#000"} menuColor={"#ef11a1"}>
       <a
-      rel="prefetch"
       aria-current={segment === "blast" ? "page" : undefined}
       href="blast">Projets</a
     >
     <a
-      rel="prefetch"
       aria-current={segment === "collectif" ? "page" : undefined}
       href="collectif">Collectif</a
     >
@@ -353,15 +349,8 @@
   a:hover {
     text-decoration: underline #ef11a1;
   }
-  .burger {
-    position: relative;
-    z-index: 500;
-    text-align: center;
-  }
-  .burger a {
-    color: #fff;
-  }
-  @media (max-width: 810px) {
+  
+  @media (max-width: 809px) {
     nav {
       display: none;
     }
