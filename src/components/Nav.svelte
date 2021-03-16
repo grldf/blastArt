@@ -7,13 +7,13 @@
 <svelte:window bind:innerWidth={navBurger} />
 {#if navBurger > 810}
   <nav>
-    <a 
-    rel="prefetch"
-    aria-current={segment === undefined ? "page" : undefined} href="/"
-      ><img src="logo.png" alt="Blast Art Logo" /></a
+    <a
+      rel="prefetch"
+      aria-current={segment === undefined ? "page" : undefined}
+      href="/"><img src="logo.png" alt="Blast Art Logo" /></a
     >
     <a
-    rel="prefetch"
+      rel="prefetch"
       aria-current={segment === undefined ? "page" : undefined}
       href="/">Projets</a
     >
@@ -240,28 +240,30 @@
       </p>
     </header>
     <BurgerMenu padding={"25px"} backgroundColor={"#000"} menuColor={"#ef11a1"}>
-      <a aria-current={segment === undefined ? "page" : undefined} href="."
-        >Projets</a
+      <a
+        rel="prefetch"
+        aria-current={segment === undefined ? "page" : undefined}
+        href=".">Projets</a
       >
       <a
         rel="prefetch"
-        aria-current={segment === "Collectif" ? "page" : undefined}
-        href="Collectif">Collectif</a
+        aria-current={segment === "collectif" ? "page" : undefined}
+        href="collectif">Collectif</a
       >
       <a
         rel="prefetch"
-        aria-current={segment === "Presse" ? "page" : undefined}
-        href="Presse">Presse</a
+        aria-current={segment === "presse" ? "page" : undefined}
+        href="presse">Presse</a
       >
       <a
         rel="prefetch"
-        aria-current={segment === "News" ? "page" : undefined}
-        href="News">News</a
+        aria-current={segment === "news" ? "page" : undefined}
+        href="news">News</a
       >
       <a
         rel="prefetch"
-        aria-current={segment === "Shop" ? "page" : undefined}
-        href="Shop">Shop</a
+        aria-current={segment === "shop" ? "page" : undefined}
+        href="shop">Shop</a
       >
       <a
         rel="prefetch"
@@ -270,13 +272,13 @@
       >
       <a
         rel="prefetch"
-        aria-current={segment === "Contact" ? "page" : undefined}
-        href="Contact">Contact</a
+        aria-current={segment === "contact" ? "page" : undefined}
+        href="contact">Contact</a
       >
       <a
         rel="prefetch"
-        aria-current={segment === "NewsLetter" ? "page" : undefined}
-        href="NewsLetter">News Letter</a
+        aria-current={segment === "newsLetter" ? "page" : undefined}
+        href="newsLetter">News Letter</a
       >
     </BurgerMenu>
   </div>

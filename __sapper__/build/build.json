@@ -2,7 +2,7 @@
   "bundler": "rollup",
   "shimport": "2.0.4",
   "assets": {
-    "main": "client.6734fbbd.js"
+    "main": "client.381a1b72.js"
   },
   "css": {
     "main": [
@@ -11,62 +11,61 @@
   },
   "dependencies": {
     "index.svelte": [
-      "index.519b868e.js",
-      "bundle.esm.a297de33.js",
+      "index.e9e8a399.js",
       "inject_styles.5607aec6.js",
-      "index-b8b5f207.css"
+      "index-05bb9041.css"
     ],
     "newsLetter/index.svelte": [
-      "index.d4301e34.js",
+      "index.af179f5a.js",
       "inject_styles.5607aec6.js",
       "index-36813672.css"
     ],
     "collectif/index.svelte": [
-      "index.a087714a.js",
+      "index.96f6c8c5.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "index-f5692dba.css"
     ],
     "contact/index.svelte": [
-      "index.d45abb3c.js",
+      "index.c15ec6d7.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "index-5cde7286.css"
     ],
     "cgvcgu/index.svelte": [
-      "index.99fe0ff6.js",
+      "index.61fe3675.js",
       "snarkdown.es.257e5e6b.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "index-f272817a.css"
     ],
     "presse/index.svelte": [
-      "index.816bd75c.js",
+      "index.b82ec036.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "index-0788a60c.css"
     ],
     "projet/[slug].svelte": [
-      "[slug].52942955.js",
+      "[slug].79e67274.js",
       "snarkdown.es.257e5e6b.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "[slug]-d681d0c3.css"
     ],
     "news/index.svelte": [
-      "index.f74a19b4.js",
+      "index.91520237.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "index-cbb26136.css"
     ],
     "shop/index.svelte": [
-      "index.44568533.js",
+      "index.dc6bfd76.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "index-8ce59d44.css"
     ]
   },
   "legacy_assets": {
-    "main": "client.501c140d.js"
+    "main": "client.a0de2e4a.js"
   }
 }
