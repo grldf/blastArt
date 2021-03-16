@@ -2,7 +2,7 @@
   "bundler": "rollup",
   "shimport": "2.0.4",
   "assets": {
-    "main": "client.ab037dde.js"
+    "main": "client.6734fbbd.js"
   },
   "css": {
     "main": [
@@ -11,62 +11,62 @@
   },
   "dependencies": {
     "index.svelte": [
-      "index.32879451.js",
+      "index.519b868e.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "index-b8b5f207.css"
     ],
     "newsLetter/index.svelte": [
-      "index.9b420543.js",
+      "index.d4301e34.js",
       "inject_styles.5607aec6.js",
       "index-36813672.css"
     ],
     "collectif/index.svelte": [
-      "index.ecdad4a4.js",
+      "index.a087714a.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "index-f5692dba.css"
     ],
     "contact/index.svelte": [
-      "index.ab293b27.js",
+      "index.d45abb3c.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "index-5cde7286.css"
     ],
     "cgvcgu/index.svelte": [
-      "index.bce4ffd0.js",
+      "index.99fe0ff6.js",
       "snarkdown.es.257e5e6b.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "index-f272817a.css"
     ],
     "presse/index.svelte": [
-      "index.29d8f620.js",
+      "index.816bd75c.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "index-0788a60c.css"
     ],
     "projet/[slug].svelte": [
-      "[slug].27b72f7e.js",
+      "[slug].52942955.js",
       "snarkdown.es.257e5e6b.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "[slug]-d681d0c3.css"
     ],
     "news/index.svelte": [
-      "index.514f5276.js",
+      "index.f74a19b4.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "index-cbb26136.css"
     ],
     "shop/index.svelte": [
-      "index.cdee4622.js",
+      "index.44568533.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "index-8ce59d44.css"
     ]
   },
   "legacy_assets": {
-    "main": "client.8e3a0539.js"
+    "main": "client.501c140d.js"
   }
 }

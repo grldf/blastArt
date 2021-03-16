@@ -7,10 +7,13 @@
 <svelte:window bind:innerWidth={navBurger} />
 {#if navBurger > 810}
   <nav>
-    <a aria-current={segment === undefined ? "page" : undefined} href="/"
+    <a 
+    rel="prefetch"
+    aria-current={segment === undefined ? "page" : undefined} href="/"
       ><img src="logo.png" alt="Blast Art Logo" /></a
     >
     <a
+    rel="prefetch"
       aria-current={segment === undefined ? "page" : undefined}
       href="/">Projets</a
     >
