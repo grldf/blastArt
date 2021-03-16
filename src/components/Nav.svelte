@@ -150,7 +150,6 @@
 {:else}
   <div class="burger">
     <header>
-      <img src="/logo.png" alt="logo blast" />
       <button class="snipcart-checkout"
         ><svg
           version="1.0"
@@ -241,45 +240,45 @@
     </header>
     <BurgerMenu padding={"25px"} backgroundColor={"#000"} menuColor={"#ef11a1"}>
       <a
-        rel="prefetch"
-        aria-current={segment === undefined ? "page" : undefined}
-        href=".">Projets</a
-      >
-      <a
-        rel="prefetch"
-        aria-current={segment === "collectif" ? "page" : undefined}
-        href="collectif">Collectif</a
-      >
-      <a
-        rel="prefetch"
-        aria-current={segment === "presse" ? "page" : undefined}
-        href="presse">Presse</a
-      >
-      <a
-        rel="prefetch"
-        aria-current={segment === "news" ? "page" : undefined}
-        href="news">News</a
-      >
-      <a
-        rel="prefetch"
-        aria-current={segment === "shop" ? "page" : undefined}
-        href="shop">Shop</a
-      >
-      <a
-        rel="prefetch"
-        aria-current={segment === "cgvcgu" ? "page" : undefined}
-        href="cgvcgu">CGV/CGU</a
-      >
-      <a
-        rel="prefetch"
-        aria-current={segment === "contact" ? "page" : undefined}
-        href="contact">Contact</a
-      >
-      <a
-        rel="prefetch"
-        aria-current={segment === "newsLetter" ? "page" : undefined}
-        href="newsLetter">News Letter</a
-      >
+      rel="prefetch"
+      aria-current={segment === "blast" ? "page" : undefined}
+      href="blast">Projets</a
+    >
+    <a
+      rel="prefetch"
+      aria-current={segment === "collectif" ? "page" : undefined}
+      href="collectif">Collectif</a
+    >
+    <a
+      rel="prefetch"
+      aria-current={segment === "presse" ? "page" : undefined}
+      href="presse">Presse</a
+    >
+    <a
+      rel="prefetch"
+      aria-current={segment === "news" ? "page" : undefined}
+      href="news">News</a
+    >
+    <a
+      rel="prefetch"
+      aria-current={segment === "shop" ? "page" : undefined}
+      href="shop">Shop</a
+    >
+    <a
+      rel="prefetch"
+      aria-current={segment === "cgvcgu" ? "page" : undefined}
+      href="cgvcgu">CGV/CGU</a
+    >
+    <a
+      rel="prefetch"
+      aria-current={segment === "contact" ? "page" : undefined}
+      href="contact">Contact</a
+    >
+    <a
+      rel="prefetch"
+      aria-current={segment === "newsLetter" ? "page" : undefined}
+      href="newsLetter">News Letter</a
+    >
     </BurgerMenu>
   </div>
   <div
@@ -373,6 +372,8 @@
       height: 50px;
     }
     .burger {
+      position:fixed;
+      top:0px;
       display: flex;
       flex-direction: row-reverse;
       justify-content: space-between;
@@ -384,6 +385,11 @@
     }
     .info-prix {
       display: none;
+    }
+    .snipcart-checkout{
+      position:fixed;
+      top:5px;
+      right:10px;
     }
   }
 </style>

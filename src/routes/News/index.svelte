@@ -3,7 +3,7 @@
 
   const newsQuery = gql`
     query membre {
-      nouvelles(sort: "id:asc") {
+      nouvelles(sort: "id:desc") {
         id
         titre
         contenu
@@ -39,7 +39,7 @@
 
 <div class="content">
   {#each news as newpub, i}
-    <div class={i % 2 == 0 ? "impair" : "pair"}>
+    <div class="impair">
       <article>
         <h2>{newpub.titre}</h2>
         <p>
@@ -89,12 +89,7 @@
     display: flex;
     flex-direction: row-reverse;
   }
-  .pair h2 {
-    padding-left: 0;
-    text-align: left;
-    margin-left: 66%;
-    max-width: 40rem;
-  }
+  
   @media (max-width: 660px) {
     .content {
       padding-top: 40px;
@@ -105,9 +100,7 @@
     img {
       display: none;
     }
-    .pair h2 {
-      margin-left: 0;
-    }
+    
     article h2 {
       padding-left: 0rem;
     }
