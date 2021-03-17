@@ -1,6 +1,6 @@
 <script context="module">
   import ApolloClient, { gql } from "apollo-boost";
-
+  import { onMount } from 'svelte';
   const newsQuery = gql`
     query membre {
       nouvelles(sort: "id:desc") {
@@ -36,7 +36,9 @@
   <title>Le collectif</title>
   <link rel="stylesheet" href="https://use.typekit.net/ixn1cjn.css" />
 </svelte:head>
-
+{#await news}
+<p class="test">WAITING</p>
+{:then news}
 <div class="content">
   {#each news as newpub, i}
     <div class="impair">
@@ -56,7 +58,9 @@
     </div>
   {/each}
 </div>
-
+{:catch error}
+	<p style="color: red">{error.message}</p>
+{/await}
 <style>
   .content {
     font-family: interstate;

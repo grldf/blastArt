@@ -17,7 +17,7 @@
       const client = new ApolloClient({
         uri: "https://www.grldfaure.xyz/graphql",
         fetch: this.fetch,
-        
+
       });
       const results = await client.query({
         query: membreQuery,
@@ -35,7 +35,7 @@
     <title>Le collectif</title>
     <link rel="stylesheet" href="https://use.typekit.net/ixn1cjn.css" />
   </svelte:head>
-  
+  {#if posts}
   <div class="content">
   {#each posts as post, i}
     <div class={i % 2 == 0 ? "impair" : "pair"}>
@@ -54,7 +54,11 @@
     </div>
   {/each}
   </div>
+  {:else}
+  <div class="test">FUCK</div>
+{/if}
   <style>
+    .test{font-size:100vw}
     .content{
         font-family: interstate;
         padding-top: 60px;
