@@ -4,8 +4,8 @@
   let navBurger;
 </script>
 
-<svelte:window bind:innerWidth={navBurger} />
-{#if navBurger > 810}
+<!-- <svelte:window bind:innerWidth={navBurger} />
+{#if navBurger > 810} -->
   <nav>
     <a
       aria-current={segment === undefined ? "page" : undefined}
@@ -145,7 +145,7 @@
     data-api-key="MjU2OTVmMmMtZDI5ZS00ODEzLTkwYjUtZjU4NzdiYzRhMDRiNjM3NTAyMDgzMTIwNDQ5OTUw"
     hidden
   />
-{:else}
+<!-- {:else}
   <div class="burger">
     <header>
       <button class="snipcart-checkout"
@@ -282,7 +282,7 @@
     data-api-key="MjU2OTVmMmMtZDI5ZS00ODEzLTkwYjUtZjU4NzdiYzRhMDRiNjM3NTAyMDgzMTIwNDQ5OTUw"
     hidden
   />
-{/if}
+{/if} -->
 
 <style>
   nav {
@@ -343,7 +343,6 @@
     text-decoration: none;
     padding: 1em 0.5em;
     display: block;
-    color: #000;
     font-family: interstate;
   }
   a:hover {
@@ -351,10 +350,10 @@
   }
   
   @media (max-width: 809px) {
-    nav {
+    /* nav {
       display: none;
-    }
-    header {
+    } */
+    /* header {
       padding: 10px 0px 0px 50px;
       display: flex;
       justify-content: space-around;
@@ -367,7 +366,7 @@
       flex-direction: row-reverse;
       justify-content: space-between;
       z-index: 1;
-    }
+    } */
     a {
       font-size: 22px;
       padding: 0.5em;

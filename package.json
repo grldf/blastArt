@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "Blast",
+  "description": "Blast ART ",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
