@@ -18,7 +18,7 @@
     const client = new ApolloClient({
       uri: "https://www.grldfaure.xyz/graphql",
       fetch: this.fetch,
-    },1000);
+    });
     const results = await client.query({
       query: newsQuery,
     });
@@ -85,7 +85,7 @@
   img {
     max-width: 10rem;
   }
-  
+
   
   @media (max-width: 660px) {
     .content {
