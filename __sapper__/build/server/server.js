@@ -32,9 +32,6 @@ var zlib__default = /*#__PURE__*/_interopDefaultLegacy(zlib);
 var ApolloClient__default$1 = /*#__PURE__*/_interopDefaultLegacy(ApolloClient$1);
 
 function noop$1() { }
-function is_promise(value) {
-    return value && typeof value === 'object' && typeof value.then === 'function';
-}
 function run(fn) {
     return fn();
 }
@@ -614,7 +611,7 @@ var component_7 = /*#__PURE__*/Object.freeze({
 
 const css$5 = {
 	code: ".content.svelte-zpmijw.svelte-zpmijw{font-family:interstate;padding-top:60px;display:flex;flex-direction:column}div.svelte-zpmijw.svelte-zpmijw{margin:5px;display:flex;font-family:Interstate}article.svelte-zpmijw h2.svelte-zpmijw{max-width:22rem;padding-left:10rem;border-bottom:2px solid #ef11a1;text-align:right}aside.svelte-zpmijw.svelte-zpmijw{display:flex;align-items:center;justify-content:center;margin:5px}img.svelte-zpmijw.svelte-zpmijw{max-width:10rem}@media(max-width: 660px){.content.svelte-zpmijw.svelte-zpmijw{padding-top:40px}div.svelte-zpmijw.svelte-zpmijw{margin:0px}img.svelte-zpmijw.svelte-zpmijw{display:none}article.svelte-zpmijw h2.svelte-zpmijw{padding-left:0rem}p.svelte-zpmijw.svelte-zpmijw{margin-left:20px}}",
-	map: "{\"version\":3,\"file\":\"index.svelte\",\"sources\":[\"index.svelte\"],\"sourcesContent\":[\"<script context=\\\"module\\\">\\n  import ApolloClient, { gql } from \\\"apollo-boost\\\";\\n  import { onMount } from 'svelte';\\n  const newsQuery = gql`\\n    query membre {\\n      nouvelles(sort: \\\"id:desc\\\") {\\n        id\\n        titre\\n        contenu\\n        datePublication\\n        image {\\n          url\\n        }\\n      }\\n    }\\n  `;\\n  export async function preload() {\\n    const client = new ApolloClient({\\n      uri: \\\"https://www.grldfaure.xyz/graphql\\\",\\n      fetch: this.fetch,\\n    });\\n    const results = await client.query({\\n      query: newsQuery,\\n    });\\n    return { news: results.data.nouvelles };\\n  }\\n\\n  let urlpApi = \\\"https://www.grldfaure.xyz\\\";\\n</script>\\n\\n<script>\\n  export let news;\\n</script>\\n\\n<svelte:head>\\n  <title>Le collectif</title>\\n  <link rel=\\\"stylesheet\\\" href=\\\"https://use.typekit.net/ixn1cjn.css\\\" />\\n</svelte:head>\\n{#await news}\\n<p class=\\\"test\\\">WAITING</p>\\n{:then news}\\n<div class=\\\"content\\\">\\n  {#each news as newpub, i}\\n    <div class=\\\"impair\\\">\\n      <article>\\n        <h2>{newpub.titre}</h2>\\n        <p>\\n          {newpub.contenu}\\n        </p>\\n      </article>\\n      <aside>\\n        {#if newpub.image === null}\\n          <img src=\\\"logo-512.png\\\" alt=\\\"Blast logo\\\" />\\n        {:else}\\n          <img src={urlpApi + newpub.image.url} alt={newpub.titre} />\\n        {/if}\\n      </aside>\\n    </div>\\n  {/each}\\n</div>\\n{:catch error}\\n\\t<p style=\\\"color: red\\\">{error.message}</p>\\n{/await}\\n<style>\\n  .content {\\n    font-family: interstate;\\n    padding-top: 60px;\\n    display: flex;\\n    flex-direction: column;\\n  }\\n  div {\\n    margin: 5px;\\n    display: flex;\\n    font-family: Interstate;\\n  }\\n  article h2 {\\n    max-width: 22rem;\\n    padding-left: 10rem;\\n    border-bottom: 2px solid #ef11a1;\\n    text-align: right;\\n  }\\n\\n  aside {\\n    display: flex;\\n    align-items: center;\\n    justify-content: center;\\n    margin: 5px;\\n  }\\n  img {\\n    max-width: 10rem;\\n  }\\n\\n  \\n  @media (max-width: 660px) {\\n    .content {\\n      padding-top: 40px;\\n    }\\n    div {\\n      margin: 0px;\\n    }\\n    img {\\n      display: none;\\n    }\\n    \\n    article h2 {\\n      padding-left: 0rem;\\n    }\\n    p {\\n      margin-left: 20px;\\n    }\\n  }\\n</style>\\n\"],\"names\":[],\"mappings\":\"AAgEE,QAAQ,4BAAC,CAAC,AACR,WAAW,CAAE,UAAU,CACvB,WAAW,CAAE,IAAI,CACjB,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,MAAM,AACxB,CAAC,AACD,GAAG,4BAAC,CAAC,AACH,MAAM,CAAE,GAAG,CACX,OAAO,CAAE,IAAI,CACb,WAAW,CAAE,UAAU,AACzB,CAAC,AACD,qBAAO,CAAC,EAAE,cAAC,CAAC,AACV,SAAS,CAAE,KAAK,CAChB,YAAY,CAAE,KAAK,CACnB,aAAa,CAAE,GAAG,CAAC,KAAK,CAAC,OAAO,CAChC,UAAU,CAAE,KAAK,AACnB,CAAC,AAED,KAAK,4BAAC,CAAC,AACL,OAAO,CAAE,IAAI,CACb,WAAW,CAAE,MAAM,CACnB,eAAe,CAAE,MAAM,CACvB,MAAM,CAAE,GAAG,AACb,CAAC,AACD,GAAG,4BAAC,CAAC,AACH,SAAS,CAAE,KAAK,AAClB,CAAC,AAGD,MAAM,AAAC,YAAY,KAAK,CAAC,AAAC,CAAC,AACzB,QAAQ,4BAAC,CAAC,AACR,WAAW,CAAE,IAAI,AACnB,CAAC,AACD,GAAG,4BAAC,CAAC,AACH,MAAM,CAAE,GAAG,AACb,CAAC,AACD,GAAG,4BAAC,CAAC,AACH,OAAO,CAAE,IAAI,AACf,CAAC,AAED,qBAAO,CAAC,EAAE,cAAC,CAAC,AACV,YAAY,CAAE,IAAI,AACpB,CAAC,AACD,CAAC,4BAAC,CAAC,AACD,WAAW,CAAE,IAAI,AACnB,CAAC,AACH,CAAC\"}"
+	map: "{\"version\":3,\"file\":\"index.svelte\",\"sources\":[\"index.svelte\"],\"sourcesContent\":[\"<script context=\\\"module\\\">\\n  import ApolloClient, { gql } from \\\"apollo-boost\\\";\\n  const newsQuery = gql`\\n    query membre {\\n      nouvelles(sort: \\\"id:desc\\\") {\\n        id\\n        titre\\n        contenu\\n        datePublication\\n        image {\\n          url\\n        }\\n      }\\n    }\\n  `;\\n  export async function preload(page) {\\n    const client = new ApolloClient({\\n      uri: \\\"https://www.grldfaure.xyz/graphql\\\",\\n      fetch: this.fetch,\\n    });\\n    const results = await client.query({\\n      query: await newsQuery,\\n    });\\n    return { news: results.data.nouvelles };\\n  }\\n\\n  let urlpApi = \\\"https://www.grldfaure.xyz\\\";\\n</script>\\n\\n<script>\\n  export let news;\\n</script>\\n\\n<svelte:head>\\n  <title>Le collectif</title>\\n  <link rel=\\\"stylesheet\\\" href=\\\"https://use.typekit.net/ixn1cjn.css\\\" />\\n</svelte:head>\\n<p class=\\\"test\\\">WAITING</p>\\n<div class=\\\"content\\\">\\n  {#each news as newpub, i}\\n    <div class=\\\"impair\\\">\\n      <article>\\n        <h2>{newpub.titre}</h2>\\n        <p>\\n          {newpub.contenu}\\n        </p>\\n      </article>\\n      <aside>\\n        {#if newpub.image === null}\\n          <img src=\\\"logo-512.png\\\" alt=\\\"Blast logo\\\" />\\n        {:else}\\n          <img src={urlpApi + newpub.image.url} alt={newpub.titre} />\\n        {/if}\\n      </aside>\\n    </div>\\n  {/each}\\n</div>\\n<style>\\n  .content {\\n    font-family: interstate;\\n    padding-top: 60px;\\n    display: flex;\\n    flex-direction: column;\\n  }\\n  div {\\n    margin: 5px;\\n    display: flex;\\n    font-family: Interstate;\\n  }\\n  article h2 {\\n    max-width: 22rem;\\n    padding-left: 10rem;\\n    border-bottom: 2px solid #ef11a1;\\n    text-align: right;\\n  }\\n\\n  aside {\\n    display: flex;\\n    align-items: center;\\n    justify-content: center;\\n    margin: 5px;\\n  }\\n  img {\\n    max-width: 10rem;\\n  }\\n\\n  \\n  @media (max-width: 660px) {\\n    .content {\\n      padding-top: 40px;\\n    }\\n    div {\\n      margin: 0px;\\n    }\\n    img {\\n      display: none;\\n    }\\n    \\n    article h2 {\\n      padding-left: 0rem;\\n    }\\n    p {\\n      margin-left: 20px;\\n    }\\n  }\\n</style>\\n\"],\"names\":[],\"mappings\":\"AA0DE,QAAQ,4BAAC,CAAC,AACR,WAAW,CAAE,UAAU,CACvB,WAAW,CAAE,IAAI,CACjB,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,MAAM,AACxB,CAAC,AACD,GAAG,4BAAC,CAAC,AACH,MAAM,CAAE,GAAG,CACX,OAAO,CAAE,IAAI,CACb,WAAW,CAAE,UAAU,AACzB,CAAC,AACD,qBAAO,CAAC,EAAE,cAAC,CAAC,AACV,SAAS,CAAE,KAAK,CAChB,YAAY,CAAE,KAAK,CACnB,aAAa,CAAE,GAAG,CAAC,KAAK,CAAC,OAAO,CAChC,UAAU,CAAE,KAAK,AACnB,CAAC,AAED,KAAK,4BAAC,CAAC,AACL,OAAO,CAAE,IAAI,CACb,WAAW,CAAE,MAAM,CACnB,eAAe,CAAE,MAAM,CACvB,MAAM,CAAE,GAAG,AACb,CAAC,AACD,GAAG,4BAAC,CAAC,AACH,SAAS,CAAE,KAAK,AAClB,CAAC,AAGD,MAAM,AAAC,YAAY,KAAK,CAAC,AAAC,CAAC,AACzB,QAAQ,4BAAC,CAAC,AACR,WAAW,CAAE,IAAI,AACnB,CAAC,AACD,GAAG,4BAAC,CAAC,AACH,MAAM,CAAE,GAAG,AACb,CAAC,AACD,GAAG,4BAAC,CAAC,AACH,OAAO,CAAE,IAAI,AACf,CAAC,AAED,qBAAO,CAAC,EAAE,cAAC,CAAC,AACV,YAAY,CAAE,IAAI,AACpB,CAAC,AACD,CAAC,4BAAC,CAAC,AACD,WAAW,CAAE,IAAI,AACnB,CAAC,AACH,CAAC\"}"
 };
 
 const newsQuery = ApolloClient.gql`
@@ -631,13 +628,13 @@ const newsQuery = ApolloClient.gql`
     }
   `;
 
-async function preload$1() {
+async function preload$1(page) {
 	const client = new ApolloClient__default['default']({
 			uri: "https://www.grldfaure.xyz/graphql",
 			fetch: this.fetch
 		});
 
-	const results = await client.query({ query: newsQuery });
+	const results = await client.query({ query: await newsQuery });
 	return { news: results.data.nouvelles };
 }
 
@@ -649,23 +646,15 @@ const News = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 	$$result.css.add(css$5);
 
 	return `${($$result.head += `${($$result.title = `<title>Le collectif</title>`, "")}<link rel="${"stylesheet"}" href="${"https://use.typekit.net/ixn1cjn.css"}" data-svelte="svelte-de5yl2">`, "")}
-${(function (__value) {
-		if (is_promise(__value)) return `
 <p class="${"test svelte-zpmijw"}">WAITING</p>
-`;
-
-		return (function (news) {
-			return `
 <div class="${"content svelte-zpmijw"}">${each(news, (newpub, i) => `<div class="${"impair svelte-zpmijw"}"><article class="${"svelte-zpmijw"}"><h2 class="${"svelte-zpmijw"}">${escape(newpub.titre)}</h2>
         <p class="${"svelte-zpmijw"}">${escape(newpub.contenu)}
         </p></article>
       <aside class="${"svelte-zpmijw"}">${newpub.image === null
-			? `<img src="${"logo-512.png"}" alt="${"Blast logo"}" class="${"svelte-zpmijw"}">`
-			: `<img${add_attribute("src", urlpApi$1 + newpub.image.url, 0)}${add_attribute("alt", newpub.titre, 0)} class="${"svelte-zpmijw"}">`}</aside>
-    </div>`)}</div>
-`;
-		})(__value);
-	})(news)}`;
+	? `<img src="${"logo-512.png"}" alt="${"Blast logo"}" class="${"svelte-zpmijw"}">`
+	: `<img${add_attribute("src", urlpApi$1 + newpub.image.url, 0)}${add_attribute("alt", newpub.titre, 0)} class="${"svelte-zpmijw"}">`}</aside>
+    </div>`)}
+</div>`;
 });
 
 var component_8 = /*#__PURE__*/Object.freeze({
