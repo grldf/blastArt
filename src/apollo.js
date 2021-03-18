@@ -30,17 +30,5 @@ export const client = new ApolloClient({
   cache,
 });
 
-const apolloClient = new ApolloClient({
-  link: httpLink,
-  cache,
-  ...(ssr ? {
-    // On active cette option côté serveur pour optimiser les requêtes lors du SSR
-    ssrMode: true,
-  } : {
-    // Désactivation temporaire de la récupération forcée de requêtes
-    ssrForceFetchDelay: 100,
-  }),
-})
 
-return apolloClient
 

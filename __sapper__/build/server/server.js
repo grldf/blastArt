@@ -1,5 +1,7 @@
 'use strict';
 
+Object.defineProperty(exports, '__esModule', { value: true });
+
 var sirv = require('sirv');
 var polka = require('polka');
 var compression = require('compression');
@@ -14,6 +16,7 @@ var https = require('https');
 var zlib = require('zlib');
 var ApolloClient$1 = require('apollo-client');
 var apolloCacheInmemory = require('apollo-cache-inmemory');
+var express = require('express');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
@@ -30,6 +33,7 @@ var Url__default = /*#__PURE__*/_interopDefaultLegacy(Url);
 var https__default = /*#__PURE__*/_interopDefaultLegacy(https);
 var zlib__default = /*#__PURE__*/_interopDefaultLegacy(zlib);
 var ApolloClient__default$1 = /*#__PURE__*/_interopDefaultLegacy(ApolloClient$1);
+var express__default = /*#__PURE__*/_interopDefaultLegacy(express);
 
 function noop$1() { }
 function run(fn) {
@@ -6066,3 +6070,11 @@ middleware({
 	  })
 	})
   });
+
+  const expressServer = express__default['default']().use(
+    compression__default['default']({ threshold: 0 }),
+    sirv__default['default']("static", { dev }),
+    middleware()
+);
+
+exports.expressServer = expressServer;

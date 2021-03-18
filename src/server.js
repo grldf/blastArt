@@ -4,6 +4,7 @@ import compression from 'compression';
 import * as sapper from '@sapper/server';
 import ApolloClient from "apollo-client";
 import { InMemoryCache } from "apollo-cache-inmemory";
+import express from "express";
 
 const { PORT, NODE_ENV } = process.env;
 const dev = NODE_ENV === 'development';
@@ -28,4 +29,12 @@ sapper.middleware({
 		cache: new InMemoryCache(),
 	  })
 	})
-  })
+  });
+
+  const expressServer = express().use(
+    compression({ threshold: 0 }),
+    sirv("static", { dev }),
+    sapper.middleware()
+);
+
+export { expressServer };
