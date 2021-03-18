@@ -8,7 +8,7 @@
   export let slug;
 </script>
 
-<div class="mySlides" class:show={imageShowing}>
+<div class="mySlides"  class:show={imageShowing} >
   <div class="numbertext">{slideNo} / {totalSlide}</div>
   <img src={imageUrl} alt={alternText} />
   <div class="infos">
