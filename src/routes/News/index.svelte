@@ -1,33 +1,37 @@
 <script context="module">
-  import ApolloClient, { gql } from "apollo-boost";
+import ApolloClient, { gql } from "apollo-boost";
+  
   const newsQuery = gql`
-    query membre {
-      nouvelles(sort: "id:desc") {
-        id
-        titre
-        contenu
-        datePublication
-        image {
-          url
+      query news {
+        nouvelles(sort: "id:desc") {
+          id
+          titre
+          contenu
+          datePublication
+          image {
+            url
+          }
         }
       }
+    `;
+    
+    export async function preload({ params, query }) {
+      const client = new ApolloClient({
+        uri: "https://www.grldfaure.xyz/graphql",
+        fetch: this.fetch,
+  
+      });
+      const results = await client.query({
+        query: newsQuery,
+      });
+      return { news: results.data.nouvelles };
     }
-  `;
-  export async function preload(page) {
-    const client = new ApolloClient({
-      uri: "https://www.grldfaure.xyz/graphql",
-      fetch: this.fetch,
-    });
-    const results = await client.query({
-      query: await newsQuery,
-    });
-    return { news: results.data.nouvelles };
-  }
-
   let urlpApi = "https://www.grldfaure.xyz";
+    
 </script>
 
 <script>
+  
   export let news;
 </script>
 

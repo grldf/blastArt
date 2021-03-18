@@ -2,76 +2,76 @@
   "bundler": "rollup",
   "shimport": "2.0.4",
   "assets": {
-    "main": "client.097525f0.js"
+    "main": "client.3f604d72.js"
   },
   "css": {
     "main": [
-      "client-21984ac5.css"
+      "client-6e81ddc0.css"
     ]
   },
   "dependencies": {
     "index.svelte": [
-      "index.0e751130.js",
+      "index.affd4ba3.js",
       "inject_styles.5607aec6.js",
       "index-c1dedf11.css"
     ],
     "newsLetter/index.svelte": [
-      "index.b1ef1e0e.js",
+      "index.2c968af5.js",
       "inject_styles.5607aec6.js",
       "index-2d89c033.css"
     ],
     "collectif/index.svelte": [
-      "index.4e3836c0.js",
+      "index.4cf0c3c8.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "index-2de3dabe.css"
     ],
     "contact/index.svelte": [
-      "index.beb4d329.js",
+      "index.ce6beb4f.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "index-5cde7286.css"
     ],
     "cgvcgu/index.svelte": [
-      "index.d379eae1.js",
+      "index.5226cc54.js",
       "snarkdown.es.257e5e6b.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "index-f272817a.css"
     ],
     "presse/index.svelte": [
-      "index.f7ec154c.js",
+      "index.4700ae1a.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "index-0788a60c.css"
     ],
     "projet/[slug].svelte": [
-      "[slug].12f76de0.js",
+      "[slug].a259fa65.js",
       "snarkdown.es.257e5e6b.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "[slug]-d681d0c3.css"
     ],
     "blast/index.svelte": [
-      "index.86cbaa14.js",
+      "index.b0418698.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "index-3543ecaf.css"
     ],
     "news/index.svelte": [
-      "index.60a1bf1c.js",
+      "index.a7122d52.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "index-1903d226.css"
     ],
     "shop/index.svelte": [
-      "index.7d5d40c3.js",
+      "index.891d3340.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "index-8ce59d44.css"
     ]
   },
   "legacy_assets": {
-    "main": "client.1e325b2e.js"
+    "main": "client.aede0dea.js"
   }
 }
