@@ -28,7 +28,7 @@
     data-item-id={idProduit}
     data-item-price={prixProduit}
     data-item-categories={itemGategorie}
-    data-item-url="/"
+    data-item-url="/shop"
     data-item-image={imgProduit}
     data-item-name={nomProduit}
   >

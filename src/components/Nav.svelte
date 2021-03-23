@@ -140,11 +140,6 @@
       </p>
     </div>
   </nav>
-  <div
-    id="snipcart"
-    data-api-key="MjU2OTVmMmMtZDI5ZS00ODEzLTkwYjUtZjU4NzdiYzRhMDRiNjM3NTAyMDgzMTIwNDQ5OTUw"
-    hidden
-  />
 {:else}
   <div class="burger">
     <header>
@@ -277,11 +272,6 @@
     >
     </BurgerMenu>
   </div>
-  <div
-    id="snipcart"
-    data-api-key="MjU2OTVmMmMtZDI5ZS00ODEzLTkwYjUtZjU4NzdiYzRhMDRiNjM3NTAyMDgzMTIwNDQ5OTUw"
-    hidden
-  />
 {/if}
 
 <style>

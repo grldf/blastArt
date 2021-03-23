@@ -31,10 +31,4 @@ sapper.middleware({
 	})
   });
 
-  const expressServer = express().use(
-    compression({ threshold: 0 }),
-    sirv("static", { dev }),
-    sapper.middleware()
-);
 
-export { expressServer };

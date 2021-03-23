@@ -8,9 +8,10 @@ function closeModal(){
     dispatch('fermeture');
 }
 </script>
-<div on:click={closeModal} class="overlay"></div>
+<div on:click={closeModal} class="overlay">
 <div class="card">
     <img on:click={closeModal} src={imgModal} alt="test" />
+</div>
 </div>
 <style>
     
@@ -21,13 +22,14 @@ function closeModal(){
         top: 0;
         bottom: 0;
         background-color:rgba(0,0,0, 0.7);
+        display:flex;
+        align-items: center;
+        align-content: center;
     }
-    .card {
-        position: fixed;
-        top:50%;
-        left:50%;
-        transform: translate(-50%, -45%);
-    }
+   .card{
+    margin-left: auto;
+    margin-right: auto;
+   }
     .card img{
         border: 1px solid #ef11a1;
         width: 100%;
