@@ -2,7 +2,7 @@
   "bundler": "rollup",
   "shimport": "2.0.4",
   "assets": {
-    "main": "client.4ef5294b.js"
+    "main": "client.25812543.js"
   },
   "css": {
     "main": [
@@ -11,61 +11,61 @@
   },
   "dependencies": {
     "index.svelte": [
-      "index.863f22b2.js",
+      "index.282077c6.js",
       "inject_styles.5607aec6.js",
       "index-c1dedf11.css"
     ],
     "newsLetter/index.svelte": [
-      "index.b8bd5a32.js",
+      "index.beaf714e.js",
       "inject_styles.5607aec6.js",
-      "index-2d89c033.css"
+      "index-1ab2975e.css"
     ],
     "collectif/index.svelte": [
-      "index.62e35054.js",
+      "index.13cb4523.js",
       "bundle.esm.ce987c6b.js",
       "inject_styles.5607aec6.js",
       "index-2de3dabe.css"
     ],
     "contact/index.svelte": [
-      "index.72276dc9.js",
+      "index.3cfac454.js",
       "bundle.esm.ce987c6b.js",
       "inject_styles.5607aec6.js",
       "index-5cde7286.css"
     ],
     "cgvcgu/index.svelte": [
-      "index.f4292af3.js",
+      "index.c6db4cb7.js",
       "snarkdown.es.257e5e6b.js",
       "bundle.esm.ce987c6b.js",
       "inject_styles.5607aec6.js",
       "index-f272817a.css"
     ],
     "presse/index.svelte": [
-      "index.617afe60.js",
+      "index.68161037.js",
       "bundle.esm.ce987c6b.js",
       "inject_styles.5607aec6.js",
-      "index-0788a60c.css"
+      "index-ff7a285a.css"
     ],
     "projet/[slug].svelte": [
-      "[slug].51d7cf45.js",
+      "[slug].62e5630a.js",
       "snarkdown.es.257e5e6b.js",
       "bundle.esm.ce987c6b.js",
       "inject_styles.5607aec6.js",
       "[slug]-d681d0c3.css"
     ],
     "blast/index.svelte": [
-      "index.df801a7c.js",
+      "index.8878277b.js",
       "bundle.esm.ce987c6b.js",
       "inject_styles.5607aec6.js",
       "index-3543ecaf.css"
     ],
     "news/index.svelte": [
-      "index.2709046e.js",
+      "index.bddad02b.js",
       "bundle.esm.ce987c6b.js",
       "inject_styles.5607aec6.js",
       "index-1903d226.css"
     ],
     "shop/index.svelte": [
-      "index.4d161943.js",
+      "index.1ff8543d.js",
       "bundle.esm.ce987c6b.js",
       "inject_styles.5607aec6.js",
       "index-a09a6ad0.css"

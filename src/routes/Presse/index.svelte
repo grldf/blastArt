@@ -70,11 +70,10 @@ article{
     display:flex;
     flex-direction:column;
     justify-content: center;
-    background-color: #708090;
 }
 p, a{
+    color:#000;
     text-align:center;
-    color:#fff;
 }
 a:hover{
     text-decoration:none;
