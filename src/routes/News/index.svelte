@@ -36,11 +36,14 @@ import ApolloClient, { gql } from "apollo-boost";
 </script>
 
 <svelte:head>
-  <title>Le collectif</title>
+  <meta description="Retrouvez les news du collectifs Blast. A travers de courts textes et de photos 
+  apprenez qu'elles sont les avancées de nos projets artistiques et les rencontres que nous faisons 
+  et ce qui a pu nous faire vibrer"/>
+  <title>News du collectif sur les projets et les rencontres que nous faisons</title>
   <link rel="stylesheet" href="https://use.typekit.net/ixn1cjn.css" />
 </svelte:head>
-<p class="test">WAITING</p>
 <div class="content">
+  <h1>NEWS</h1>
   {#each news as newpub, i}
     <div class="impair">
       <article>
@@ -60,6 +63,9 @@ import ApolloClient, { gql } from "apollo-boost";
   {/each}
 </div>
 <style>
+  h1{
+    padding-left: 30px;
+  }
   .content {
     font-family: interstate;
     padding-top: 60px;
@@ -73,9 +79,8 @@ import ApolloClient, { gql } from "apollo-boost";
   }
   article h2 {
     max-width: 22rem;
-    padding-left: 10rem;
     border-bottom: 2px solid #ef11a1;
-    text-align: right;
+    text-align: left;
   }
 
   aside {

@@ -1,36 +1,24 @@
-<div class="video">
-	<video autoplay muted loop src="vidtext.mp4" type="video/mp4"></video>
+<svelte:head>
+	<meta description="Toujours plus monumentale, et toujours plus accessible, c'est avec cette devise que Blast crée sans cesse de nouveaux projets artistiques.
+	A l' origine du projet comme l' Exposition - oeuvre in-situ Le Terminal  à Lyon en Juin 2018. Le collectif BLAST propose des œuvres artistiques atypiques grâce à la complémentarité des 3 artistes.
+	En mutualisant les talents d'un peintre graffeur muraliste et d'un sculpteur, L'imagination devient facilement réalité." />
+	<title>Blastart collectif d'artistes aux multiples talenst. Kalouf grapheur muraliste, 
+		Romain Lardanchet sculpteur monumental, FabeCollage photographe créatif et 
+		Jean-Pierre(staffvidéo) vidéaste créatif.</title>
+</svelte:head>
+
+
 	<img src="logo-512.png" alt="logo deco" />
-</div>
+
 <style>
-	.video{
-		width:100%;
-		height:100vh;
-	}
-	.video video{
-		position:absolute;
-		top:0;
-		left:0;
-		width:100%;
-		height:100%;
-		object-fit:cover;
+	img{
+	
+		height:90vh;
+		display: block;
+		max-width:100%;
+ margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
 	}
 	
-	.video img{
-		position:absolute;
-		top:0;
-		left:0;
-		width:100%;
-		height:100%;
-		margin:0;
-		padding:0;
-		font-size:30vw;
-		display:flex;
-		justify-content:center;
-		align-items:center;
-		text-align:center;
-		color:#000;
-		background:#fff;
-		mix-blend-mode: screen;
-	}
 </style>

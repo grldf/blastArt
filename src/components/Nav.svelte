@@ -35,21 +35,7 @@
       aria-current={segment === "shop" ? "page" : undefined}
       href="shop">Shop</a
     >
-    <a
-      rel="prefetch"
-      aria-current={segment === "cgvcgu" ? "page" : undefined}
-      href="cgvcgu">CGV/CGU</a
-    >
-    <a
-      rel="prefetch"
-      aria-current={segment === "contact" ? "page" : undefined}
-      href="contact">Contact</a
-    >
-    <a
-      rel="prefetch"
-      aria-current={segment === "newsLetter" ? "page" : undefined}
-      href="newsLetter">News Letter</a
-    >
+    
     <div class="price-checkout">
       <button class="snipcart-checkout"
         ><svg

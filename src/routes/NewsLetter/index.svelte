@@ -1,5 +1,7 @@
 <!-- Begin Mailchimp Signup Form -->
 <svelte:head>
+  <meta name="robots" content="noindex" />
+  <title>NewsLetter inscription</title>
   <link
     href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css"
     rel="stylesheet"
@@ -70,6 +72,15 @@
                 /><span>E-mail</span>
               </label>
             </fieldset>
+            <div class="clear">
+              <input
+                type="submit"
+                value="Inscrivez-vous"
+                name="subscribe"
+                id="mc-embedded-subscribe"
+                class="button"
+              />
+            </div>
             <p>
               Vous pouvez vous désabonner à tout moment en cliquant sur le lien
               dans le bas de page de nos e-mails. Pour obtenir plus
@@ -106,15 +117,7 @@
             value=""
           />
         </div>
-        <div class="clear">
-          <input
-            type="submit"
-            value="Subscribe"
-            name="subscribe"
-            id="mc-embedded-subscribe"
-            class="button"
-          />
-        </div>
+        
       </div>
     </form>
   </div>
@@ -124,7 +127,7 @@
   .container {
     color: #fff;
     min-height: 50vh;
-    width: 50vw;
+    width: 60vw;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas: " . titre .";
@@ -154,5 +157,22 @@
     border: none;
     min-height: 0px;
     padding-bottom: 0px;
+  }
+  .clear{
+    padding:10px;
+  }
+  #mc-embedded-subscribe{
+    background-color:#ef11a1;
+    padding-bottom: 40px;
+    width:200px;
+  }
+  #mc-embedded-subscribe:hover{
+    background-color:#7e1258;
+  }
+  @media (max-width: 809px){
+    .container{
+      width:90vw;
+      margin-top:60px;
+    }
   }
 </style>

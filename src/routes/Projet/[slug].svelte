@@ -62,6 +62,11 @@
       imageShowIndex += 1;
     }
   };
+const posScrollFullSize=()=>{
+  if (window.scrollY) {
+  window.scroll(0, 0);
+}
+}
   let fullSize;
 </script>
 
@@ -85,13 +90,16 @@
         <h5 class="linkText">&#10094; Projet &#10095;</h5>
       </nav>
       <h2>{info.titre}</h2>
-      <div class="text">
-        {@html snarkdown(info.description)}
-      </div>
+      
+    </div>
+    <div class="text">
+      {@html snarkdown(info.description)}
     </div>
     <svg
       class="btn-full-size"
-      on:click={() => (fullSize = "full-size")}
+      on:click={() => (fullSize = "full-size")
+    }
+    on:click={()=>posScrollFullSize()}
       xmlns="http://www.w3.org/2000/svg"
       width="41"
       height="41"
@@ -147,8 +155,6 @@
       {#each info.galery as image, i}
         <Lightbox
           imageUrl={urlpApi + image.url}
-          slideNo={imageShowIndex}
-          totalSlide={info.galery.length}
           imageShowing={i + 1 === imageShowIndex}
           alternText={i}
           imgFullSize={"img-" + fullSize}
@@ -250,15 +256,15 @@
   .btn-small-size {
     display: none;
   }
-  .btn-full-size,
+  
   .btn-small-size {
     position: absolute;
-    right: 40px;
-    margin-top: 20px;
+    right: 20px;
+    margin-top: 0px;
     border: 1px solid #e42ef5;
     background-color: rgba(0, 0, 0, 0.5);
   }
-
+  
   .btn-small-size {
     right: 20px;
     top: 20px;
@@ -276,27 +282,40 @@
   }
   .projet {
     margin-top: 65px;
-    padding: 0 20px;
+    padding: 0 20px 30px 20px;
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr;
     grid-template-areas:
-      "titre colRight"
-      "texte colRight";
+      "nav"
+      "btnFullsize"
+      "colRight"
+      "texte";
   }
+  
+  .btn-full-size{
+    grid-area:btnFullsize;
+    display:grid;
+    margin-left:auto;
+    z-index:1;
+  }
+  
   nav {
+    grid-area:nav;
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "prev linkText next";
     border: 2px solid rgb(228, 46, 245);
-    margin-right: 10px;
+    margin-right: auto;
+    margin-left:auto;
     align-items: center;
     text-align: center;
+    width:70%;
   }
   .linkText {
     grid-area: linkText;
     text-align: center;
     font-family: "interstate";
     font-size: 18px;
-    min-width: 100px;
   }
 
   .link1 {
@@ -323,24 +342,28 @@
     color: rgb(228, 46, 245);
   }
   h2 {
-    grid-area: titre;
+    text-align: center;
     text-decoration: underline;
     padding: 0;
     margin: 15px 0;
   }
   .text {
     grid-area: texte;
-    padding-right: 20px;
-    max-height: 60vh;
-    overflow-y: scroll;
+   
+    padding-top: 10px;
+    margin-right:auto;
+    margin-left: auto;
+  }
+  .full-size .text{
+    display:none;
   }
   .galery {
     grid-area: colRight;
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 50fr 1fr;
-    background-color: #000;
     grid-template-areas: "btnG  . btnD";
+    grid-row-start: 2;
   }
   button {
     color: rgb(228, 46, 245);
@@ -357,7 +380,7 @@
   .next {
     grid-area: btnD;
   }
-  @media (max-width: 1080px) {
+  /* @media (max-width: 1080px) {
     .projet {
       margin-top: 0;
       padding: 60px 20px;
@@ -409,5 +432,5 @@
       grid-area: btnfull;
       margin-top: 20px;
     }
-  }
+  } */
 </style>

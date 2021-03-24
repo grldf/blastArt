@@ -10,7 +10,7 @@
 
 <div class="mySlides"  class:show={imageShowing} >
   <div class="numbertext">{slideNo} / {totalSlide}</div>
-  <img src={imageUrl} alt={alternText} />
+  <a href={slug} class="imgLink"><img src={imageUrl} alt={alternText} /></a>
   <div class="infos">
     <p><a href={slug} class="link">{infos}</a></p>
   </div>
@@ -21,6 +21,7 @@
     display: none;
     margin-right: 20px;
     margin-left: 20px;
+    height: 80vh;
   }
   .show {
     display: block;
@@ -37,10 +38,17 @@
     padding: 8px 12px;
     position: absolute;
   }
-  img {
-    width: 100%;
-    max-height: 85vh;
+ a img {
+    width: 99%;
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    max-height: 80vh;
     object-fit: contain;
+  }
+  .imgLink{
+    margin-left:auto;
+    margin-right: auto;
   }
   .infos {
     width: 100%;
@@ -55,16 +63,12 @@
     color: #000;
     font-size: 1.6rem;
     text-decoration: underline;
-    padding:5px;
   }
   a:hover {
     text-decoration: none;
     color: rgb(228, 46, 245);
   }
-  .link {
-    border-left:  solid  rgb(228, 46, 245);
-    border-right:  solid  rgb(228, 46, 245);
-  }
+  
   @media (max-width: 660px) {
     .mySlides {
       margin-right: 0px;

@@ -58,12 +58,12 @@
   <div class="test">FUCK</div>
 {/if}
   <style>
-    .test{font-size:100vw}
     .content{
         font-family: interstate;
-        padding-top: 60px;
+        padding: 60px 0 0; 
         display: flex;
         flex-direction: column;
+
     }
     div {
       margin: 5px;

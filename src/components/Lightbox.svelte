@@ -1,8 +1,6 @@
 <script>
     export let imageUrl;
     export let alternText;
-    export let slideNo;
-    export let totalSlide;
     export let imageShowing;
     export let imgFullSize;
     export let videoPoster;
@@ -10,7 +8,6 @@
     let regex = /.mp4$/;
 </script>
 <div class="mySlides" class:show={imageShowing}>
-    <div class="numbertext">{slideNo} / {totalSlide}</div>
     {#if imageUrl.match(regex)}
     <video class={imgFullSize} poster={videoPoster} src={imageUrl} controls  type="video/mp4">
         <track kind="captions"  />
