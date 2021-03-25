@@ -91,7 +91,7 @@ let imageShowIndex = 1;
  width: auto;
  padding: 20px;
  margin-left: 20px;
- color: rgb(228, 46, 245);
+ color: #ef11a1;
  font-weight: bold;
  font-size: 25px;
  border-radius: 0 3px 3px 0;

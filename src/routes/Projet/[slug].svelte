@@ -73,6 +73,7 @@ const posScrollFullSize=()=>{
 <svelte:head>
   <title>Projet</title>
 </svelte:head>
+
 <div class="projet {fullSize}">
   {#each projets as info}
     <div class="post-info">
@@ -89,9 +90,8 @@ const posScrollFullSize=()=>{
         {/each}
         <h5 class="linkText">&#10094; Projet &#10095;</h5>
       </nav>
-      <h2>{info.titre}</h2>
-      
     </div>
+    <h2>{info.titre}</h2>
     <div class="text">
       {@html snarkdown(info.description)}
     </div>
@@ -99,7 +99,7 @@ const posScrollFullSize=()=>{
       class="btn-full-size"
       on:click={() => (fullSize = "full-size")
     }
-    on:click={()=>posScrollFullSize()}
+    on:click={()=>(posScrollFullSize())}
       xmlns="http://www.w3.org/2000/svg"
       width="41"
       height="41"
@@ -185,28 +185,28 @@ const posScrollFullSize=()=>{
             data-name="Tracé 87"
             d="M29.024,13.474l-2.232-2.439,6.781-6.583L29.024.031l-6.2,6.431L20,4.452v9.022Z"
             transform="translate(1.696 3.031)"
-            fill="#e42ef5"
+            fill="#ef11a1"
           />
           <path
             id="Tracé_88"
             data-name="Tracé 88"
             d="M9.024,13.443,6.792,11l6.781-6.583L9.024,0l-6.2,6.431L0,4.421v9.022Z"
             transform="translate(35.139 20.139) rotate(90)"
-            fill="#e42ef5"
+            fill="#ef11a1"
           />
           <path
             id="Tracé_89"
             data-name="Tracé 89"
             d="M9.024,13.443,6.792,11l6.781-6.583L9.024,0l-6.2,6.431L0,4.421v9.022Z"
             transform="translate(16.422 33.712) rotate(180)"
-            fill="#e42ef5"
+            fill="#ef11a1"
           />
           <path
             id="Tracé_90"
             data-name="Tracé 90"
             d="M9.024,13.443,6.792,11l6.781-6.583L9.024,0l-6.2,6.431L0,4.421v9.022Z"
             transform="translate(2.979 16.506) rotate(-90)"
-            fill="#e42ef5"
+            fill="#ef11a1"
           />
         </g>
       </svg>
@@ -261,7 +261,7 @@ const posScrollFullSize=()=>{
     position: absolute;
     right: 20px;
     margin-top: 0px;
-    border: 1px solid #e42ef5;
+    border: 1px solid #ef11a1;
     background-color: rgba(0, 0, 0, 0.5);
   }
   
@@ -289,6 +289,7 @@ const posScrollFullSize=()=>{
       "nav"
       "btnFullsize"
       "colRight"
+      "titre"
       "texte";
   }
   
@@ -304,12 +305,14 @@ const posScrollFullSize=()=>{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "prev linkText next";
-    border: 2px solid rgb(228, 46, 245);
+    border: 2px solid #ef11a1;
     margin-right: auto;
     margin-left:auto;
+    margin-bottom: 20px;
     align-items: center;
     text-align: center;
-    width:70%;
+    height:40px;
+    width:100%;
   }
   .linkText {
     grid-area: linkText;
@@ -339,11 +342,14 @@ const posScrollFullSize=()=>{
     text-align: center;
   }
   .projet a:hover {
-    color: rgb(228, 46, 245);
+    color: #ef11a1;
+  }
+  a{
+    color:#000;
   }
   h2 {
+    grid-area:titre;
     text-align: center;
-    text-decoration: underline;
     padding: 0;
     margin: 15px 0;
   }
@@ -366,19 +372,23 @@ const posScrollFullSize=()=>{
     grid-row-start: 2;
   }
   button {
-    color: rgb(228, 46, 245);
+    color: #ef11a1;
     background-color: #000;
     border: 1px solid grey;
     top: 40vh;
   }
   button:hover {
-    border: 1px solid rgb(228, 46, 245);
+    border: 1px solid #ef11a1;
   }
   .prev {
     grid-area: btnG;
   }
   .next {
     grid-area: btnD;
+  }
+  h5{
+    padding:0;
+    margin:0;
   }
   /* @media (max-width: 1080px) {
     .projet {

@@ -27,6 +27,7 @@ function closeModal(){
         align-content: center;
     }
    .card{
+    margin-top:20px;
     margin-left: auto;
     margin-right: auto;
    }

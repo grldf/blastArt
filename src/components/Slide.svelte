@@ -1,15 +1,12 @@
 <script>
   export let imageUrl;
   export let alternText;
-  export let slideNo;
-  export let totalSlide;
   export let imageShowing;
   export let infos;
   export let slug;
 </script>
 
 <div class="mySlides"  class:show={imageShowing} >
-  <div class="numbertext">{slideNo} / {totalSlide}</div>
   <a href={slug} class="imgLink"><img src={imageUrl} alt={alternText} /></a>
   <div class="infos">
     <p><a href={slug} class="link">{infos}</a></p>
@@ -32,12 +29,7 @@
     align-items: flex-start;
     height: 90%;
   }
-  .numbertext {
-    color: rgb(228, 46, 245);
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-  }
+  
  a img {
     width: 99%;
     display:block;
@@ -62,11 +54,10 @@
   a {
     color: #000;
     font-size: 1.6rem;
-    text-decoration: underline;
   }
   a:hover {
-    text-decoration: none;
-    color: rgb(228, 46, 245);
+    text-decoration: underline;
+    color: #ef11a1;
   }
   
   @media (max-width: 660px) {

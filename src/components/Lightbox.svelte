@@ -30,15 +30,7 @@
   align-items: flex-start;
   height: 100%;
 }
-.numbertext {
-  color:  rgb(228, 46, 245);
-  font-size: 12px;
-  padding: 8px 5px;
-  position: absolute;
-  background-color:rgba(0,0,0,0.5);
-  width:40px;
-  height:15px;
-    }
+
 img,video{
     width: 100%;
     max-height: 90vh;

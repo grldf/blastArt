@@ -33,6 +33,9 @@
       color: #000;
       padding: 10px;
   }
+  footer a:hover{
+    text-decoration: underline #ef11a1;
+  }
   @media (max-width: 809px) {
       footer{
           display: none;

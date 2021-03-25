@@ -16,6 +16,10 @@
       href="blast">Projets</a
     >
     <a
+      aria-current={segment === "video" ? "page" : undefined}
+      href="video">Vidéo</a
+    >
+    <a
       rel="prefetch"
       aria-current={segment === "collectif" ? "page" : undefined}
       href="collectif">Collectif</a
@@ -28,12 +32,12 @@
     <a
       rel="prefetch"
       aria-current={segment === "news" ? "page" : undefined}
-      href="news">News</a
+      href="news">Actu</a
     >
     <a
       rel="prefetch"
       aria-current={segment === "shop" ? "page" : undefined}
-      href="shop">Shop</a
+      href="shop">Boutique</a
     >
     
     <div class="price-checkout">
@@ -143,7 +147,7 @@
           </metadata>
           <g
             transform="translate(0.000000,1225.000000) scale(0.100000,-0.100000)"
-            fill="#ec51fd"
+            fill="#ef11a1"
             stroke="none"
           >
             <path
@@ -222,6 +226,10 @@
       aria-current={segment === "blast" ? "page" : undefined}
       href="blast">Projets</a
     >
+      <a
+      aria-current={segment === "video" ? "page" : undefined}
+      href="video">Vidéo</a
+    >
     <a
       aria-current={segment === "collectif" ? "page" : undefined}
       href="collectif">Collectif</a
@@ -234,12 +242,12 @@
     <a
       rel="prefetch"
       aria-current={segment === "news" ? "page" : undefined}
-      href="news">News</a
+      href="news">Actu</a
     >
     <a
       rel="prefetch"
       aria-current={segment === "shop" ? "page" : undefined}
-      href="shop">Shop</a
+      href="shop">Boutique</a
     >
     <a
       rel="prefetch"
@@ -254,7 +262,7 @@
     <a
       rel="prefetch"
       aria-current={segment === "newsLetter" ? "page" : undefined}
-      href="newsLetter">News Letter</a
+      href="newsLetter">NewsLetter</a
     >
     </BurgerMenu>
   </div>

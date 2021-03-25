@@ -1,6 +1,7 @@
 <script context="module">
 import ApolloClient, { gql } from "apollo-boost";
-  
+import snarkdown from "snarkdown";
+
   const newsQuery = gql`
       query news {
         nouvelles(sort: "id:desc") {
@@ -49,7 +50,7 @@ import ApolloClient, { gql } from "apollo-boost";
       <article>
         <h2>{newpub.titre}</h2>
         <p>
-          {newpub.contenu}
+          {@html snarkdown (newpub.contenu)}
         </p>
       </article>
       <aside>

@@ -80,7 +80,6 @@
   }
   article {
     
-    background-color:#ef11a165;
 
   }
   p,
