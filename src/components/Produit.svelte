@@ -7,7 +7,14 @@
   export let imgModalProduit;
   export let descriptionProduit;
   export let itemGategorie;
+  export let custom1;
+  export let options1;
+  export let custom2;
+  export let options2;
+  export let custom3;
+  export let options3;
 
+  let selected =0;
   let toggle = false;
   function toggleFunc(){
     toggle = !toggle;
@@ -31,6 +38,14 @@
     data-item-url="/shop"
     data-item-image={imgProduit}
     data-item-name={nomProduit}
+    data-item-custom1-name={custom1}
+    data-item-custom1-options={options1}
+    data-item-custom1-required="true"
+    data-item-custom2-name={custom2}
+    data-item-custom2-options={options2}
+    data-item-custom3-name={custom3}
+    data-item-custom3-options={options3}
+    data-item-min-price="15"
   >
     Ajouter au Panier
   </button>
@@ -61,14 +76,18 @@
   }
   .btns{
     align-self: center;
-    margin-top:10px;
+    margin-top:auto;
     display:flex;
     justify-content: space-around;
-
   }
+
   button{
     margin:5px;
     border: 1px solid #000;
+  }
+  button:hover{
+    color:#ef11a1;
+    border: 1px solid #ef11a1;
   }
  span{
    font-weight:bold;

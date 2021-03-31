@@ -12,6 +12,12 @@
           nom
           description
           prix
+          nameCustomOption1
+          customOption1
+          nameCustomOption2
+          customOption2
+          nameCustomOption3
+          customOption3
           image {
             url
           }
@@ -64,6 +70,12 @@
             prixProduit={product.prix}
             idProduit={product.id}
             imgModalProduit={urlpApi + product.image.url}
+            custom1={product.nameCustomOption1}
+            options1={product.customOption1}
+            custom2={product.nameCustomOption2}
+            options2={product.customOption2}
+            custom3={product.nameCustomOption3}
+            options3={product.customOption3}
           />
         {/each}
       </div>
