@@ -2,7 +2,7 @@
   "bundler": "rollup",
   "shimport": "2.0.4",
   "assets": {
-    "main": "client.92ce6696.js"
+    "main": "client.2d5ccbde.js"
   },
   "css": {
     "main": [
@@ -11,68 +11,68 @@
   },
   "dependencies": {
     "index.svelte": [
-      "index.d7deb91d.js",
+      "index.f7cda294.js",
       "inject_styles.5607aec6.js",
       "index-bd5a4262.css"
     ],
     "newsLetter/index.svelte": [
-      "index.1aaf5d08.js",
+      "index.137c45e6.js",
       "inject_styles.5607aec6.js",
       "index-9d07180b.css"
     ],
     "collectif/index.svelte": [
-      "index.6baec459.js",
+      "index.3fa51d24.js",
       "bundle.esm.ce987c6b.js",
       "inject_styles.5607aec6.js",
       "index-6357a7c9.css"
     ],
     "contact/index.svelte": [
-      "index.f2e19646.js",
+      "index.e41a6151.js",
       "bundle.esm.ce987c6b.js",
       "inject_styles.5607aec6.js",
       "index-f9423815.css"
     ],
     "cgvcgu/index.svelte": [
-      "index.0b6ce026.js",
+      "index.30acf210.js",
       "snarkdown.es.257e5e6b.js",
       "bundle.esm.ce987c6b.js",
       "inject_styles.5607aec6.js",
       "index-f272817a.css"
     ],
     "presse/index.svelte": [
-      "index.49637793.js",
+      "index.b4efec87.js",
       "bundle.esm.ce987c6b.js",
       "inject_styles.5607aec6.js",
       "index-6efda523.css"
     ],
     "projet/[slug].svelte": [
-      "[slug].45517897.js",
+      "[slug].6cfb9a57.js",
       "snarkdown.es.257e5e6b.js",
       "bundle.esm.ce987c6b.js",
       "inject_styles.5607aec6.js",
       "[slug]-99370e8d.css"
     ],
     "blast/index.svelte": [
-      "index.3f92bb41.js",
+      "index.431b35e1.js",
       "bundle.esm.ce987c6b.js",
       "inject_styles.5607aec6.js",
       "index-b834714c.css"
     ],
     "video/index.svelte": [
-      "index.fe21edde.js",
+      "index.78880d2e.js",
       "bundle.esm.ce987c6b.js",
       "inject_styles.5607aec6.js",
       "index-fbe8f2aa.css"
     ],
     "news/index.svelte": [
-      "index.e3b613f6.js",
+      "index.ea3924a5.js",
       "snarkdown.es.257e5e6b.js",
       "bundle.esm.ce987c6b.js",
       "inject_styles.5607aec6.js",
       "index-42b19cee.css"
     ],
     "shop/index.svelte": [
-      "index.a11ffc99.js",
+      "index.83f4c216.js",
       "bundle.esm.ce987c6b.js",
       "inject_styles.5607aec6.js",
       "index-263d96d0.css"

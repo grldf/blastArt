@@ -54,36 +54,35 @@
   >
 </svelte:head>
 
-<div class="all">
-  <h1>BLAST SHOP</h1>
-  {#each article as produit}
-    {#if produit.produits.length > 0}
-      <h2>{produit.nom}</h2>
-
-      <div class="container">
-        {#each produit.produits as product}
-          <Produit
-            itemGategorie={produit.nom}
-            imgProduit={urlpApi + product.image.url}
-            nomProduit={product.nom}
-            descriptionProduit={product.description}
-            prixProduit={product.prix}
-            idProduit={product.id}
-            imgModalProduit={urlpApi + product.image.url}
-            custom1={product.nameCustomOption1}
-            options1={product.customOption1}
-            custom2={product.nameCustomOption2}
-            options2={product.customOption2}
-            custom3={product.nameCustomOption3}
-            options3={product.customOption3}
-          />
-        {/each}
-      </div>
-    {:else}
-      <span />
-    {/if}
-  {/each}
-</div>
+  <div class="all">
+    <h1>BLAST SHOP</h1>
+      {#each article as produit}
+        {#if produit.produits.length > 0}
+          <h2>{produit.nom}</h2>
+            <div class="container">
+              {#each produit.produits as product}
+                <Produit
+                  itemGategorie={produit.nom}
+                  imgProduit={urlpApi + product.image.url}
+                  nomProduit={product.nom}
+                  descriptionProduit={product.description}
+                  prixProduit={product.prix}
+                  idProduit={product.id}
+                  imgModalProduit={urlpApi + product.image.url}
+                  custom1={product.nameCustomOption1}
+                  options1={product.customOption1}
+                  custom2={product.nameCustomOption2}
+                  options2={product.customOption2}
+                  custom3={product.nameCustomOption3}
+                  options3={product.customOption3}
+                />
+              {/each}
+            </div>
+          {:else}
+            <span />
+        {/if}
+      {/each}
+  </div>
 
 <style>
   h1 {
