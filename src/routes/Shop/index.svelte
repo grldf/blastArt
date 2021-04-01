@@ -1,6 +1,7 @@
 <script context="module">
   import ApolloClient, { gql } from "apollo-boost";
   import Produit from "../../components/Produit.svelte";
+  import SvelteSeo from "svelte-seo";
 
   const produitsQuery = gql`
     query produit {
@@ -42,17 +43,12 @@
   export let article;
 </script>
 
-<svelte:head>
-  <meta
+<SvelteSeo
     description="Vous avez aimez une peinture de Kalouf, une sculpture de Romain Lardanchet. Achetez sur la boutique un poster de cette oeuvre ou pourquoi pas une sculpture en impression 3D.
   Quel que soit votre budget vous trouverez une oeuvre Blast qui vous correspond  
 	 "
+  title="Boutique du collectif Blast avec des posters et autres produits dérivés et des oeuvres originales"
   />
-  <title
-    >Boutique du collectif Blast avec des posters et autres produits dérivés et
-    des oeuvres originales</title
-  >
-</svelte:head>
 
   <div class="all">
     <h1>BLAST SHOP</h1>

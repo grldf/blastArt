@@ -2,7 +2,8 @@
   import ApolloClient, { gql } from "apollo-boost";
   import snarkdown from "snarkdown";
   import Lightbox from "../../components/Lightbox.svelte";
-
+  import SvelteSeo from "svelte-seo";
+ 
   const projetQuery = gql`
     query Projets($Slug: String!) {
       projets: projets(where: { Slug: $Slug }) {
@@ -70,9 +71,7 @@ const posScrollFullSize=()=>{
   let fullSize;
 </script>
 
-<svelte:head>
-  <title>Projet</title>
-</svelte:head>
+
 
 <div class="projet {fullSize}">
   {#each projets as info}
@@ -91,6 +90,12 @@ const posScrollFullSize=()=>{
         <h5 class="linkText">&#10094; Projet &#10095;</h5>
       </nav>
     </div>
+
+    <SvelteSeo
+    description={info.description}
+    title={info.titre}
+    />
+    
     <h2>{info.titre}</h2>
     <div class="text">
       {@html snarkdown(info.description)}

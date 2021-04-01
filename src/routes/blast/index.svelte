@@ -1,6 +1,8 @@
 <script context="module">
     import ApolloClient, { gql } from "apollo-boost";
     import Slide from "./../../components/Slide.svelte";
+    import SvelteSeo from "svelte-seo";
+
  const imageQuery = gql`
    query cover{
      projets(sort:"date:desc"){
@@ -51,12 +53,12 @@ let imageShowIndex = 1;
    } ;
 </script>
 
-<svelte:head>
-  <meta description="Présentaion des différents projets réalisés par le collectif Blastart, comme l'expositions unique le
+<SvelteSeo
+  description="Présentaion des différents projets réalisés par le collectif Blastart, comme l'expositions unique le
   terminal, le dinosaure Gustave de Romain Lardanchet et la fresque monumentale Gorilla urbaine réalisé par Kalouf. Ces 
-  travaux sont rendus au travers des photos de FabeCollage et des vidéos de Jean-Pierre(staffvidéo)" />
-  <title>Projets réalisés par le collectif Blastart. Fresques, graphes sculptures les artistes relèvent tous les défis</title>
-</svelte:head>
+  travaux sont rendus au travers des photos de FabeCollage et des vidéos de Jean-Pierre(staffvidéo)"
+  title="Projets réalisés par le collectif Blastart. Fresques, graphes sculptures les artistes relèvent tous les défis"
+/>
 
 <div>
 <div class="container">

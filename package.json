@@ -32,6 +32,7 @@
     "snarkdown": "^2.0.0",
     "svelte-apollo": "^0.4.0",
     "svelte-burger-menu": "^1.0.5",
+    "svelte-seo": "^1.1.0",
     "svelte-slimscroll": "^1.0.6"
   },
   "devDependencies": {

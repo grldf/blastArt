@@ -1,5 +1,6 @@
 <script context="module">
   import ApolloClient, { gql } from "apollo-boost";
+  import SvelteSeo from "svelte-seo";
 
   const presseQuery = gql`
     query presse {
@@ -30,11 +31,12 @@
   export let liens;
 </script>
 
-<svelte:head>
-  <meta description="Retrouvez un ensemble de liens vers des articles de presse sur le collectif Blast et ces membres.
-  Découvrez également des vidéos et des reportages sur les oeuvres du collectif"/>
-  <title>La Presse parle de nous. Découvrez des reportages articles, vidéos et interviews de Blast</title>
-</svelte:head>
+<SvelteSeo
+  description="Retrouvez un ensemble de liens vers des articles de presse sur le collectif Blast et ces membres.
+  Découvrez également des vidéos et des reportages sur les oeuvres du collectif"
+  title="La Presse parle de nous. Découvrez des reportages articles, vidéos et interviews de Blast"
+/>
+
 <h1>Reportages, interviews...</h1>
 <div class="container">
   {#each liens as article}

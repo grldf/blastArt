@@ -4564,6 +4564,11 @@
   "resolved" "https://registry.npmjs.org/svelte-chota/-/svelte-chota-1.8.3.tgz"
   "version" "1.8.3"
 
+"svelte-seo@^1.1.0":
+  "integrity" "sha512-I4Z0x2ieCwIBOjnXpdg61Btz5HNNmRxjdTx/s1pDNNI1BiGQd7qTxzQkw6fOUA4uB8NwpsTVKRc70A0zwqumIw=="
+  "resolved" "https://registry.npmjs.org/svelte-seo/-/svelte-seo-1.1.0.tgz"
+  "version" "1.1.0"
+
 "svelte-slimscroll@^1.0.6":
   "integrity" "sha512-un2+lDdLKyV7+z+y3JYz4CXcAcf2RKX5B1r7YzUCUJGPYfFVq88cnZaV2Btbco7kmFC100ikfOM8ADy9YZuVFA=="
   "resolved" "https://registry.npmjs.org/svelte-slimscroll/-/svelte-slimscroll-1.0.6.tgz"
