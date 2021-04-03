@@ -395,57 +395,5 @@ const posScrollFullSize=()=>{
     padding:0;
     margin:0;
   }
-  /* @media (max-width: 1080px) {
-    .projet {
-      margin-top: 0;
-      padding: 60px 20px;
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-areas:
-        "titre"
-        "btnfull"
-        "slider"
-        "texte";
-      max-height: 100%;
-    }
-    .full-size .galery {
-      background-color: #000;
-      max-height: 101vh;
-    }
-    .galery {
-      grid-area: slider;
-      grid-row-start: 2;
-      align-items: center;
-    }
-    .post-info {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-areas:
-        "title"
-        "description"
-        "navprojet";
-    }
-    h2 {
-      grid-area: title;
-    }
-    .text {
-      grid-area: description;
-      margin-bottom: 10px;
-    }
-    nav {
-      grid-area: navprojet;
-      margin: 10px 0;
-    }
-    .btn-small-size {
-      position: absolute;
-      right: 20px;
-      top: 80px;
-    }
-    .btn-full-size {
-      position: relative;
-      left: 90%;
-      grid-area: btnfull;
-      margin-top: 20px;
-    }
-  } */
+  
 </style>

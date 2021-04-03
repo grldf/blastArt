@@ -80,10 +80,7 @@
     width:100%;
     max-height:125px;
   }
-  article {
-    
-
-  }
+  
   p,
   a {
     color: #000;

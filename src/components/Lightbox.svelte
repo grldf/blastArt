@@ -9,7 +9,7 @@
 </script>
 <div class="mySlides" class:show={imageShowing}>
     {#if imageUrl.match(regex)}
-    <video class={imgFullSize} poster={videoPoster} src={imageUrl} controls  type="video/mp4">
+    <video class={imgFullSize} poster={videoPoster} src={imageUrl} controls  type="video/mp4" preload="none">
         <track kind="captions"  />
     </video>
     {:else}

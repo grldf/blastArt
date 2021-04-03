@@ -30,11 +30,12 @@ let urlpApi = "https://www.grldfaure.xyz";
     export let videos;
 </script>
 <div class="container">
+
 {#each videos as video}
 <div>
     <h3>{video.titre}</h3>
-    <video src= {urlpApi + video.video.url} controls poster={urlpApi + video.cover.url} type="video/mp4">
-        <track kind="captions"  />
+    <video src= {urlpApi + video.video.url} controls poster={urlpApi + video.cover.url} type="video/mp4" preload="none">
+      <track kind="captions"  />
     </video>
 </div>
 {/each}
