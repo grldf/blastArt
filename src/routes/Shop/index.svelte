@@ -1,6 +1,8 @@
 <script context="module">
   import ApolloClient, { gql } from "apollo-boost";
   import Produit from "../../components/Produit.svelte";
+  import ProduitTshirt from "../../components/ProduitTshirt.svelte";
+  import SvelteSeo from "svelte-seo";
 
   const produitsQuery = gql`
     query produit {
@@ -12,6 +14,7 @@
           nom
           description
           prix
+          lienride4life
           nameCustomOption1
           customOption1
           nameCustomOption2
@@ -42,12 +45,32 @@
   export let article;
 </script>
 
-
+<SvelteSeo
+  description="Boutique du collectif Blast. Trouvez votre impression 3D préférés ou des reproductions d'oeuvres en poster 
+  ou print des oeuvres de Kalouf, Romain Lardanchet et Fabe Collage"
+  title="Boutique du collectif Blast où vous pouvez achetez des oeuvres originales et des reproductions"
+/>
 
   <div class="all">
     <h1>BLAST SHOP</h1>
       {#each article as produit}
         {#if produit.produits.length > 0}
+          {#if produit.nom === "T-SHIRTS"}
+          <h2>{produit.nom} sur la boutique Ride4life</h2>
+            <div class="container">
+          {#each produit.produits as product}
+            <ProduitTshirt 
+            imgProduit={urlpApi + product.image.url}
+            nomProduit={product.nom}
+            descriptionProduit={product.description}
+            prixProduit={product.prix}
+            idProduit={product.id}
+            imgModalProduit={urlpApi + product.image.url}
+            lienRide4Life={product.lienride4life}
+            />
+            {/each}
+            </div>
+          {:else}
           <h2>{produit.nom}</h2>
             <div class="container">
               {#each produit.produits as product}
@@ -68,6 +91,7 @@
                 />
               {/each}
             </div>
+            {/if}
           {:else}
             <span />
         {/if}

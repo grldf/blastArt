@@ -28,7 +28,7 @@
     <span>Prix : {prixProduit} €</span></p>
   </header>
 
-  <img on:click={toggleFunc} src={imgProduit} alt="test" />
+  <img on:click={toggleFunc} src={imgProduit} alt={nomProduit} />
   <div class="btns">
   <button
     class="snipcart-add-item"
