@@ -38,6 +38,7 @@
 />
 
 <h1>Reportages, interviews...</h1>
+<p class="pdf"><a href="/Symbioses-Article-UrbanArts-Blast.pdf" target="_blank">Cliquez pour lire l'article paru dans Urban Arts sur l'exposition Symbioses</a></p>
 <div class="container">
   {#each liens as article}
   <a href={article.lien} target="_blank"><article>
@@ -65,6 +66,14 @@
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 2rem;
     grid-auto-flow: dense;
+  }
+  .pdf{
+    text-align:left;
+    margin-left:18px;
+    text-decoration: underline;
+  }
+  .pdf:hover{
+    text-decoration: underline #ef11a1;
   }
   .container > a >article {
     border: solid 1px #ef11a1;

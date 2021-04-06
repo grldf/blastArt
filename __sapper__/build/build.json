@@ -2,7 +2,7 @@
   "bundler": "rollup",
   "shimport": "2.0.4",
   "assets": {
-    "main": "client.50d1fdc7.js"
+    "main": "client.c2c8dc15.js"
   },
   "css": {
     "main": [
@@ -11,78 +11,78 @@
   },
   "dependencies": {
     "index.svelte": [
-      "index.5996b7ec.js",
-      "SvelteSeo.06958429.js",
+      "index.428d4f96.js",
+      "SvelteSeo.88b4d828.js",
       "inject_styles.5607aec6.js",
       "index-bd5a4262.css"
     ],
     "newsLetter/index.svelte": [
-      "index.d3da80fb.js",
+      "index.37681525.js",
       "inject_styles.5607aec6.js",
       "index-9d07180b.css"
     ],
     "collectif/index.svelte": [
-      "index.455cb7c0.js",
+      "index.981b57c4.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "index-6357a7c9.css"
     ],
     "contact/index.svelte": [
-      "index.2f8dc9f8.js",
+      "index.0bab8851.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "index-f9423815.css"
     ],
     "cgvcgu/index.svelte": [
-      "index.83babf03.js",
+      "index.47ced0fb.js",
       "snarkdown.es.257e5e6b.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "index-f272817a.css"
     ],
     "presse/index.svelte": [
-      "index.7ecc9472.js",
-      "SvelteSeo.06958429.js",
+      "index.43a516a0.js",
+      "SvelteSeo.88b4d828.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
-      "index-1ef8dd55.css"
+      "index-8bbba276.css"
     ],
     "projet/[slug].svelte": [
-      "[slug].7030e77c.js",
-      "SvelteSeo.06958429.js",
+      "[slug].d42333cb.js",
+      "SvelteSeo.88b4d828.js",
       "snarkdown.es.257e5e6b.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "[slug]-9c4235b2.css"
     ],
     "blast/index.svelte": [
-      "index.3e7d0707.js",
-      "SvelteSeo.06958429.js",
+      "index.b0894264.js",
+      "SvelteSeo.88b4d828.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "index-b834714c.css"
     ],
     "video/index.svelte": [
-      "index.9622adc9.js",
+      "index.13901179.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "index-fbe8f2aa.css"
     ],
     "news/index.svelte": [
-      "index.dc9673ee.js",
+      "index.192f7745.js",
       "snarkdown.es.257e5e6b.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "index-42b19cee.css"
     ],
     "shop/index.svelte": [
-      "index.dfe67de6.js",
+      "index.3bf5aa34.js",
       "bundle.esm.a297de33.js",
       "inject_styles.5607aec6.js",
       "index-263d96d0.css"
     ]
   },
   "legacy_assets": {
-    "main": "client.26e9b4be.js"
+    "main": "client.0c053e2a.js"
   }
 }
