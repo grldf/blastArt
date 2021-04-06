@@ -50,6 +50,7 @@ let urlpApi = "https://www.grldfaure.xyz";
   }
   video{
       max-width:350px;
+      max-height:200px;
       background-color:#000;
   }
 </style>
