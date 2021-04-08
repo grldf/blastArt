@@ -46,11 +46,11 @@
   </article>
 </a>
   {#each liens as article}
-  <a href={article.lien} target="_blank"><article>
+  <a href={article.lien} target="_blank">
+    <article>
       <img src={urlpApi + article.logoSite.url} alt={article.commentaire} />
       <p>
-          {article.commentaire}
-        
+          {article.commentaire} 
       </p>
     </article>
   </a>
@@ -90,9 +90,7 @@
     color: #21221c;;
     text-align: center;
   }
-  p{
-    margin-top:70px;
-  }
+  
   a:hover {
     text-decoration: none;
   }
