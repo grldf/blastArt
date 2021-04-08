@@ -356,6 +356,7 @@
     a {
       font-size: 22px;
       padding: 0.5em;
+      color:#fff;
     }
     .info-prix {
       display: none;
