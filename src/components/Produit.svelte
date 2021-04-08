@@ -57,6 +57,10 @@
     {/if}
 </article>
 <style>
+  h2{
+    font-weight:lighter;
+    color: #3b3b38;
+  }
   article header{
     border-bottom:1px solid #ef11a1;
   }
@@ -90,6 +94,6 @@
     border: 1px solid #ef11a1;
   }
  span{
-   font-weight:bold;
+   font-weight:lighter;
  }
 </style>

@@ -70,6 +70,10 @@
       display: flex;
       font-family: Interstate;
     }
+    h2{
+      font-weight: lighter;
+      color: #3b3b38;
+    }
     article h2 {
       max-width: 22rem;
       padding-left: 10rem;

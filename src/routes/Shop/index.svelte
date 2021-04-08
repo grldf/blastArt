@@ -52,7 +52,6 @@
 />
 
   <div class="all">
-    <h1>BLAST SHOP</h1>
       {#each article as produit}
         {#if produit.produits.length > 0}
           {#if produit.nom === "T-SHIRTS"}
@@ -99,9 +98,6 @@
   </div>
 
 <style>
-  h1 {
-    margin-top: 60px;
-  }
   .container {
     margin: 0px 20px;
     display: grid;
@@ -118,5 +114,7 @@
     border-bottom: solid 1px #ef11a1;
     margin-left: -20px;
     padding-left: 20px;
+    font-weight:lighter;
+    color: #3b3b38;
   }
 </style>

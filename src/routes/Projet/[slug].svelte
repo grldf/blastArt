@@ -3,7 +3,7 @@
   import snarkdown from "snarkdown";
   import Lightbox from "../../components/Lightbox.svelte";
   import SvelteSeo from "svelte-seo";
- 
+
   const projetQuery = gql`
     query Projets($Slug: String!) {
       projets: projets(where: { Slug: $Slug }) {
@@ -63,15 +63,13 @@
       imageShowIndex += 1;
     }
   };
-const posScrollFullSize=()=>{
-  if (window.scrollY) {
-  window.scroll(0, 0);
-}
-}
+  const posScrollFullSize = () => {
+    if (window.scrollY) {
+      window.scroll(0, 0);
+    }
+  };
   let fullSize;
 </script>
-
-
 
 <div class="projet {fullSize}">
   {#each projets as info}
@@ -91,20 +89,16 @@ const posScrollFullSize=()=>{
       </nav>
     </div>
 
-    <SvelteSeo
-    description={info.description}
-    title={info.titre}
-    />
-    
+    <SvelteSeo description={info.description} title={info.titre} />
+
     <h2>{info.titre}</h2>
     <div class="text">
       {@html snarkdown(info.description)}
     </div>
     <svg
       class="btn-full-size"
-      on:click={() => (fullSize = "full-size")
-    }
-    on:click={()=>(posScrollFullSize())}
+      on:click={() => (fullSize = "full-size")}
+      on:click={() => posScrollFullSize()}
       xmlns="http://www.w3.org/2000/svg"
       width="41"
       height="41"
@@ -261,7 +255,7 @@ const posScrollFullSize=()=>{
   .btn-small-size {
     display: none;
   }
-  
+
   .btn-small-size {
     position: absolute;
     right: 20px;
@@ -269,7 +263,7 @@ const posScrollFullSize=()=>{
     border: 1px solid #ef11a1;
     background-color: rgba(0, 0, 0, 0.5);
   }
-  
+
   .btn-small-size {
     right: 20px;
     top: 20px;
@@ -297,27 +291,27 @@ const posScrollFullSize=()=>{
       "titre"
       "texte";
   }
-  
-  .btn-full-size{
-    grid-area:btnFullsize;
-    display:grid;
-    margin-left:auto;
-    z-index:1;
+
+  .btn-full-size {
+    grid-area: btnFullsize;
+    display: grid;
+    margin-left: auto;
+    z-index: 1;
   }
-  
+
   nav {
-    grid-area:nav;
+    grid-area: nav;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "prev linkText next";
-    border: 2px solid #ef11a1;
+    border: 1px solid #ef11a1;
     margin-right: auto;
-    margin-left:auto;
+    margin-left: auto;
     margin-bottom: 20px;
     align-items: center;
     text-align: center;
-    height:40px;
-    width:100%;
+    height: 40px;
+    width: 100%;
   }
   .linkText {
     grid-area: linkText;
@@ -332,7 +326,7 @@ const posScrollFullSize=()=>{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    color: black;
+    color: #21221c;
     text-decoration: underline;
     text-align: center;
   }
@@ -341,7 +335,7 @@ const posScrollFullSize=()=>{
     grid-area: next;
     display: flex;
     align-items: center;
-    color: black;
+    color: #21221c;
     justify-content: flex-start;
     text-decoration: underline;
     text-align: center;
@@ -349,24 +343,25 @@ const posScrollFullSize=()=>{
   .projet a:hover {
     color: #ef11a1;
   }
-  a{
-    color:#000;
+  a {
+    color: #21221c;
   }
   h2 {
-    grid-area:titre;
+    grid-area: titre;
     text-align: center;
     padding: 0;
     margin: 15px 0;
+    font-weight: lighter;
+    color: #3b3b38;
   }
   .text {
     grid-area: texte;
-   
     padding-top: 10px;
-    margin-right:auto;
+    margin-right: auto;
     margin-left: auto;
   }
-  .full-size .text{
-    display:none;
+  .full-size .text {
+    display: none;
   }
   .galery {
     grid-area: colRight;
@@ -391,9 +386,10 @@ const posScrollFullSize=()=>{
   .next {
     grid-area: btnD;
   }
-  h5{
-    padding:0;
-    margin:0;
+  h5 {
+    font-weight: lighter;
+    color: #3b3b38;
+    padding: 0;
+    margin: 0;
   }
-  
 </style>

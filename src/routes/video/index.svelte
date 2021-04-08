@@ -48,9 +48,12 @@ let urlpApi = "https://www.grldfaure.xyz";
     grid-gap: 2rem;
     grid-auto-flow: dense;
   }
+  h3{
+  font-weight: lighter;
+}
   video{
-      max-width:350px;
-      max-height:200px;
-      background-color:#000;
+    max-width: fit-content;
+    max-width: -moz-fit-content;
+    max-height:200px;
   }
 </style>
