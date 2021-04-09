@@ -6,117 +6,1171 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
+  <url>
+    <loc>https://blast-art.art/</loc>
+    <lastmod>2021-03-25T15:29:51+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://blast-art.art/blast</loc>
+    <lastmod>2021-04-09T09:29:51+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://blast-art.art/projet/Insectes-mira</loc>
+    <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/Insectes_mira_1_0bb39ca401.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/Insectes_mira_2_a5c8b90760.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/Insectes_mira_11_ef7bcecb2c.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/Insectes_mira_13_d318af8fbe.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/Insectes_mira_10_a691e5dc1e.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/Insectes_mira_21_8a2ed91fff.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/Insectes_mira_6_96bdb81f17.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/Insectes_mira_25_5dc378f0cb.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/Insectes_mira_23_df12b47728.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/Insectes_mira_26_813d75892c.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/vivi_13_0e841cdcf3.jpg</image:loc>
+    </image:image>
+    <lastmod>2021-04-09T09:29:51+00:00</lastmod>
+  </url>
 <url>
-  <loc>https://blast-art.art/</loc>
-  <lastmod>2021-03-25T15:29:51+00:00</lastmod>
-</url>
-<url>
-  <loc>https://blast-art.art/blast</loc>
+  <loc>https://blast-art.art/projet/Girafe</loc>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/Girafe_3_7a784419b5.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/Girafe_4_78f52181cd.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/Girafe_cover_3_f891307692.jpg</image:loc>
+  </image:image>
   <lastmod>2021-04-09T09:29:51+00:00</lastmod>
 </url>
 <url>
-  <loc>https://blast-art.art/projet/Insectes-mira</loc>
-  <lastmod>2021-03-25T15:29:51+00:00</lastmod>
-</url>
-<url>
-  <loc>https://blast-art.art/projet/Girafe</loc>
-  <lastmod>2021-03-25T15:29:51+00:00</lastmod>
-</url>
-<url>
   <loc>https://blast-art.art/projet/piece-maitresse</loc>
-  <lastmod>2021-03-25T15:29:51+00:00</lastmod>
+  <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/Piece_maitresse_3_4c79820ed7.jpg</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/Piece_maitresse_5_ce546efac6.jpg</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/Piece_maitresse_4_04cfa43f64.jpg</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/Piece_maitresse_10_3af8ad544d.jpg</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/Piece_maitresse_7_9e468d0f89.jpg</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/Piece_maitresse_15_d20dd54665.jpg</image:loc>
+  </image:image>
+  <video:video>
+       <video:thumbnail_loc>https://www.grldfaure.xyz/uploads/Piece_maitresse_2_ef5a0910ae.jpg</video:thumbnail_loc>
+       <video:title>Kalouf Pièce Maîtresse</video:title>
+       <video:description>Sur une idée originale de @LapieceMaîtresse.fr, cette œuvre a été réalisée au "Zoo Art Show".
+      </video:description>
+       <video:content_loc>
+        https://www.grldfaure.xyz/uploads/Piece_maitresse_e0c9cd7fdd.mp4
+      </video:content_loc>
+       <video:duration>121</video:duration>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader info="https://www.blast-art.art">
+        Collectif Blast
+       </video:uploader>
+       <video:live>no</video:live>
+  </video:video>
+  <lastmod>2021-04-09T09:29:51+00:00</lastmod>
 </url>
 <url>
   <loc>https://blast-art.art/projet/Symbioses</loc>
-  <lastmod>2021-03-25T15:29:51+00:00</lastmod>
+  <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/6_9fdda94fcc.jpg</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/8_df03a6cb6e.jpg</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/4_066fe62b80.jpg</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/5_628dbede43.jpg</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/7_c0cfe4d0f5.jpg</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/9_f6f02ba4a2.jpg</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/12_252dc2b0d4.jpg</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/13_c832eebb91.jpg</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/11_21a32bbe3a.jpg</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/3_be5262b2ee.jpg</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/2_d38eb40488.jpg</image:loc>
+  </image:image>
+  <video:video>
+       <video:thumbnail_loc>https://www.grldfaure.xyz/uploads/1_a563602c55.jpg</video:thumbnail_loc>
+       <video:title>Blast art exposition Symbioses</video:title>
+       <video:description>
+        L’idée première du projet fut de créer une exposition dans la rue pour sensibiliser sur ce phénomène de symbiose. Depuis des millénaires, elle épanouit la vie sur terre, pour une adaptation des espèces dans leur environnement. 
+      </video:description>
+       <video:content_loc>
+        https://www.grldfaure.xyz/uploads/master_symbioses_dff02a11e5.mp4      </video:content_loc>
+       <video:duration>179</video:duration>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader info="https://www.blast-art.art">
+        Collectif Blast
+       </video:uploader>
+       <video:live>no</video:live>
+     </video:video>
+  <lastmod>2021-04-09T09:29:51+00:00</lastmod>
 </url>
 <url>
   <loc>https://blast-art.art/projet/kalouf-mur-lms</loc>
-  <lastmod>2021-03-25T15:29:51+00:00</lastmod>
+  <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/Aigle_bateleur_6_30d616b14b.jpg</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/Aigle_bateleur_1_4167365a7b.jpg</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/Aigle_bateleur_2_9ce9eef961.jpg</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/Aigle_bateleur_4_6efa2eb08d.jpg</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/Aigle_bateleur_5_73461e116f.jpg</image:loc>
+  </image:image>
+  <video:video>
+       <video:thumbnail_loc>https://www.grldfaure.xyz/uploads/Aigle_bateleur_4_6efa2eb08d.jpg</video:thumbnail_loc>
+       <video:title>LE MUR de la Motte-Servolex est un projet artistique qui s'inspire de l'association LE M.U.R fondée en 2013 à Paris.
+      </video:title>
+       <video:description>
+        Le Bateleur des savanes, magnifique rapace acrobate qui doit son nom à la faculté de réaliser des parades nuptiales particulièrement spectaculaires et remarquées. Les persécutions et la perte de l'habitat sont les menaces les plus importantes qui pèsent sur cet oiseau africain terriblement esthétique!
+      </video:description>
+       <video:content_loc>
+        https://www.grldfaure.xyz/uploads/Aigle_Bateleur_bfe36686ba.mp4      </video:content_loc>
+       <video:duration>185</video:duration>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader info="https://www.blast-art.art">
+        Collectif Blast
+       </video:uploader>
+       <video:live>no</video:live>
+     </video:video>
+  <lastmod>2021-04-09T09:29:51+00:00</lastmod>
 </url>
 <url>
   <loc>https://blast-art.art/projet/kalouf-symbioses</loc>
-  <lastmod>2021-03-25T15:29:51+00:00</lastmod>
+  <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/kalouf_symbioses_lyon_3_ee709c0e80.jpg</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/kalouf_symbioses_lyon_2_46b877e748.jpg</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/cover_kalouf_symbioses_lyon_2_e3ed45c48f.jpg</image:loc>
+  </image:image>
+  <lastmod>2021-04-09T09:29:51+00:00</lastmod>
 </url>
 <url>
   <loc>https://blast-art.art/projet/kalouf-strasbourg</loc>
-  <lastmod>2021-03-25T15:29:51+00:00</lastmod>
+  <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/cover_kalouf_2020_strasbourg_1_81bcc68a02.jpg</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/kalouf_2020_strasbourg_2_42aa68a1e6.jpg</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://www.grldfaure.xyz/uploads/kalouf_2020_strasbourg_3_242962717d.jpg</image:loc>
+  </image:image>
+  <video:video>
+       <video:thumbnail_loc>https://www.grldfaure.xyz/uploads/cover_kalouf_2020_strasbourg_1_81bcc68a02.jpg</video:thumbnail_loc>
+       <video:title>INVASION
+      </video:title>
+       <video:description>
+        la planète nous survivra, alors partageons-là sainement avec les autres espèces où elle nous échappera! 
+      </video:description>
+       <video:content_loc>
+        https://www.grldfaure.xyz/uploads/Invasion_Compress_ce3247667f.mp4      </video:content_loc>
+       <video:duration>114</video:duration>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader info="https://www.blast-art.art">
+        Collectif Blast
+       </video:uploader>
+       <video:live>no</video:live>
+     </video:video>
+  <lastmod>2021-04-09T09:29:51+00:00</lastmod>
 </url>
 <url>
   <loc>https://blast-art.art/projet/kalouf-rever-son-horizon</loc>
-  <lastmod>2021-03-25T15:29:51+00:00</lastmod>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/kalouf_osa_3_059c6ad527.jpg</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/cover_kalouf_osa_a0f45673d9.jpg</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/kalouf_osa_1_68a9d03c2a.jpg</image:loc>
+</image:image>
+<image:image>
+  <image:loc>https://www.grldfaure.xyz/uploads/kalouf_osa_2_c9d149613c.jpg</image:loc>
+</image:image>
+<video:video>
+       <video:thumbnail_loc>https://www.grldfaure.xyz/uploads/cover_kalouf_osa_a0f45673d9.jpg</video:thumbnail_loc>
+       <video:title>RÊVER SON HORIZON
+      </video:title>
+       <video:description>
+        Mur peint par Kalouf.
+      </video:description>
+       <video:content_loc>
+        https://www.grldfaure.xyz/uploads/Rever_Son_Horizon_720_6a92fb4e4c.mp4      </video:content_loc>
+       <video:duration>93</video:duration>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader info="https://www.blast-art.art">
+        Collectif Blast
+       </video:uploader>
+       <video:live>no</video:live>
+  </video:video>
+  <lastmod>2021-04-09T09:29:51+00:00</lastmod>
 </url>
 <url>
   <loc>https://blast-art.art/projet/kalouf-crabe-mira</loc>
-  <lastmod>2021-03-25T15:29:51+00:00</lastmod>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/cover_kalouf_2020_crabe_mira_arcachon_43b3d4df83.jpg</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/kalouf_2020_crabe_mira_arcachon_2_185023fa99.jpg</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/kalouf_2020_crabe_mira_arcachon_1_b9af8611f6.jpg</image:loc>
+</image:image>
+<video:video>
+       <video:thumbnail_loc>https://www.grldfaure.xyz/uploads/cover_kalouf_2020_crabe_mira_arcachon_43b3d4df83.jpg</video:thumbnail_loc>
+       <video:title>Crabe Mira
+      </video:title>
+       <video:description>
+        Réalisation à l’occasion de l’Art Week de la Teste de Bushe sur la terrasse extérieure de la Brasserie Mira.
+      </video:description>
+       <video:content_loc>
+        https://www.grldfaure.xyz/uploads/clip_kalouf_2020_mira_arcachon_11c3d61cd7.mp4
+      </video:content_loc>
+       <video:duration>148</video:duration>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader info="https://www.blast-art.art">
+        Collectif Blast
+       </video:uploader>
+       <video:live>no</video:live>
+  </video:video>
+  <lastmod>2021-04-09T09:29:51+00:00</lastmod>
 </url>
 <url>
   <loc>https://blast-art.art/projet/romain-lardanchet-artemesia</loc>
-  <lastmod>2021-03-25T15:29:51+00:00</lastmod>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/Artemisia_3_475e252b15.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/Artemisia_2_a64fcc54c3.jpg</image:loc>
+  </image:image>
+  <lastmod>2021-04-09T09:29:51+00:00</lastmod>
 </url>
 <url>
   <loc>https://blast-art.art/projet/kalouf-sudan</loc>
-  <lastmod>2021-03-25T15:29:51+00:00</lastmod>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/cover_kalouf_sudan_aafa852a30.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/kalouf_sudan_7_1635b6fde6.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/kalouf_sudan_4_c95e69cad9.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/kalouf_sudan_1_96f8e0d365.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/kalouf_sudan_6_7cfb674715.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/kalouf_sudan_9_d11bfc2570.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/kalouf_sudan_2_18489133f6.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/kalouf_sudan_8_491c7f0dc5.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/kalouf_sudan_5_defa407c56.jpg</image:loc>
+  </image:image>
+  <video:video>
+       <video:thumbnail_loc>https://www.grldfaure.xyz/uploads/Pelican_2_compress_3209f7e47c.jpg</video:thumbnail_loc>
+       <video:title>PÉLICAN
+      </video:title>
+       <video:description>
+        Symbole d'une cohabitation harmonieuse entre faune et milieu urbain, cette fresque murale de 40m2 à été réalisée au printemps 2019 à Tassin la Demi Lune.
+      </video:description>
+       <video:content_loc>
+        https://www.grldfaure.xyz/uploads/Pelican_Compress_c451640956.mp4
+      </video:content_loc>
+       <video:duration>271</video:duration>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader info="https://www.blast-art.art">
+        Collectif Blast
+       </video:uploader>
+       <video:live>no</video:live>
+  </video:video>
+  <lastmod>2021-04-09T09:29:51+00:00</lastmod>
 </url>
 <url>
   <loc>https://blast-art.art/projet/kalouf-pelican</loc>
-  <lastmod>2021-03-25T15:29:51+00:00</lastmod>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/Pelican_2_compress_2_442975ae1d.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/Pelican_2_compress_3209f7e47c.jpg</image:loc>
+  </image:image>
+  <lastmod>2021-04-09T09:29:51+00:00</lastmod>
 </url>
 <url>
   <loc>https://blast-art.art/projet/kalouf-silence-des-oiseaux</loc>
-  <lastmod>2021-03-25T15:29:51+00:00</lastmod>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/kalouf_2019_le_silence_des_oiseaux_rillieux_la_pape_2_cedde4a9f7.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/kalouf_2019_le_silence_des_oiseaux_rillieux_la_pape_1_ef9cd3c693.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/cover_kalouf_2019_le_silence_des_oiseaux_rillieux_la_pape_9514d41514.jpg</image:loc>
+  </image:image>
+  <video:video>
+       <video:thumbnail_loc>https://www.grldfaure.xyz/uploads/cover_kalouf_2019_le_silence_des_oiseaux_rillieux_la_pape_9514d41514.jpg</video:thumbnail_loc>
+       <video:title>LE SILENCE DES OISEAUX
+      </video:title>
+       <video:description>
+        “Le silence des oiseaux” est une fresque murale de 100m2, réalisée fin octobre 2019 à Rilleux-la-pape. Le projet artistique met l’accent sur une problématique de nos territoires : la disparition des oiseaux en milieu agricole.
+      </video:description>
+       <video:content_loc>
+        https://www.grldfaure.xyz/uploads/clip_kalouf_silence_oiseaux_rillieux_la_pape_2019_64504ee782.mp4
+      </video:content_loc>
+       <video:duration>171</video:duration>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader info="https://www.blast-art.art">
+        Collectif Blast
+       </video:uploader>
+       <video:live>no</video:live>
+  </video:video>
+  <lastmod>2021-04-09T09:29:51+00:00</lastmod>
 </url>
 <url>
   <loc>https://blast-art.art/projet/kalouf-gorilla-urbaine</loc>
-  <lastmod>2021-03-25T15:29:51+00:00</lastmod>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/kalouf_2019_gorilla_urbaine_lyon_2_2d1236b0e3.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/kalouf_2019_gorilla_urbaine_lyon_1_1f19288e6d.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/cover_kalouf_2019_gorilla_urbaine_lyon_80acbd09c9.jpg</image:loc>
+  </image:image>
+  <video:video>
+       <video:thumbnail_loc>https://www.grldfaure.xyz/uploads/cover_kalouf_2019_gorilla_urbaine_lyon_80acbd09c9.jpg</video:thumbnail_loc>
+       <video:title>GORILLA URBAINE
+      </video:title>
+       <video:description>
+        L’oeuvre « Gorilla Urbaine » est une fresque murale éphémère XXL de plus de 2000 m2 réalisée du 8 au 26 Juillet 2019 sur la façade de l’ancien hôtel Novotel à Lyon (France).
+      </video:description>
+       <video:content_loc>
+        https://www.grldfaure.xyz/uploads/clip_kalouf_gorilla_urbaine_lyon_2019_950259e003.mp4
+      </video:content_loc>
+       <video:duration>232</video:duration>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader info="https://www.blast-art.art">
+        Collectif Blast
+       </video:uploader>
+       <video:live>no</video:live>
+  </video:video>
+  <lastmod>2021-04-09T09:29:51+00:00</lastmod>
 </url>
 <url>
   <loc>https://blast-art.art/projet/kalouf-dessine-moi-renard</loc>
-  <lastmod>2021-03-25T15:29:51+00:00</lastmod>
+ <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/kalouf_2019_dessine_moi_un_renard_lyon_2_55e1d494e3.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/cover_kalouf_2019_dessine_moi_un_renard_lyon_ed33737188.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/kalouf_2019_dessine_moi_un_renard_lyon_1_669fe62f75.jpg</image:loc>
+  </image:image>
+  <video:video>
+       <video:thumbnail_loc>https://www.grldfaure.xyz/uploads/cover_kalouf_2019_dessine_moi_un_renard_lyon_ed33737188.jpg</video:thumbnail_loc>
+       <video:title>DESSINE-MOI… UN RENARD
+      </video:title>
+       <video:description>
+        "Dessine moi…un Renard" , est une fresque murale de 250m2 réalisée en septembre/octobre 2019, pendant quinze jours, sur un mur du centre hospitalier Léon Bérard à Lyon.
+      </video:description>
+       <video:content_loc>
+        https://www.grldfaure.xyz/uploads/Clip_Kalouf_Dessine_Moi_Un_Renard_Lyon_2019_a8761d3328.mp4
+      </video:content_loc>
+       <video:duration>212</video:duration>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader info="https://www.blast-art.art">
+        Collectif Blast
+       </video:uploader>
+       <video:live>no</video:live>
+  </video:video>
+  <lastmod>2021-04-09T09:29:51+00:00</lastmod>
 </url>
 <url>
   <loc>https://blast-art.art/projet/kalouf-bus-tcl</loc>
-  <lastmod>2021-03-25T15:29:51+00:00</lastmod>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/kalouf_2019_tcl_lyon_2_8efd09f747.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/cover_kalouf_2019_tcl_lyon_0ebca6c77d.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/kalouf_2019_tcl_lyon_1_3769681a9b.jpg</image:loc>
+  </image:image>
+  <lastmod>2021-04-09T09:29:51+00:00</lastmod>
 </url>
 <url>
   <loc>https://blast-art.art/projet/blast-bestiaire</loc>
-  <lastmod>2021-03-25T15:29:51+00:00</lastmod>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/blast_2019_bestiaire_5_6517c3d70b.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/blast_2019_bestiaire_9_f1e0b72a6a.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/blast_2019_bestiaire_45_59e8b1f803.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/blast_2019_bestiaire_37_b3bbaaf78b.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/cover_blast_2019_bestiaire_b9ab46837d.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/blast_2019_bestiaire_8_743ae1f17e.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/blast_2019_bestiaire_10_2428d0ef7c.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/blast_2019_bestiaire_12_7a82d235da.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/blast_2019_bestiaire_4_a1adcc053d.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/blast_2019_bestiaire_7_0397ebb174.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/blast_2019_bestiaire_35_fc9eebf598.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/blast_2019_bestiaire_53_c7ed98c9cb.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/blast_2019_bestiaire_15_5c6cda0c90.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/blast_2019_bestiaire_34_54f5a575fc.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/blast_2019_bestiaire_43_6fa36d3d5a.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/blast_2019_bestiaire_14_7a83d5af92.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/blast_2019_bestiaire_6_8457304a25.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/blast_2019_bestiaire_18_3fae479916.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/blast_2019_bestiaire_2_e88359ed04.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/blast_2019_bestiaire_33_4ffdad014b.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/blast_2019_bestiaire_19_fe71125f90.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/blast_2019_bestiaire_28_e77f1fe300.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/blast_2019_bestiaire_3_c5e3b1e5ee.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/blast_2019_bestiaire_24_9576ea3ec2.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/blast_2019_bestiaire_22_7f7cf3c098.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/blast_2019_bestiaire_27_e2cb69998a.jpg</image:loc>
+  </image:image>
+  <video:video>
+       <video:thumbnail_loc>https://www.grldfaure.xyz/uploads/BESTIAIRE_2_cc027afcd9.jpg</video:thumbnail_loc>
+       <video:title>BESTIAIRE
+      </video:title>
+       <video:description>
+        Au premier étage d’un immeuble chic de la presqu’île lyonnaise, près de la place Bellecour, le collectif Blast a installé sa ménagerie pendant 15 jours.
+      </video:description>
+       <video:content_loc>
+        https://www.grldfaure.xyz/uploads/teaser_expo_blast_e19f192afb.mp4
+      </video:content_loc>
+       <video:duration>67</video:duration>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader info="https://www.blast-art.art">
+        Collectif Blast
+       </video:uploader>
+       <video:live>no</video:live>
+  </video:video>
+  <lastmod>2021-04-09T09:29:51+00:00</lastmod>
 </url>
 <url>
   <loc>https://blast-art.art/projet/kalouf-grue-royale</loc>
-  <lastmod>2021-03-25T15:29:51+00:00</lastmod>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/cover_kalouf_st_germain_en_laye_2018_119075b7ab.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/kalouf_st_germain_en_laye_2018_1_3b965ff257.jpg</image:loc>
+  </image:image>
+  <lastmod>2021-04-09T09:29:51+00:00</lastmod>
 </url>
 <url>
   <loc>https://blast-art.art/projet/romain-lardanchet-ajax</loc>
-  <lastmod>2021-03-25T15:29:51+00:00</lastmod>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/Ajax_1_f3a7534ff5.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/Ajax_3_c9561fca1e.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/Ajax_7_1c2c2671c4.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/Ajax_5_e56ae89145.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/Ajax_6_65ec247640.jpg</image:loc>
+  </image:image>
+  <lastmod>2021-04-09T09:29:51+00:00</lastmod>
 </url>
 <url>
   <loc>https://blast-art.art/projet/blast-terminal</loc>
-  <lastmod>2021-03-25T15:29:51+00:00</lastmod>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/Le_terminal_6_f1166dcfd8.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/Le_terminal_2_c61b2aa5e4.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/Le_terminal_4_f471b7b834.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/Le_terminal_1_fb2e79ccff.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/Le_terminal_15_af4e6edce3.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/Terminal_6_26778f957c.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/Terminal_7_2f59ad4261.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/Terminal_3_47f9b65043.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/Terminal_2_1758f77eb0.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/Terminal_10_7aed2468b8.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/Terminal_12_458c0688a0.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/Terminal_11_b2f4704018.jpg</image:loc>
+  </image:image>
+  <lastmod>2021-04-09T09:29:51+00:00</lastmod>
 </url>
 <url>
   <loc>https://blast-art.art/projet/kalouf-combattant</loc>
-  <lastmod>2021-03-25T15:29:51+00:00</lastmod>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/kalouf_2017_combattant_lyon_3_40e1cc63da.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/cover_kalouf_2017_combattant_lyon_ae7e991ffa.jpg</image:loc>
+  </image:image>
+  <video:video>
+       <video:thumbnail_loc>https://www.grldfaure.xyz/uploads/cover_kalouf_2017_combattant_lyon_ae7e991ffa.jpg</video:thumbnail_loc>
+       <video:title>LE COMBATTANT
+      </video:title>
+       <video:description>
+        En collaboration avec l'association LE M.U.R 69, cette fresque murale a été réalisée en mai 2017 au cœur de Lyon, Place des Tapis sur le plateau de la Croix rousse.
+      </video:description>
+       <video:content_loc>
+        https://www.grldfaure.xyz/uploads/clip_kalouf_combattant_lyon_2017_bca329c05c.mp4
+      </video:content_loc>
+       <video:duration>177</video:duration>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader info="https://www.blast-art.art">
+        Collectif Blast
+       </video:uploader>
+       <video:live>no</video:live>
+  </video:video>
+  <lastmod>2021-04-09T09:29:51+00:00</lastmod>
 </url>
 <url>
   <loc>https://blast-art.art/projet/blast-endormi</loc>
-  <lastmod>2021-03-25T15:29:51+00:00</lastmod>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/blast_2017_endormi_tahiti_47ba29cbc1.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/cover_kalouf_2017_endormi_tahiti_435f29136c.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/kalouf_2017_endormi_tahiti_c949791120.jpg</image:loc>
+  </image:image>
+  <video:video>
+       <video:thumbnail_loc>https://www.grldfaure.xyz/uploads/kalouf_2017_endormi_tahiti_c949791120.jpg</video:thumbnail_loc>
+       <video:title>L'ENDORMI
+      </video:title>
+       <video:description>
+        Festival international graffiti Ono'u 2017
+      </video:description>
+       <video:content_loc>
+        https://www.grldfaure.xyz/uploads/clip_blast_art_endormi_tahiti_2017_9857441bcb.mp4
+      </video:content_loc>
+       <video:duration>89</video:duration>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader info="https://www.blast-art.art">
+        Collectif Blast
+       </video:uploader>
+       <video:live>no</video:live>
+  </video:video>
+  <lastmod>2021-04-09T09:29:51+00:00</lastmod>
 </url>
 <url>
   <loc>https://blast-art.art/projet/kalouf-space-jungle</loc>
-  <lastmod>2021-03-25T15:29:51+00:00</lastmod>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/cover_kalouf_2016_space_jungle_guyane_43a4300797.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/Capture_d_ecran_2021_03_27_a_19_32_43_8367324aa6.png</image:loc>
+  </image:image>
+  <lastmod>2021-04-09T09:29:51+00:00</lastmod>
 </url>
 <url>
   <loc>https://blast-art.art/projet/romain-lardanchet-vortex-plastica</loc>
-  <lastmod>2021-03-25T15:29:51+00:00</lastmod>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_2016_vortex_plastica_80_cyanocitus_plastica_bbc512bbf4.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_2016_vortex_plastica_69_ara_vortex_plastica_012d46b104.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_2016_vortex_plastica_10_grapsus_plastica_69dd62660c.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_2016_vortex_plastica_84_mecamorphose1_7b7f35eab1.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_2016_vortex_plastica_18_leo_vortex_plastica_13407e4bea.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_2016_vortex_plastica_16_paguroidea_plastica_19dc39f15a.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_2016_vortex_plastica_03_prionaceus_plastica_4b6720c1f9.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_2016_vortex_plastica_82_cortex_plastica_2e76070a41.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_2016_vortex_plastica_22_felis_plastica_9fea3e8b74.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_2016_vortex_plastica_02_chelonia_plastica_185435bad1.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_2016_vortex_plastica_35_mecamorphosa_coccinellidae_1cdf14f091.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_2016_vortex_plastica_76_pavo_plastica_a3eeb8c074.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_2016_vortex_plastica_36_mecamorphosa_polyphaga_7987174aaf.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_2016_vortex_plastica_15_caridea_plastica_indica_f3cb6503ff.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_2016_vortex_plastica_54_mecamorphosa_cassidyla_14a2486054.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_2016_vortex_plastica_12_mecamorphosa_arthropodis_e4267eb5b3.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_2016_vortex_plastica_55_mecamorphosa_ateca_be6bf00878.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_2016_vortex_plastica_28_mecamorphosa_gemini_eaef7ecb48.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_2016_vortex_plastica_83_libidopteres_35dd62d4e4.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_2016_vortex_plastica_85_hematite_GP_4045399028.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_2016_vortex_plastica_65_mecamorphosa_viviparus_0b59b67dd0.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_2016_vortex_plastica_34_mecamorphosa_goliathus_0a5138fa63.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_2016_vortex_plastica_74_thalassinus_plastica_indica_e78cc6bca2.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_2016_vortex_plastica_07_pygocentrus_plastica_8a272159cd.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_2016_vortex_plastica_14_caridea_plastica_atlantica_e4b3b6903a.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_2016_vortex_plastica_73_thalassinus_plastica_atlantica_3ab355f0a9.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_2016_vortex_plastica_78_aquila_plastica_d75e01f574.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_2016_vortex_plastica_46_mecamorphosa_paleoptera_dfd9b15796.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_2016_vortex_plastica_05_pterois_plastica_atlantica_465b6f2765.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_2016_vortex_plastica_70_cacatoes_plastica_4c9aa61e31.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_2016_vortex_plastica_71_gruidae_plastica_6d041fe478.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_2016_vortex_plastica_06_pterois_plastica_indica_c020802061.jpg</image:loc>
+  </image:image>
+  <lastmod>2021-04-09T09:29:51+00:00</lastmod>
 </url>
 <url>
   <loc>https://blast-art.art/projet/romain-lardanchet-gustave</loc>
-  <lastmod>2021-03-25T15:29:51+00:00</lastmod>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/cover_romain_lardanchet_gustave_a565ade5d5.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_lardanchet_gustave_by_night_cd8d4f8913.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_lardanchet_gustave_1_f5fad011d3.png</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_lardanchet_gustave_2_8ea1472dc2.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_2016_vortex_plastica_46_mecamorphosa_paleoptera_dfd9b15796.jpg</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.grldfaure.xyz/uploads/romain_2016_vortex_plastica_05_pterois_plastica_atlantica_465b6f2765.jpg</image:loc>
+  </image:image>
+  <video:video>
+       <video:thumbnail_loc>https://www.grldfaure.xyz/uploads/cover_romain_lardanchet_gustave_a565ade5d5.jpg</video:thumbnail_loc>
+       <video:title>GUSTAVE Jurassic Spark
+      </video:title>
+       <video:description>
+        Gustave a été finalisé le 29 Mai 2015, il pèse 1600 kg et va très bien.
+      </video:description>
+       <video:content_loc>
+        https://www.grldfaure.xyz/uploads/clip_romain_gustave_fetes_des_lumieres_jurassic_spark_bbc9601d75.mp4
+      </video:content_loc>
+       <video:duration>118</video:duration>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader info="https://www.blast-art.art">
+        Collectif Blast
+       </video:uploader>
+       <video:live>no</video:live>
+  </video:video>
+  <video:video>
+       <video:thumbnail_loc>https://www.grldfaure.xyz/uploads/cover_romain_lardanchet_gustave_a565ade5d5.jpg</video:thumbnail_loc>
+       <video:title>Gustave Hyperlapse
+      </video:title>
+       <video:description>
+        140m de tube acier, 4 mois de travail.
+      </video:description>
+       <video:content_loc>
+        https://www.grldfaure.xyz/uploads/clip_romain_gustave_time_laps_4b99b636a1.mp4
+      </video:content_loc>
+       <video:duration>21</video:duration>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader info="https://www.blast-art.art">
+        Collectif Blast
+       </video:uploader>
+       <video:live>no</video:live>
+  </video:video>
+  <lastmod>2021-04-09T09:29:51+00:00</lastmod>
 </url>
 <url>
   <loc>https://blast-art.art/video</loc>
-  <lastmod>2021-03-25T15:29:51+00:00</lastmod>
+  <video:video>
+       <video:thumbnail_loc>https://www.grldfaure.xyz/uploads/Piece_maitresse_2_ef5a0910ae.jpg</video:thumbnail_loc>
+       <video:title>Kalouf Pièce Maîtresse</video:title>
+       <video:description>Sur une idée originale de @LapieceMaîtresse.fr, cette œuvre a été réalisée au "Zoo Art Show".
+      </video:description>
+       <video:content_loc>
+        https://www.grldfaure.xyz/uploads/Piece_maitresse_e0c9cd7fdd.mp4
+      </video:content_loc>
+       <video:duration>121</video:duration>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader info="https://www.blast-art.art">
+        Collectif Blast
+       </video:uploader>
+       <video:live>no</video:live>
+  </video:video>
+  <video:video>
+       <video:thumbnail_loc>https://www.grldfaure.xyz/uploads/1_a563602c55.jpg</video:thumbnail_loc>
+       <video:title>Blast art exposition Symbioses</video:title>
+       <video:description>
+        L’idée première du projet fut de créer une exposition dans la rue pour sensibiliser sur ce phénomène de symbiose. Depuis des millénaires, elle épanouit la vie sur terre, pour une adaptation des espèces dans leur environnement. 
+      </video:description>
+       <video:content_loc>
+        https://www.grldfaure.xyz/uploads/master_symbioses_dff02a11e5.mp4      </video:content_loc>
+       <video:duration>179</video:duration>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader info="https://www.blast-art.art">
+        Collectif Blast
+       </video:uploader>
+       <video:live>no</video:live>
+     </video:video>
+     <video:video>
+       <video:thumbnail_loc>https://www.grldfaure.xyz/uploads/Aigle_bateleur_4_6efa2eb08d.jpg</video:thumbnail_loc>
+       <video:title>LE MUR de la Motte-Servolex est un projet artistique qui s'inspire de l'association LE M.U.R fondée en 2013 à Paris.
+      </video:title>
+       <video:description>
+        Le Bateleur des savanes, magnifique rapace acrobate qui doit son nom à la faculté de réaliser des parades nuptiales particulièrement spectaculaires et remarquées. Les persécutions et la perte de l'habitat sont les menaces les plus importantes qui pèsent sur cet oiseau africain terriblement esthétique!
+      </video:description>
+       <video:content_loc>
+        https://www.grldfaure.xyz/uploads/Aigle_Bateleur_bfe36686ba.mp4      </video:content_loc>
+       <video:duration>185</video:duration>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader info="https://www.blast-art.art">
+        Collectif Blast
+       </video:uploader>
+       <video:live>no</video:live>
+     </video:video>
+     <video:video>
+       <video:thumbnail_loc>https://www.grldfaure.xyz/uploads/cover_kalouf_2020_strasbourg_1_81bcc68a02.jpg</video:thumbnail_loc>
+       <video:title>INVASION
+      </video:title>
+       <video:description>
+        la planète nous survivra, alors partageons-là sainement avec les autres espèces où elle nous échappera! 
+      </video:description>
+       <video:content_loc>
+        https://www.grldfaure.xyz/uploads/Invasion_Compress_ce3247667f.mp4      </video:content_loc>
+       <video:duration>114</video:duration>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader info="https://www.blast-art.art">
+        Collectif Blast
+       </video:uploader>
+       <video:live>no</video:live>
+     </video:video>
+     <video:video>
+       <video:thumbnail_loc>https://www.grldfaure.xyz/uploads/cover_kalouf_osa_a0f45673d9.jpg</video:thumbnail_loc>
+       <video:title>RÊVER SON HORIZON
+      </video:title>
+       <video:description>
+        Mur peint par Kalouf.
+      </video:description>
+       <video:content_loc>
+        https://www.grldfaure.xyz/uploads/Rever_Son_Horizon_720_6a92fb4e4c.mp4      </video:content_loc>
+       <video:duration>93</video:duration>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader info="https://www.blast-art.art">
+        Collectif Blast
+       </video:uploader>
+       <video:live>no</video:live>
+  </video:video>
+  <video:video>
+       <video:thumbnail_loc>https://www.grldfaure.xyz/uploads/cover_kalouf_2020_crabe_mira_arcachon_43b3d4df83.jpg</video:thumbnail_loc>
+       <video:title>Crabe Mira
+      </video:title>
+       <video:description>
+        Réalisation à l’occasion de l’Art Week de la Teste de Bushe sur la terrasse extérieure de la Brasserie Mira.
+      </video:description>
+       <video:content_loc>
+        https://www.grldfaure.xyz/uploads/clip_kalouf_2020_mira_arcachon_11c3d61cd7.mp4
+      </video:content_loc>
+       <video:duration>148</video:duration>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader info="https://www.blast-art.art">
+        Collectif Blast
+       </video:uploader>
+       <video:live>no</video:live>
+  </video:video>
+  <video:video>
+       <video:thumbnail_loc>https://www.grldfaure.xyz/uploads/Pelican_2_compress_3209f7e47c.jpg</video:thumbnail_loc>
+       <video:title>PÉLICAN
+      </video:title>
+       <video:description>
+        Symbole d'une cohabitation harmonieuse entre faune et milieu urbain, cette fresque murale de 40m2 à été réalisée au printemps 2019 à Tassin la Demi Lune.
+      </video:description>
+       <video:content_loc>
+        https://www.grldfaure.xyz/uploads/Pelican_Compress_c451640956.mp4
+      </video:content_loc>
+       <video:duration>271</video:duration>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader info="https://www.blast-art.art">
+        Collectif Blast
+       </video:uploader>
+       <video:live>no</video:live>
+  </video:video>
+  <video:video>
+       <video:thumbnail_loc>https://www.grldfaure.xyz/uploads/cover_kalouf_2019_le_silence_des_oiseaux_rillieux_la_pape_9514d41514.jpg</video:thumbnail_loc>
+       <video:title>LE SILENCE DES OISEAUX
+      </video:title>
+       <video:description>
+        “Le silence des oiseaux” est une fresque murale de 100m2, réalisée fin octobre 2019 à Rilleux-la-pape. Le projet artistique met l’accent sur une problématique de nos territoires : la disparition des oiseaux en milieu agricole.
+      </video:description>
+       <video:content_loc>
+        https://www.grldfaure.xyz/uploads/clip_kalouf_silence_oiseaux_rillieux_la_pape_2019_64504ee782.mp4
+      </video:content_loc>
+       <video:duration>171</video:duration>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader info="https://www.blast-art.art">
+        Collectif Blast
+       </video:uploader>
+       <video:live>no</video:live>
+  </video:video>
+  <video:video>
+       <video:thumbnail_loc>https://www.grldfaure.xyz/uploads/cover_kalouf_2019_gorilla_urbaine_lyon_80acbd09c9.jpg</video:thumbnail_loc>
+       <video:title>GORILLA URBAINE
+      </video:title>
+       <video:description>
+        L’oeuvre « Gorilla Urbaine » est une fresque murale éphémère XXL de plus de 2000 m2 réalisée du 8 au 26 Juillet 2019 sur la façade de l’ancien hôtel Novotel à Lyon (France).
+      </video:description>
+       <video:content_loc>
+        https://www.grldfaure.xyz/uploads/clip_kalouf_gorilla_urbaine_lyon_2019_950259e003.mp4
+      </video:content_loc>
+       <video:duration>232</video:duration>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader info="https://www.blast-art.art">
+        Collectif Blast
+       </video:uploader>
+       <video:live>no</video:live>
+  </video:video>
+  <video:video>
+       <video:thumbnail_loc>https://www.grldfaure.xyz/uploads/cover_kalouf_2019_dessine_moi_un_renard_lyon_ed33737188.jpg</video:thumbnail_loc>
+       <video:title>DESSINE-MOI… UN RENARD
+      </video:title>
+       <video:description>
+        "Dessine moi…un Renard" , est une fresque murale de 250m2 réalisée en septembre/octobre 2019, pendant quinze jours, sur un mur du centre hospitalier Léon Bérard à Lyon.
+      </video:description>
+       <video:content_loc>
+        https://www.grldfaure.xyz/uploads/Clip_Kalouf_Dessine_Moi_Un_Renard_Lyon_2019_a8761d3328.mp4
+      </video:content_loc>
+       <video:duration>212</video:duration>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader info="https://www.blast-art.art">
+        Collectif Blast
+       </video:uploader>
+       <video:live>no</video:live>
+  </video:video>
+  <video:video>
+       <video:thumbnail_loc>https://www.grldfaure.xyz/uploads/BESTIAIRE_2_cc027afcd9.jpg</video:thumbnail_loc>
+       <video:title>BESTIAIRE
+      </video:title>
+       <video:description>
+        Au premier étage d’un immeuble chic de la presqu’île lyonnaise, près de la place Bellecour, le collectif Blast a installé sa ménagerie pendant 15 jours.
+      </video:description>
+       <video:content_loc>
+        https://www.grldfaure.xyz/uploads/teaser_expo_blast_e19f192afb.mp4
+      </video:content_loc>
+       <video:duration>67</video:duration>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader info="https://www.blast-art.art">
+        Collectif Blast
+       </video:uploader>
+       <video:live>no</video:live>
+  </video:video>
+  <video:video>
+       <video:thumbnail_loc>https://www.grldfaure.xyz/uploads/Terminal_2_1758f77eb0.jpg</video:thumbnail_loc>
+       <video:title>Le Terminal
+      </video:title>
+       <video:description>
+        Le collectif d’archéologues BLAST a été contacté par l’un de leurs proches amis désireux de leur faire part de l’étonnante et étrange découverte qu’il venait de faire : un bâtiment condamné et décrépit en plein cœur de la Ville de LYON…
+      </video:description>
+       <video:content_loc>
+        https://www.grldfaure.xyz/uploads/Terminal_Teaser_Complet_37a4b17817.mp4
+      </video:content_loc>
+       <video:duration>132</video:duration>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader info="https://www.blast-art.art">
+        Collectif Blast
+       </video:uploader>
+       <video:live>no</video:live>
+  </video:video>
+  <video:video>
+       <video:thumbnail_loc>https://www.grldfaure.xyz/uploads/cover_kalouf_2017_combattant_lyon_ae7e991ffa.jpg</video:thumbnail_loc>
+       <video:title>LE COMBATTANT
+      </video:title>
+       <video:description>
+        En collaboration avec l'association LE M.U.R 69, cette fresque murale a été réalisée en mai 2017 au cœur de Lyon, Place des Tapis sur le plateau de la Croix rousse.
+      </video:description>
+       <video:content_loc>
+        https://www.grldfaure.xyz/uploads/clip_kalouf_combattant_lyon_2017_bca329c05c.mp4
+      </video:content_loc>
+       <video:duration>177</video:duration>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader info="https://www.blast-art.art">
+        Collectif Blast
+       </video:uploader>
+       <video:live>no</video:live>
+  </video:video>
+  <video:video>
+       <video:thumbnail_loc>https://www.grldfaure.xyz/uploads/kalouf_2017_endormi_tahiti_c949791120.jpg</video:thumbnail_loc>
+       <video:title>L'ENDORMI
+      </video:title>
+       <video:description>
+        Festival international graffiti Ono'u 2017
+      </video:description>
+       <video:content_loc>
+        https://www.grldfaure.xyz/uploads/clip_blast_art_endormi_tahiti_2017_9857441bcb.mp4
+      </video:content_loc>
+       <video:duration>89</video:duration>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader info="https://www.blast-art.art">
+        Collectif Blast
+       </video:uploader>
+       <video:live>no</video:live>
+  </video:video>
+  <video:video>
+       <video:thumbnail_loc>https://www.grldfaure.xyz/uploads/cover_kalouf_2016_space_jungle_guyane_43a4300797.jpg</video:thumbnail_loc>
+       <video:title>Space Jungle
+      </video:title>
+       <video:description>
+        La Guyane Française, ce beau département d'outre-mer m’accueille une nouvelle fois en novembre 2016 avec l'opportunité de réaliser deux fresques sur façade, dans le centre ville de Kourou.
+      </video:description>
+       <video:content_loc>
+        https://www.grldfaure.xyz/uploads/Space_Jungle_Kourou_14915ee11f.mp4
+      </video:content_loc>
+       <video:duration>108</video:duration>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader info="https://www.blast-art.art">
+        Collectif Blast
+       </video:uploader>
+       <video:live>no</video:live>
+  </video:video>
+  <video:video>
+       <video:thumbnail_loc>https://www.grldfaure.xyz/uploads/cover_romain_lardanchet_gustave_a565ade5d5.jpg</video:thumbnail_loc>
+       <video:title>GUSTAVE Jurassic Spark
+      </video:title>
+       <video:description>
+        Gustave a été finalisé le 29 Mai 2015, il pèse 1600 kg et va très bien.
+      </video:description>
+       <video:content_loc>
+        https://www.grldfaure.xyz/uploads/clip_romain_gustave_fetes_des_lumieres_jurassic_spark_bbc9601d75.mp4
+      </video:content_loc>
+       <video:duration>118</video:duration>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader info="https://www.blast-art.art">
+        Collectif Blast
+       </video:uploader>
+       <video:live>no</video:live>
+  </video:video>
+  <video:video>
+       <video:thumbnail_loc>https://www.grldfaure.xyz/uploads/cover_romain_lardanchet_gustave_a565ade5d5.jpg</video:thumbnail_loc>
+       <video:title>Gustave Hyperlapse
+      </video:title>
+       <video:description>
+        140m de tube acier, 4 mois de travail.
+      </video:description>
+       <video:content_loc>
+        https://www.grldfaure.xyz/uploads/clip_romain_gustave_time_laps_4b99b636a1.mp4
+      </video:content_loc>
+       <video:duration>21</video:duration>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader info="https://www.blast-art.art">
+        Collectif Blast
+       </video:uploader>
+       <video:live>no</video:live>
+  </video:video>
+  <lastmod>2021-04-09T09:29:51+00:00</lastmod>
 </url>
 <url>
   <loc>https://blast-art.art/collectif</loc>
