@@ -47,8 +47,22 @@
 
 <SvelteSeo
   description="Boutique du collectif Blast. Trouvez votre impression 3D préférés ou des reproductions d'oeuvres en poster 
-  ou print des oeuvres de Kalouf, Romain Lardanchet et Fabe Collage"
+  et print des oeuvres de Kalouf, Romain Lardanchet et Fabe Collage"
   title="Boutique du collectif Blast où vous pouvez achetez des oeuvres originales et des reproductions"
+  openGraph={{
+    type: "article",
+    title: "Boutique du collectif blast",
+      description: "Trouvez votre impression 3D préférés ou des reproductions d'oeuvres en poster et print des oeuvres de Kalouf, Romain Lardanchet et Fabe Collage ",
+      url: "https://blast-art.art/shop",
+      images: [
+        {
+          url: "https://blast-art.art/logo-512.png",
+          width: 759,
+          height: 585,
+          alt: "Logo Blast art",
+        },
+      ],
+    }}
 />
 
   <div class="all">

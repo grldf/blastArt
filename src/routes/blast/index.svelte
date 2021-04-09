@@ -59,6 +59,7 @@ let imageShowIndex = 1;
   travaux sont rendus au travers des photos de FabeCollage et des vidéos de Jean-Pierre(staffvidéo)"
   title="Projets réalisés par le collectif Blastart. Fresques, graphes sculptures les artistes relèvent tous les défis"
   openGraph={{
+  type: "article",
   title: "Projets réalisés par le collectif Blastart",
     description: "Présentaion des différents projets réalisés par le collectif Blastart, comme l'expositions unique le terminal. ",
     url: "https://blast-art.art/blast",

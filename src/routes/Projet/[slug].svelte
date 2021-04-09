@@ -91,13 +91,14 @@
 
     <SvelteSeo description={info.description} title={info.titre} 
                 openGraph={{
+                  type: "article",
                   title: info.titre,
                     description: info.description ,
                     url: urlSlug + "projet/".Slug,
                     images: [
                       {
                         url: info.galery.url,
-                        alt: info.titre,
+                        alt: info.description,
                       },
                     ],
                   }}
