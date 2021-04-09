@@ -48,7 +48,7 @@
   {#each liens as article}
   <a href={article.lien} target="_blank">
     <article>
-      <img src={urlpApi + article.logoSite.url} alt={article.commentaire} />
+      <img src={urlpApi + article.logoSite.url} alt="lien vers l'article sur le projet  {article.commentaire}" />
       <p>
           {article.commentaire} 
       </p>

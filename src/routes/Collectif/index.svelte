@@ -59,7 +59,7 @@
 {/if}
   <style>
     .content{
-        font-family: interstate;
+        font-family: interstate ;
         padding: 60px 0 0; 
         display: flex;
         flex-direction: column;

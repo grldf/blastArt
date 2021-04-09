@@ -10,7 +10,7 @@
     <a
       rel="prefetch"
       aria-current={segment === undefined ? "page" : undefined}
-      href="/"><img src="logo.png" alt="Blast Art Logo" /></a
+      href="/"><h1><img src="logo.png" alt="Site du collectif d'artistes Blast art" /></h1></a
     >
     <a
       rel="prefetch"
@@ -285,6 +285,10 @@
     border-bottom: 1px solid #ef11a1;
     font-weight: 300;
     padding-right: 20px;
+  }
+  h1{
+    padding:0;
+    margin:0;
   }
   svg {
     width: 30px;

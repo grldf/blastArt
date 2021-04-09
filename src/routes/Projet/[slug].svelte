@@ -89,7 +89,19 @@
       </nav>
     </div>
 
-    <SvelteSeo description={info.description} title={info.titre} />
+    <SvelteSeo description={info.description} title={info.titre} 
+                openGraph={{
+                  title: info.titre,
+                    description: info.description ,
+                    url: urlSlug + "projet/".Slug,
+                    images: [
+                      {
+                        url: info.galery.url,
+                        alt: info.titre,
+                      },
+                    ],
+                  }}
+    />
 
     <h2>{info.titre}</h2>
     <div class="text">
@@ -155,7 +167,7 @@
         <Lightbox
           imageUrl={urlpApi + image.url}
           imageShowing={i + 1 === imageShowIndex}
-          alternText={i}
+          alternText={info.titre}
           imgFullSize={"img-" + fullSize}
           videoPoster={urlpApi + info.cover.url}
         />

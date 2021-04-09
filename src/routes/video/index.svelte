@@ -1,6 +1,6 @@
 <script context="module">
     import ApolloClient, { gql } from "apollo-boost";
-
+    import SvelteSeo from "svelte-seo";
 const videoQuery = gql`
   query video {
         jpvideos(sort:"ordre:desc") {
@@ -29,6 +29,12 @@ let urlpApi = "https://www.grldfaure.xyz";
 <script>
     export let videos;
 </script>
+
+<SvelteSeo
+  description="Le collectif Blast art vous amènes à voyager à travers de leurs vidéos. Leur travail très engagé vous poussera
+  également à vous interroger sur notre rapport à la nature. "
+  title="Vidéos présentant le travail du collectif, à travers des murs peints et des expositions."
+/>
 <div class="container">
 
 {#each videos as video}

@@ -82,7 +82,9 @@ import snarkdown from "snarkdown";
     font-weight:lighter;
     color: #3b3b38;
   }
-
+  p{
+    max-width: 100%;
+  }
   aside {
     display: flex;
     align-items: center;
@@ -108,6 +110,7 @@ import snarkdown from "snarkdown";
     article h2 {
       padding-left: 0rem;
     }
+    
     p {
       margin-left: 20px;
     }

@@ -58,6 +58,19 @@ let imageShowIndex = 1;
   terminal, le dinosaure Gustave de Romain Lardanchet et la fresque monumentale Gorilla urbaine réalisé par Kalouf. Ces 
   travaux sont rendus au travers des photos de FabeCollage et des vidéos de Jean-Pierre(staffvidéo)"
   title="Projets réalisés par le collectif Blastart. Fresques, graphes sculptures les artistes relèvent tous les défis"
+  openGraph={{
+  title: "Projets réalisés par le collectif Blastart",
+    description: "Présentaion des différents projets réalisés par le collectif Blastart, comme l'expositions unique le terminal. ",
+    url: "https://blast-art.art/blast",
+    images: [
+      {
+        url: "https://blast-art.art/logo-512.png",
+        width: 759,
+        height: 585,
+        alt: "Logo Blast art",
+      },
+    ],
+  }}
 />
 
 <div>
