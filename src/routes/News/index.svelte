@@ -92,7 +92,7 @@ import snarkdown from "snarkdown";
     margin: 5px;
   }
   img {
-    max-width: 10rem;
+    max-width: 20rem;
   }
 
   
