@@ -40,7 +40,6 @@
     data-item-name={nomProduit}
     data-item-custom1-name={custom1}
     data-item-custom1-options={options1}
-    data-item-custom1-required="true"
     data-item-custom2-name={custom2}
     data-item-custom2-options={options2}
     data-item-custom3-name={custom3}
