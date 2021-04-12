@@ -44,7 +44,6 @@ import snarkdown from "snarkdown";
   <link rel="stylesheet" href="https://use.typekit.net/ixn1cjn.css" />
 </svelte:head>
 <div class="content">
-  <h1>NEWS</h1>
   {#each news as newpub, i}
     <div class="impair">
       <article>
@@ -64,9 +63,7 @@ import snarkdown from "snarkdown";
   {/each}
 </div>
 <style>
-  h1{
-    padding-left: 30px;
-  }
+  
   .content {
     font-family: interstate;
     padding-top: 60px;
@@ -82,8 +79,12 @@ import snarkdown from "snarkdown";
     max-width: 22rem;
     border-bottom: 2px solid #ef11a1;
     text-align: left;
+    font-weight:lighter;
+    color: #3b3b38;
   }
-
+  p{
+    max-width: 100%;
+  }
   aside {
     display: flex;
     align-items: center;
@@ -109,6 +110,7 @@ import snarkdown from "snarkdown";
     article h2 {
       padding-left: 0rem;
     }
+    
     p {
       margin-left: 20px;
     }

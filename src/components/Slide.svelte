@@ -9,11 +9,12 @@
 <div class="mySlides"  class:show={imageShowing} >
   <a href={slug} class="imgLink"><img src={imageUrl} alt={alternText} /></a>
   <div class="infos">
-    <p><a href={slug} class="link">{infos}</a></p>
+    <h1><a href={slug} class="link">{infos}</a></h1>
   </div>
 </div>
 
 <style>
+ 
   .mySlides {
     display: none;
     margin-right: 20px;
@@ -52,7 +53,8 @@
   }
   
   a {
-    color: #000;
+    font-weight:lighter;
+    color: #3b3b38;
     font-size: 1.6rem;
   }
   a:hover {
