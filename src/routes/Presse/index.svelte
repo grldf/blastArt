@@ -37,15 +37,20 @@
   title="La Presse parle de nous. Découvrez des reportages articles, vidéos et interviews de Blast"
 />
 
-<h1>Reportages, interviews...</h1>
-<p class="pdf"><a href="/Symbioses-Article-UrbanArts-Blast.pdf" target="_blank">Cliquez pour lire l'article paru dans Urban Arts sur l'exposition Symbioses</a></p>
 <div class="container">
+  <a href="/Symbioses-Article-UrbanArts-Blast.pdf" target="_blank"><article>
+    <img src="https://www.grldfaure.xyz/uploads/Logo_Urban_Arts_9be6a597ec.JPG" alt="logo urban arts" />
+    <p>
+        Article Symbioses - 2020
+    </p>
+  </article>
+</a>
   {#each liens as article}
-  <a href={article.lien} target="_blank"><article>
-      <img src={urlpApi + article.logoSite.url} alt={article.commentaire} />
+  <a href={article.lien} target="_blank">
+    <article>
+      <img src={urlpApi + article.logoSite.url} alt="lien vers l'article sur le projet  {article.commentaire}" />
       <p>
-          {article.commentaire}
-        
+          {article.commentaire} 
       </p>
     </article>
   </a>
@@ -53,28 +58,18 @@
 </div>
 
 <style>
-  h1{
-    margin-top:60px;
-    padding-left: 20px;
-  }
+  
   img {
     max-width: 100%;
   }
   .container {
-    margin: 15px 20px 0 20px;
+    margin: 65px 20px 40px 20px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 2rem;
     grid-auto-flow: dense;
   }
-  .pdf{
-    text-align:left;
-    margin-left:18px;
-    text-decoration: underline;
-  }
-  .pdf:hover{
-    text-decoration: underline #ef11a1;
-  }
+  
   .container > a >article {
     border: solid 1px #ef11a1;
     align-self: stretch;
@@ -92,9 +87,10 @@
   
   p,
   a {
-    color: #000;
+    color: #21221c;;
     text-align: center;
   }
+  
   a:hover {
     text-decoration: none;
   }
