@@ -1,8 +1,4 @@
-<<<<<<< HEAD:__sapper__/build/client/legacy/bundle.esm.092212bf.js
 import{G as e,H as t}from"./client.3a20442f.js";function r(e,t,r,n,i,o,a){try{var s=e[o](a),u=s.value}catch(e){return void r(e)}s.done?t(u):Promise.resolve(u).then(n,i)}function n(e){return function(){var t=this,n=arguments;return new Promise((function(i,o){var a=e.apply(t,n);function s(e){r(a,i,o,s,u,"next",e)}function u(e){r(a,i,o,s,u,"throw",e)}s(void 0)}))}}function i(e,t){return t||(t=e.slice(0)),Object.freeze(Object.defineProperties(e,{raw:{value:Object.freeze(t)}}))}
-=======
-import{G as e,H as t}from"./client.8c3e8581.js";function r(e,t,r,n,i,o,a){try{var s=e[o](a),u=s.value}catch(e){return void r(e)}s.done?t(u):Promise.resolve(u).then(n,i)}function n(e){return function(){var t=this,n=arguments;return new Promise((function(i,o){var a=e.apply(t,n);function s(e){r(a,i,o,s,u,"next",e)}function u(e){r(a,i,o,s,u,"throw",e)}s(void 0)}))}}function i(e,t){return t||(t=e.slice(0)),Object.freeze(Object.defineProperties(e,{raw:{value:Object.freeze(t)}}))}
->>>>>>> 1f9a40b5c99f0eae01aa05ff77c3b9178dd1ef94:__sapper__/build/client/legacy/bundle.esm.5d70a7d4.js
 /*! *****************************************************************************
 Copyright (c) Microsoft Corporation.
 
