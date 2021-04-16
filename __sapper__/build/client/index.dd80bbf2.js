@@ -1,0 +1,13 @@
+import{S as e,i as s,s as t,e as r,v as o,a,f as l,g as n,w as i,h as c,d,j as u,k as v,l as p,z as f,c as h,b as g,m,t as w,o as $,p as j,r as y}from"./client.11904187.js";import{S as b}from"./SvelteSeo.97b8070c.js";import{g as x,D as E}from"./bundle.esm.a297de33.js";function k(e,s,t){const r=e.slice();return r[1]=s[t],r}function q(e){let s,t,h,g,m,w,$,j,y,b=e[1].titre+"";return{c(){s=r("div"),t=r("h3"),h=o(b),g=a(),m=r("video"),w=r("track"),y=a(),this.h()},l(e){s=l(e,"DIV",{});var r=n(s);t=l(r,"H3",{class:!0});var o=n(t);h=i(o,b),o.forEach(c),g=d(r),m=l(r,"VIDEO",{src:!0,controls:!0,poster:!0,type:!0,preload:!0,class:!0});var a=n(m);w=l(a,"TRACK",{kind:!0}),a.forEach(c),y=d(r),r.forEach(c),this.h()},h(){u(t,"class","svelte-63c1bj"),u(w,"kind","captions"),m.src!==($=z+e[1].video.url)&&u(m,"src",$),m.controls=!0,u(m,"poster",j=z+e[1].cover.url),u(m,"type","video/mp4"),u(m,"preload","none"),u(m,"class","svelte-63c1bj")},m(e,r){v(e,s,r),p(s,t),p(t,h),p(s,g),p(s,m),p(m,w),p(s,y)},p(e,s){1&s&&b!==(b=e[1].titre+"")&&f(h,b),1&s&&m.src!==($=z+e[1].video.url)&&u(m,"src",$),1&s&&j!==(j=z+e[1].cover.url)&&u(m,"poster",j)},d(e){e&&c(s)}}}function D(e){let s,t,o,i;s=new b({props:{description:"Le collectif Blast art vous amènes à voyager à travers de leurs vidéos. Leur travail très engagé vous poussera\n  également à vous interroger sur notre rapport à la nature. ",title:"Vidéos présentant le travail du collectif, à travers des murs peints et des expositions."}});let p=e[0],f=[];for(let s=0;s<p.length;s+=1)f[s]=q(k(e,p,s));return{c(){h(s.$$.fragment),t=a(),o=r("div");for(let e=0;e<f.length;e+=1)f[e].c();this.h()},l(e){g(s.$$.fragment,e),t=d(e),o=l(e,"DIV",{class:!0});var r=n(o);for(let e=0;e<f.length;e+=1)f[e].l(r);r.forEach(c),this.h()},h(){u(o,"class","container svelte-63c1bj")},m(e,r){m(s,e,r),v(e,t,r),v(e,o,r);for(let e=0;e<f.length;e+=1)f[e].m(o,null);i=!0},p(e,[s]){if(1&s){let t;for(p=e[0],t=0;t<p.length;t+=1){const r=k(e,p,t);f[t]?f[t].p(r,s):(f[t]=q(r),f[t].c(),f[t].m(o,null))}for(;t<f.length;t+=1)f[t].d(1);f.length=p.length}},i(e){i||(w(s.$$.fragment,e),i=!0)},o(e){$(s.$$.fragment,e),i=!1},d(e){j(s,e),e&&c(t),e&&c(o),y(f,e)}}}const S=x`
+  query video {
+        jpvideos(sort:"ordre:desc") {
+            titre
+            cover{
+                url
+            }
+  	        video{
+                  url
+                }
+  }
+}
+`;async function V(){const e=new E({uri:"https://www.grldfaure.xyz/graphql",fetch:this.fetch});return{videos:(await e.query({query:S})).data.jpvideos}}let z="https://www.grldfaure.xyz";function I(e,s,t){let{videos:r}=s;return e.$$set=e=>{"videos"in e&&t(0,r=e.videos)},[r]}export default class extends e{constructor(e){super(),s(this,e,I,D,t,{videos:0})}}export{V as preload};
