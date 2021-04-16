@@ -17,7 +17,7 @@
       aria-current={segment === "blast" ? "page" : undefined}
       href="blast">PROJETS</a
     >
-    <a href="http://visite-virtuel.blast-art.fr">VISITE VIRTUEL</a>
+    <a href="http://visite-virtuel.blast-art.fr" target="_blank">VISITE VIRTUEL</a>
     <a
       aria-current={segment === "video" ? "page" : undefined}
       href="video">VIDEO</a
@@ -228,7 +228,7 @@
       aria-current={segment === "blast" ? "page" : undefined}
       href="blast">PROJETS</a
     >
-    <a href="http://visite-virtuel.blast-art.fr">VISITE VIRTUEL</a>
+    <a href="http://visite-virtuel.blast-art.fr" target="_blank">VISITE VIRTUEL</a>
       <a
       rel="prefetch"
       aria-current={segment === "video" ? "page" : undefined}
