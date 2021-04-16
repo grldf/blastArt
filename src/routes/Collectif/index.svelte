@@ -1,6 +1,6 @@
 <script context="module">
     import ApolloClient, { gql } from "apollo-boost";
-  
+    import SvelteSeo from "svelte-seo";
     const membreQuery = gql`
       query membre {
         collectifs(sort: "id:asc") {
@@ -32,9 +32,26 @@
   </script>
   
   <svelte:head>
-    <title>Le collectif</title>
     <link rel="stylesheet" href="https://use.typekit.net/ixn1cjn.css" />
   </svelte:head>
+  <SvelteSeo
+  description= "Créé en 2014, Blast réunit plusieurs artistes urbains et porte ses projets auprès d’entités publiques et privées. Toujours plus monumentale, et toujours plus accessible, c’est avec cette devise que Blast crée sans cesse de nouveaux projets artistiques. A l’​ origine du projet comme l’​ Exposition - oeuvre in-situ « Le Terminal « ​ à Lyon en Juin 2018. Le collectif BLAST propose des œuvres artistiques atypiques grâce à la complémentarité de ces artistes."
+  title= "Portrait des différents membres du collefif Blast Art. Kalouf peintre muraliste, Romain Lardanchet sculpteur et dessinateur, Fabe Collage photographe de la scène urbaine et Jean Pierre spécialisé dans le développement de productions audiovisuelles"
+  openGraph={{
+  type: "article",
+  title: "Les membres du collectif Blast art",
+    description: "Présentaion des membres du collectif Blastart. ",
+    url: "https://blast-art.art/collectif",
+    images: [
+      {
+        url: "https://blast-art.art/logo-512.png",
+        width: 759,
+        height: 585,
+        alt: "Logo Blast art",
+      },
+    ],
+  }}
+/>
   {#if posts}
   <div class="content">
   {#each posts as post, i}
@@ -59,7 +76,7 @@
 {/if}
   <style>
     .content{
-        font-family: interstate;
+        font-family: interstate ;
         padding: 60px 0 0; 
         display: flex;
         flex-direction: column;
@@ -69,6 +86,10 @@
       margin: 5px;
       display: flex;
       font-family: Interstate;
+    }
+    h2{
+      font-weight: lighter;
+      color: #3b3b38;
     }
     article h2 {
       max-width: 22rem;

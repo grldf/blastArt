@@ -10,15 +10,17 @@
     créatif et Jean-Pierre(staffvidéo) vidéaste créatif."
   />
 
-
-<img src="logo-512.png" alt="logo deco" />
-
+<div>
+  <img src="logo-512.png" alt="logo deco" />
+</div>
 <style>
+  div{
+    text-align: center;
+  }
   img {
-    height: 90vh;
-    display: block;
-    max-width: 100%;
-    margin-top: 40px;
+    max-height: 85vh;
+    max-width: 90%;
+    margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
   }

@@ -28,7 +28,7 @@
     <span>Prix : {prixProduit} €</span></p>
   </header>
 
-  <img on:click={toggleFunc} src={imgProduit} alt="test" />
+  <img on:click={toggleFunc} src={imgProduit} alt={nomProduit} />
   <div class="btns">
   <button
     class="snipcart-add-item"
@@ -40,12 +40,11 @@
     data-item-name={nomProduit}
     data-item-custom1-name={custom1}
     data-item-custom1-options={options1}
-    data-item-custom1-required="true"
     data-item-custom2-name={custom2}
     data-item-custom2-options={options2}
     data-item-custom3-name={custom3}
     data-item-custom3-options={options3}
-    data-item-min-price="15"
+    data-item-min-price="21"
   >
     Ajouter au Panier
   </button>
@@ -57,6 +56,10 @@
     {/if}
 </article>
 <style>
+  h2{
+    font-weight:lighter;
+    color: #3b3b38;
+  }
   article header{
     border-bottom:1px solid #ef11a1;
   }
@@ -90,6 +93,6 @@
     border: 1px solid #ef11a1;
   }
  span{
-   font-weight:bold;
+   font-weight:lighter;
  }
 </style>

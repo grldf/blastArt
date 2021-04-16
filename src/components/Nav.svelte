@@ -8,36 +8,38 @@
 {#if navBurger > 810}
   <nav>
     <a
+      rel="prefetch"
       aria-current={segment === undefined ? "page" : undefined}
-      href="/"><img src="logo.png" alt="Blast Art Logo" /></a
+      href="/"><h1><img src="logo.png" alt="Site du collectif d'artistes Blast art" /></h1></a
     >
     <a
+      rel="prefetch"
       aria-current={segment === "blast" ? "page" : undefined}
-      href="blast">Projets</a
+      href="blast">PROJETS</a
     >
     <a
       aria-current={segment === "video" ? "page" : undefined}
-      href="video">Vidéo</a
+      href="video">VIDEO</a
     >
     <a
       rel="prefetch"
       aria-current={segment === "collectif" ? "page" : undefined}
-      href="collectif">Collectif</a
+      href="collectif">COLLECTIF</a
     >
     <a
       rel="prefetch"
       aria-current={segment === "presse" ? "page" : undefined}
-      href="presse">Presse</a
+      href="presse">PRESSE</a
     >
     <a
       rel="prefetch"
       aria-current={segment === "news" ? "page" : undefined}
-      href="news">Actu</a
+      href="news">ACTU</a
     >
     <a
       rel="prefetch"
       aria-current={segment === "shop" ? "page" : undefined}
-      href="shop">Boutique</a
+      href="shop">BOUTIQUE</a
     >
     
     <div class="price-checkout">
@@ -221,31 +223,34 @@
     </header>
     <BurgerMenu padding={"25px"} backgroundColor={"#000"} menuColor={"#ef11a1"}>
       <a
+      rel="prefetch"
       aria-current={segment === "blast" ? "page" : undefined}
-      href="blast">Projets</a
+      href="blast">PROJETS</a
     >
       <a
+      rel="prefetch"
       aria-current={segment === "video" ? "page" : undefined}
-      href="video">Vidéo</a
+      href="video">VIDEO</a
     >
     <a
+      rel="prefetch"
       aria-current={segment === "collectif" ? "page" : undefined}
-      href="collectif">Collectif</a
+      href="collectif">COLLECTIF</a
     >
     <a
       rel="prefetch"
       aria-current={segment === "presse" ? "page" : undefined}
-      href="presse">Presse</a
+      href="presse">PRESSE</a
     >
     <a
       rel="prefetch"
       aria-current={segment === "news" ? "page" : undefined}
-      href="news">Actu</a
+      href="news">ACTU</a
     >
     <a
       rel="prefetch"
       aria-current={segment === "shop" ? "page" : undefined}
-      href="shop">Boutique</a
+      href="shop">BOUTIQUE</a
     >
     <a
       rel="prefetch"
@@ -255,12 +260,12 @@
     <a
       rel="prefetch"
       aria-current={segment === "contact" ? "page" : undefined}
-      href="contact">Contact</a
+      href="contact">CONTACT</a
     >
     <a
       rel="prefetch"
       aria-current={segment === "newsLetter" ? "page" : undefined}
-      href="newsLetter">NewsLetter</a
+      href="newsLetter">NEWSLETTER</a
     >
     </BurgerMenu>
   </div>
@@ -280,6 +285,10 @@
     border-bottom: 1px solid #ef11a1;
     font-weight: 300;
     padding-right: 20px;
+  }
+  h1{
+    padding:0;
+    margin:0;
   }
   svg {
     width: 30px;
@@ -325,7 +334,7 @@
     text-decoration: none;
     padding: 1em 0.5em;
     display: block;
-    color: #000;
+    color: #21221c;
     font-family: interstate;
   }
   a:hover {
@@ -351,7 +360,7 @@
     a {
       font-size: 22px;
       padding: 0.5em;
-      color: #fff;
+      color:#fff;
     }
     .info-prix {
       display: none;
