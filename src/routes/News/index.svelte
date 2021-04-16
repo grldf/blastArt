@@ -82,7 +82,6 @@ import snarkdown from "snarkdown";
   p{
     max-width: 100%;
   }
-
   
   img {
     max-width: 90vw;
@@ -95,6 +94,10 @@ import snarkdown from "snarkdown";
     div {
       margin: 0px;
     }
+    img {
+      display: none;
+    }
+    
     article h2 {
       padding-left: 0rem;
     }
