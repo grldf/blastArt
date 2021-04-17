@@ -94,13 +94,6 @@ import snarkdown from "snarkdown";
     div {
       margin: 0px;
     }
-    img {
-      display: none;
-    }
-    
-    article h2 {
-      padding-left: 0rem;
-    }
     
     p {
       margin-left: 20px;
