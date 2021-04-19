@@ -17,7 +17,9 @@
       aria-current={segment === "blast" ? "page" : undefined}
       href="blast">PROJETS</a
     >
+
     <a href="http://visite-virtuel.blast-art.fr" target="_blank">VISITE VIRTUELLE</a>
+
     <a
       aria-current={segment === "video" ? "page" : undefined}
       href="video">VIDEO</a
