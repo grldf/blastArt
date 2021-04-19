@@ -17,6 +17,7 @@
       aria-current={segment === "blast" ? "page" : undefined}
       href="blast">PROJETS</a
     >
+    <a href="http://visite-virtuel.blast-art.fr" target="_blank">VISITE VIRTUELLE</a>
     <a
       aria-current={segment === "video" ? "page" : undefined}
       href="video">VIDEO</a
@@ -31,11 +32,11 @@
       aria-current={segment === "presse" ? "page" : undefined}
       href="presse">PRESSE</a
     >
-    <a
+    <!-- <a
       rel="prefetch"
       aria-current={segment === "news" ? "page" : undefined}
       href="news">ACTU</a
-    >
+    > -->
     <a
       rel="prefetch"
       aria-current={segment === "shop" ? "page" : undefined}
@@ -227,6 +228,7 @@
       aria-current={segment === "blast" ? "page" : undefined}
       href="blast">PROJETS</a
     >
+    <a href="http://visite-virtuel.blast-art.fr" target="_blank">VISITE VIRTUELLE</a>
       <a
       rel="prefetch"
       aria-current={segment === "video" ? "page" : undefined}
@@ -242,11 +244,11 @@
       aria-current={segment === "presse" ? "page" : undefined}
       href="presse">PRESSE</a
     >
-    <a
+    <!-- <a
       rel="prefetch"
       aria-current={segment === "news" ? "page" : undefined}
       href="news">ACTU</a
-    >
+    > -->
     <a
       rel="prefetch"
       aria-current={segment === "shop" ? "page" : undefined}

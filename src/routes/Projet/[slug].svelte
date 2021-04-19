@@ -78,7 +78,6 @@
         {#each info.lien as projet}
           {#each projet.projets as slug}
             <a
-              sapper:prefetch
               class="link{projet.id}"
               href={urlSlug + slug.Slug}
               on:click={firstImage}>{slug.titre}</a
