@@ -6,7 +6,7 @@
   export let idProduit;
   export let imgModalProduit;
   export let descriptionProduit;
-  export let itemGategorie;
+  export let itemCategorie;
   export let custom1;
   export let options1;
   export let custom2;
@@ -34,7 +34,7 @@
     class="snipcart-add-item"
     data-item-id={idProduit}
     data-item-price={prixProduit}
-    data-item-categories={itemGategorie}
+    data-item-categories={itemCategorie}
     data-item-url="/shop"
     data-item-image={imgProduit}
     data-item-name={nomProduit}

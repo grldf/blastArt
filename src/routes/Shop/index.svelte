@@ -52,64 +52,65 @@
   openGraph={{
     type: "article",
     title: "Boutique du collectif blast",
-      description: "Trouvez votre impression 3D préférés ou des reproductions d'oeuvres en poster et print des oeuvres de Kalouf, Romain Lardanchet et Fabe Collage ",
-      url: "https://blast-art.art/shop",
-      images: [
-        {
-          url: "https://blast-art.art/logo-512.png",
-          width: 759,
-          height: 585,
-          alt: "Logo Blast art",
-        },
-      ],
-    }}
+    description:
+      "Trouvez votre impression 3D préférés ou des reproductions d'oeuvres en poster et print des oeuvres de Kalouf, Romain Lardanchet et Fabe Collage ",
+    url: "https://blast-art.art/shop",
+    images: [
+      {
+        url: "https://blast-art.art/logo-512.png",
+        width: 759,
+        height: 585,
+        alt: "Logo Blast art",
+      },
+    ],
+  }}
 />
 
-  <div class="all">
-      {#each article as produit}
-        {#if produit.produits.length > 0}
-          {#if produit.nom === "T-SHIRTS"}
-          <h2>{produit.nom} sur la boutique Ride4life</h2>
-            <div class="container">
+<div class="all">
+  {#each article as produit}
+    {#if produit.produits.length > 0}
+      {#if produit.nom === "T-SHIRTS"}
+        <h2>{produit.nom} sur la boutique Ride4life</h2>
+        <div class="container">
           {#each produit.produits as product}
-            <ProduitTshirt 
-            imgProduit={urlpApi + product.image.url}
-            nomProduit={product.nom}
-            descriptionProduit={product.description}
-            prixProduit={product.prix}
-            idProduit={product.id}
-            imgModalProduit={urlpApi + product.image.url}
-            lienRide4Life={product.lienride4life}
+            <ProduitTshirt
+              imgProduit={urlpApi + product.image.url}
+              nomProduit={product.nom}
+              descriptionProduit={product.description}
+              prixProduit={product.prix}
+              idProduit={product.id}
+              imgModalProduit={urlpApi + product.image.url}
+              lienRide4Life={product.lienride4life}
             />
-            {/each}
-            </div>
-          {:else}
-          <h2>{produit.nom}</h2>
-            <div class="container">
-              {#each produit.produits as product}
-                <Produit
-                  itemGategorie={produit.nom}
-                  imgProduit={urlpApi + product.image.url}
-                  nomProduit={product.nom}
-                  descriptionProduit={product.description}
-                  prixProduit={product.prix}
-                  idProduit={product.id}
-                  imgModalProduit={urlpApi + product.image.url}
-                  custom1={product.nameCustomOption1}
-                  options1={product.customOption1}
-                  custom2={product.nameCustomOption2}
-                  options2={product.customOption2}
-                  custom3={product.nameCustomOption3}
-                  options3={product.customOption3}
-                />
-              {/each}
-            </div>
-            {/if}
-          {:else}
-            <span />
-        {/if}
-      {/each}
-  </div>
+          {/each}
+        </div>
+      {:else}
+        <h2>{produit.nom}</h2>
+        <div class="container">
+          {#each produit.produits as product}
+            <Produit
+              itemCategorie={produit.nom}
+              imgProduit={urlpApi + product.image.url}
+              nomProduit={product.nom}
+              descriptionProduit={product.description}
+              prixProduit={product.prix}
+              idProduit={product.id}
+              imgModalProduit={urlpApi + product.image.url}
+              custom1={product.nameCustomOption1}
+              options1={product.customOption1}
+              custom2={product.nameCustomOption2}
+              options2={product.customOption2}
+              custom3={product.nameCustomOption3}
+              options3={product.customOption3}
+            />
+          {/each}
+        </div>
+      {/if}
+    {:else}
+      <p>Nous avons aucun produit actuellement</p>
+    {/if}
+  {/each}
+</div>
 
 <style>
   .container {
@@ -128,7 +129,7 @@
     border-bottom: solid 1px #ef11a1;
     margin-left: -20px;
     padding-left: 20px;
-    font-weight:lighter;
+    font-weight: lighter;
     color: #3b3b38;
   }
 </style>

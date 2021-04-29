@@ -8,19 +8,21 @@
 
 <div class="mySlides"  class:show={imageShowing} >
   <a href={slug} class="imgLink"><img src={imageUrl} alt={alternText} /></a>
-  <div class="infos">
-    <h1><a href={slug} class="link">{infos}</a></h1>
-  </div>
+    <div class="infos">
+      <h1>
+        <a href={slug} class="link">{infos}</a>
+      </h1>
+    </div>
 </div>
 
 <style>
- 
   .mySlides {
     display: none;
     margin-right: 20px;
     margin-left: 20px;
     height: 80vh;
   }
+
   .show {
     display: block;
     margin-top: 65px;
@@ -39,17 +41,16 @@
     max-height: 80vh;
     object-fit: contain;
   }
+
   .imgLink{
     margin-left:auto;
     margin-right: auto;
   }
+
   .infos {
     width: 100%;
     display:flex;
 		justify-content:center;
-		align-items:center;
-		text-align:center;
-    background-color: #fff;
   }
   
   a {
@@ -67,6 +68,7 @@
       margin-right: 0px;
       margin-left: 0px;
     }
+
     .show {
       margin-top: 0px;
       padding-top: 60px;
@@ -76,6 +78,5 @@
       width: 100%;
       max-height: 95vh;
     }
-    
   }
 </style>

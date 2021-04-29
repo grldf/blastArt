@@ -17,6 +17,9 @@
       aria-current={segment === "blast" ? "page" : undefined}
       href="blast">PROJETS</a
     >
+
+    <a href="http://visite-virtuel.blast-art.fr" target="_blank">VISITE VIRTUELLE</a>
+
     <a
       aria-current={segment === "video" ? "page" : undefined}
       href="video">VIDEO</a
@@ -31,17 +34,16 @@
       aria-current={segment === "presse" ? "page" : undefined}
       href="presse">PRESSE</a
     >
-    <a
+    <!-- <a
       rel="prefetch"
       aria-current={segment === "news" ? "page" : undefined}
       href="news">ACTU</a
-    >
+    > -->
     <a
       rel="prefetch"
       aria-current={segment === "shop" ? "page" : undefined}
       href="shop">BOUTIQUE</a
     >
-    
     <div class="price-checkout">
       <button class="snipcart-checkout"
         ><svg
@@ -125,6 +127,8 @@
         </svg></button
       >
       <p class="info-prix">
+        <button class="snipcart-customer-signin">Mon compte
+        </button><br />
         Quantité : <span class="snipcart-items-count" /><br />
         Prix : <span class="snipcart-total-price" />
       </p>
@@ -216,6 +220,7 @@
           </g>
         </svg></button
       >
+
       <p class="info-prix">
         Quantité : <span class="snipcart-items-count" /><br />
         Prix : <span class="snipcart-total-price" />
@@ -227,6 +232,7 @@
       aria-current={segment === "blast" ? "page" : undefined}
       href="blast">PROJETS</a
     >
+    <a href="http://visite-virtuel.blast-art.fr" target="_blank">VISITE VIRTUELLE</a>
       <a
       rel="prefetch"
       aria-current={segment === "video" ? "page" : undefined}
@@ -242,16 +248,18 @@
       aria-current={segment === "presse" ? "page" : undefined}
       href="presse">PRESSE</a
     >
-    <a
+    <!-- <a
       rel="prefetch"
       aria-current={segment === "news" ? "page" : undefined}
       href="news">ACTU</a
-    >
+    > -->
     <a
       rel="prefetch"
       aria-current={segment === "shop" ? "page" : undefined}
       href="shop">BOUTIQUE</a
     >
+    <a class="snipcart-customer-signin" href="signin">MON COMPTE
+    </a>
     <a
       rel="prefetch"
       aria-current={segment === "cgvcgu" ? "page" : undefined}
@@ -301,10 +309,22 @@
   }
   .info-prix {
     padding-right: 20px;
+    font-size: 14px;
+    padding-top: 0px;
+    margin-top:0px;
   }
   button {
     margin-top: 2px;
     background-color: #fff;
+  }
+  .snipcart-customer-signin{
+    padding:0px;
+    margin:0px;
+    border:none;
+    text-decoration: underline;
+  }
+  .snipcart-customer-signin:hover{
+    text-decoration:underline #ef11a1;
   }
   p {
     margin: 5px 0px 0px 10px;
@@ -370,5 +390,14 @@
       top:5px;
       right:10px;
     }
+    .snipcart-customer-signin{
+    padding:10px;
+    margin:0px;
+    border:none;
+    text-decoration: none;
+  }
+  .snipcart-customer-signin:hover{
+    text-decoration:underline #ef11a1;
+  }
   }
 </style>

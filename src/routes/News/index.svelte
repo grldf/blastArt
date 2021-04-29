@@ -1,4 +1,4 @@
-<script context="module">
+<!-- <script context="module">
 import ApolloClient, { gql } from "apollo-boost";
 import snarkdown from "snarkdown";
 
@@ -94,16 +94,9 @@ import snarkdown from "snarkdown";
     div {
       margin: 0px;
     }
-    img {
-      display: none;
-    }
-    
-    article h2 {
-      padding-left: 0rem;
-    }
     
     p {
       margin-left: 20px;
     }
   }
-</style>
+</style> -->

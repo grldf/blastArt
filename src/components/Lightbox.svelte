@@ -13,7 +13,7 @@
         <track kind="captions"  />
     </video>
     {:else}
-    <img class={imgFullSize} src={imageUrl}  alt={alternText} />
+        <img class={imgFullSize} src={imageUrl}  alt={alternText} />
     {/if}
 </div>
 
@@ -38,11 +38,12 @@ img,video{
     justify-self: stretch;
     object-fit: contain;
 }
-video{object-fit: cover;}
+video{
+    object-fit:cover;
+}
 .img-full-size {
     width: 100%;
     max-height: 100vh;
     object-fit: cover;
 }
-
 </style>

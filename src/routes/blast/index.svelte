@@ -6,7 +6,6 @@
  const imageQuery = gql`
    query cover{
      projets(sort:"date:desc"){
-       id
        idP
        titre
        cover {
