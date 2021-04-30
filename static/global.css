@@ -61,3 +61,6 @@ button:focus {
 	border-color: #666;
 }
 
+.snipcart-order__product-image{
+	max-height:300px;
+}
