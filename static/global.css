@@ -62,5 +62,5 @@ button:focus {
 }
 
 .snipcart-order__product-image{
-	max-height:300px;
+	max-height:300px !important;
 }
