@@ -29,7 +29,7 @@
     <a
       rel="prefetch"
       aria-current={segment === "video" ? "page" : undefined}
-      href="blast">VIDEO</a
+      href="video">VIDEO</a
     >
     <a
       rel="prefetch"
