@@ -6,8 +6,15 @@
   export let idProduit;
   export let imgModalProduit;
   export let descriptionProduit;
-  export let itemGategorie;
+  export let itemCategorie;
+  export let custom1;
+  export let options1;
+  export let custom2;
+  export let options2;
+  export let custom3;
+  export let options3;
 
+  let selected =0;
   let toggle = false;
   function toggleFunc(){
     toggle = !toggle;
@@ -21,16 +28,23 @@
     <span>Prix : {prixProduit} €</span></p>
   </header>
 
-  <img on:click={toggleFunc} src={imgProduit} alt="test" />
+  <img on:click={toggleFunc} src={imgProduit} alt={nomProduit} />
   <div class="btns">
   <button
     class="snipcart-add-item"
     data-item-id={idProduit}
     data-item-price={prixProduit}
-    data-item-categories={itemGategorie}
-    data-item-url="/"
+    data-item-categories={itemCategorie}
+    data-item-url="/shop"
     data-item-image={imgProduit}
     data-item-name={nomProduit}
+    data-item-custom1-name={custom1}
+    data-item-custom1-options={options1}
+    data-item-custom2-name={custom2}
+    data-item-custom2-options={options2}
+    data-item-custom3-name={custom3}
+    data-item-custom3-options={options3}
+    data-item-min-price="21"
   >
     Ajouter au Panier
   </button>
@@ -42,6 +56,10 @@
     {/if}
 </article>
 <style>
+  h2{
+    font-weight:lighter;
+    color: #3b3b38;
+  }
   article header{
     border-bottom:1px solid #ef11a1;
   }
@@ -61,16 +79,20 @@
   }
   .btns{
     align-self: center;
-    margin-top:10px;
+    margin-top:auto;
     display:flex;
     justify-content: space-around;
-
   }
+
   button{
     margin:5px;
     border: 1px solid #000;
   }
+  button:hover{
+    color:#ef11a1;
+    border: 1px solid #ef11a1;
+  }
  span{
-   font-weight:bold;
+   font-weight:lighter;
  }
 </style>

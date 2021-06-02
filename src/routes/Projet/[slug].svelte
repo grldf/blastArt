@@ -2,6 +2,7 @@
   import ApolloClient, { gql } from "apollo-boost";
   import snarkdown from "snarkdown";
   import Lightbox from "../../components/Lightbox.svelte";
+  import SvelteSeo from "svelte-seo";
 
   const projetQuery = gql`
     query Projets($Slug: String!) {
@@ -62,12 +63,14 @@
       imageShowIndex += 1;
     }
   };
+  const posScrollFullSize = () => {
+    if (window.scrollY) {
+      window.scroll(0, 0);
+    }
+  };
   let fullSize;
 </script>
 
-<svelte:head>
-  <title>Projet</title>
-</svelte:head>
 <div class="projet {fullSize}">
   {#each projets as info}
     <div class="post-info">
@@ -75,7 +78,6 @@
         {#each info.lien as projet}
           {#each projet.projets as slug}
             <a
-              sapper:prefetch
               class="link{projet.id}"
               href={urlSlug + slug.Slug}
               on:click={firstImage}>{slug.titre}</a
@@ -84,14 +86,31 @@
         {/each}
         <h5 class="linkText">&#10094; Projet &#10095;</h5>
       </nav>
-      <h2>{info.titre}</h2>
-      <div class="text">
-        {@html snarkdown(info.description)}
-      </div>
+    </div>
+
+    <SvelteSeo description={info.description} title={info.titre} 
+                openGraph={{
+                  type: "article",
+                  title: info.titre,
+                    description: info.description ,
+                    url: urlSlug + "projet/".Slug,
+                    images: [
+                      {
+                        url: info.galery.url,
+                        alt: info.description,
+                      },
+                    ],
+                  }}
+    />
+
+    <h2>{info.titre}</h2>
+    <div class="text">
+      {@html snarkdown(info.description)}
     </div>
     <svg
       class="btn-full-size"
       on:click={() => (fullSize = "full-size")}
+      on:click={() => posScrollFullSize()}
       xmlns="http://www.w3.org/2000/svg"
       width="41"
       height="41"
@@ -147,10 +166,8 @@
       {#each info.galery as image, i}
         <Lightbox
           imageUrl={urlpApi + image.url}
-          slideNo={imageShowIndex}
-          totalSlide={info.galery.length}
           imageShowing={i + 1 === imageShowIndex}
-          alternText={i}
+          alternText={info.titre}
           imgFullSize={"img-" + fullSize}
           videoPoster={urlpApi + info.cover.url}
         />
@@ -179,28 +196,28 @@
             data-name="Tracé 87"
             d="M29.024,13.474l-2.232-2.439,6.781-6.583L29.024.031l-6.2,6.431L20,4.452v9.022Z"
             transform="translate(1.696 3.031)"
-            fill="#e42ef5"
+            fill="#ef11a1"
           />
           <path
             id="Tracé_88"
             data-name="Tracé 88"
             d="M9.024,13.443,6.792,11l6.781-6.583L9.024,0l-6.2,6.431L0,4.421v9.022Z"
             transform="translate(35.139 20.139) rotate(90)"
-            fill="#e42ef5"
+            fill="#ef11a1"
           />
           <path
             id="Tracé_89"
             data-name="Tracé 89"
             d="M9.024,13.443,6.792,11l6.781-6.583L9.024,0l-6.2,6.431L0,4.421v9.022Z"
             transform="translate(16.422 33.712) rotate(180)"
-            fill="#e42ef5"
+            fill="#ef11a1"
           />
           <path
             id="Tracé_90"
             data-name="Tracé 90"
             d="M9.024,13.443,6.792,11l6.781-6.583L9.024,0l-6.2,6.431L0,4.421v9.022Z"
             transform="translate(2.979 16.506) rotate(-90)"
-            fill="#e42ef5"
+            fill="#ef11a1"
           />
         </g>
       </svg>
@@ -250,12 +267,12 @@
   .btn-small-size {
     display: none;
   }
-  .btn-full-size,
+
   .btn-small-size {
     position: absolute;
-    right: 40px;
-    margin-top: 20px;
-    border: 1px solid #e42ef5;
+    right: 20px;
+    margin-top: 0px;
+    border: 1px solid #ef11a1;
     background-color: rgba(0, 0, 0, 0.5);
   }
 
@@ -276,27 +293,43 @@
   }
   .projet {
     margin-top: 65px;
-    padding: 0 20px;
+    padding: 0 20px 30px 20px;
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr;
     grid-template-areas:
-      "titre colRight"
-      "texte colRight";
+      "nav"
+      "btnFullsize"
+      "colRight"
+      "titre"
+      "texte";
   }
-  nav {
+
+  .btn-full-size {
+    grid-area: btnFullsize;
     display: grid;
+    margin-left: auto;
+    z-index: 1;
+  }
+
+  nav {
+    grid-area: nav;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "prev linkText next";
-    border: 2px solid rgb(228, 46, 245);
-    margin-right: 10px;
+    border: 1px solid #ef11a1;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
     align-items: center;
     text-align: center;
+    height: 40px;
+    width: 100%;
   }
   .linkText {
     grid-area: linkText;
     text-align: center;
     font-family: "interstate";
     font-size: 18px;
-    min-width: 100px;
   }
 
   .link1 {
@@ -305,7 +338,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    color: black;
+    color: #21221c;
     text-decoration: underline;
     text-align: center;
   }
@@ -314,42 +347,50 @@
     grid-area: next;
     display: flex;
     align-items: center;
-    color: black;
+    color: #21221c;
     justify-content: flex-start;
     text-decoration: underline;
     text-align: center;
   }
   .projet a:hover {
-    color: rgb(228, 46, 245);
+    color: #ef11a1;
+  }
+  a {
+    color: #21221c;
   }
   h2 {
     grid-area: titre;
-    text-decoration: underline;
+    text-align: center;
     padding: 0;
     margin: 15px 0;
+    font-weight: lighter;
+    color: #3b3b38;
   }
   .text {
     grid-area: texte;
-    padding-right: 20px;
-    max-height: 60vh;
-    overflow-y: scroll;
+    padding-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .full-size .text {
+    display: none;
   }
   .galery {
     grid-area: colRight;
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 50fr 1fr;
-    background-color: #000;
     grid-template-areas: "btnG  . btnD";
+    grid-row-start: 2;
   }
   button {
-    color: rgb(228, 46, 245);
+    color: #ef11a1;
     background-color: #000;
     border: 1px solid grey;
     top: 40vh;
   }
   button:hover {
-    border: 1px solid rgb(228, 46, 245);
+    border: 1px solid #ef11a1;
   }
   .prev {
     grid-area: btnG;
@@ -357,57 +398,10 @@
   .next {
     grid-area: btnD;
   }
-  @media (max-width: 1080px) {
-    .projet {
-      margin-top: 0;
-      padding: 60px 20px;
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-areas:
-        "titre"
-        "btnfull"
-        "slider"
-        "texte";
-      max-height: 100%;
-    }
-    .full-size .galery {
-      background-color: #000;
-      max-height: 101vh;
-    }
-    .galery {
-      grid-area: slider;
-      grid-row-start: 2;
-      align-items: center;
-    }
-    .post-info {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-areas:
-        "title"
-        "description"
-        "navprojet";
-    }
-    h2 {
-      grid-area: title;
-    }
-    .text {
-      grid-area: description;
-      margin-bottom: 10px;
-    }
-    nav {
-      grid-area: navprojet;
-      margin: 10px 0;
-    }
-    .btn-small-size {
-      position: absolute;
-      right: 20px;
-      top: 80px;
-    }
-    .btn-full-size {
-      position: relative;
-      left: 90%;
-      grid-area: btnfull;
-      margin-top: 20px;
-    }
+  h5 {
+    font-weight: lighter;
+    color: #3b3b38;
+    padding: 0;
+    margin: 0;
   }
 </style>

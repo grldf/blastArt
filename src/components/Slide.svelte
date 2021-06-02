@@ -1,19 +1,18 @@
 <script>
   export let imageUrl;
   export let alternText;
-  export let slideNo;
-  export let totalSlide;
   export let imageShowing;
   export let infos;
   export let slug;
 </script>
 
-<div class="mySlides" class:show={imageShowing}>
-  <div class="numbertext">{slideNo} / {totalSlide}</div>
-  <img src={imageUrl} alt={alternText} />
-  <div class="infos">
-    <p><a href={slug} class="link">{infos}</a></p>
-  </div>
+<div class="mySlides"  class:show={imageShowing} >
+  <a href={slug} class="imgLink"><img src={imageUrl} alt={alternText} /></a>
+    <div class="infos">
+      <h1>
+        <a href={slug} class="link">{infos}</a>
+      </h1>
+    </div>
 </div>
 
 <style>
@@ -21,7 +20,9 @@
     display: none;
     margin-right: 20px;
     margin-left: 20px;
+    height: 80vh;
   }
+
   .show {
     display: block;
     margin-top: 65px;
@@ -31,45 +32,43 @@
     align-items: flex-start;
     height: 90%;
   }
-  .numbertext {
-    color: rgb(228, 46, 245);
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-  }
-  img {
-    width: 100%;
-    max-height: 85vh;
+  
+ a img {
+    width: 99%;
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    max-height: 80vh;
     object-fit: contain;
   }
+
+  .imgLink{
+    margin-left:auto;
+    margin-right: auto;
+  }
+
   .infos {
     width: 100%;
     display:flex;
 		justify-content:center;
-		align-items:center;
-		text-align:center;
-    background-color: #fff;
   }
   
   a {
-    color: #000;
+    font-weight:lighter;
+    color: #3b3b38;
     font-size: 1.6rem;
-    text-decoration: underline;
-    padding:5px;
   }
   a:hover {
-    text-decoration: none;
-    color: rgb(228, 46, 245);
+    text-decoration: underline;
+    color: #ef11a1;
   }
-  .link {
-    border-left:  solid  rgb(228, 46, 245);
-    border-right:  solid  rgb(228, 46, 245);
-  }
+  
   @media (max-width: 660px) {
     .mySlides {
       margin-right: 0px;
       margin-left: 0px;
     }
+
     .show {
       margin-top: 0px;
       padding-top: 60px;
@@ -79,6 +78,5 @@
       width: 100%;
       max-height: 95vh;
     }
-    
   }
 </style>

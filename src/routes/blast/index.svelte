@@ -1,10 +1,11 @@
 <script context="module">
     import ApolloClient, { gql } from "apollo-boost";
     import Slide from "./../../components/Slide.svelte";
+    import SvelteSeo from "svelte-seo";
+
  const imageQuery = gql`
    query cover{
      projets(sort:"date:desc"){
-       id
        idP
        titre
        cover {
@@ -50,6 +51,28 @@ let imageShowIndex = 1;
      }
    } ;
 </script>
+
+<SvelteSeo
+  description="Présentaion des différents projets réalisés par le collectif Blastart, comme l'expositions unique le
+  terminal, le dinosaure Gustave de Romain Lardanchet et la fresque monumentale Gorilla urbaine réalisé par Kalouf. Ces 
+  travaux sont rendus au travers des photos de FabeCollage et des vidéos de Jean-Pierre(staffvidéo)"
+  title="Projets réalisés par le collectif Blastart. Fresques, graphes sculptures les artistes relèvent tous les défis"
+  openGraph={{
+  type: "article",
+  title: "Projets réalisés par le collectif Blastart",
+    description: "Présentaion des différents projets réalisés par le collectif Blastart, comme l'expositions unique le terminal. ",
+    url: "https://blast-art.art/blast",
+    images: [
+      {
+        url: "https://blast-art.art/logo-512.png",
+        width: 759,
+        height: 585,
+        alt: "Logo Blast art",
+      },
+    ],
+  }}
+/>
+
 <div>
 <div class="container">
 {#each presentation as post}
@@ -83,7 +106,7 @@ let imageShowIndex = 1;
  width: auto;
  padding: 20px;
  margin-left: 20px;
- color: rgb(228, 46, 245);
+ color: #ef11a1;
  font-weight: bold;
  font-size: 25px;
  border-radius: 0 3px 3px 0;

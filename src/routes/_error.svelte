@@ -1,40 +1,36 @@
 <script>
 	export let status;
-	export let error;
 
 	const dev = process.env.NODE_ENV === 'development';
 </script>
 
 <style>
-	h1, p {
-		margin: 0 auto;
+	.container{
+		width:100%;
+		height:100vh;
 	}
-
-	h1 {
-		font-size: 2.8em;
-		font-weight: 700;
-		margin: 0 0 0.5em 0;
+	h1{
+		position:absolute;
+		color:#fff;
+		font-size:60px;
+		left:40px;
+		top:100px;
 	}
-
-	p {
-		margin: 1em auto;
-	}
-
-	@media (min-width: 480px) {
-		h1 {
-			font-size: 4em;
-		}
+	img{
+	width: 100%;
+    max-height: 100vh;
+	margin-top:60px;
+    align-self: stretch;
+    justify-self: stretch;
+    object-fit: cover;
+	z-index: 1;
 	}
 </style>
 
 <svelte:head>
 	<title>{status}</title>
 </svelte:head>
-
-<h1>{status}</h1>
-
-<p>{error.message}</p>
-
-{#if dev && error.stack}
-	<pre>{error.stack}</pre>
-{/if}
+<div class="container">
+	<h1>404</h1>
+	<img src="/pirate.jpg" alt="Cette page n'existe pas...désolé" />
+</div>

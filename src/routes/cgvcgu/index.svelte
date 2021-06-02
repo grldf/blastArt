@@ -26,9 +26,12 @@ const cgvQuery = gql`
 <script>
     export let cgu;
 </script>
+
 <svelte:head>
-  <title />
+  <meta name="robots" content="noindex" />
+  <title>CGV/CGU</title>
 </svelte:head>
+
 <div class="content">
   <h1>{cgu.titre}</h1>
   {@html snarkdown(cgu.conditions)}
