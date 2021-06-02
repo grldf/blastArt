@@ -16,14 +16,9 @@
       rel="prefetch"
       aria-current={segment === "blast" ? "page" : undefined}
       href="blast">PROJETS</a
-    >
 
+    >
     <a href="http://visite-virtuel.blast-art.fr" target="_blank" aria-label="Ouverture de la visite virtuelle dans un nouvel onglet">VISITE VIRTUELLE</a>
-
-    <a
-      aria-current={segment === "video" ? "page" : undefined}
-      href="video">VIDEO</a
-    >
     <a
       rel="prefetch"
       aria-current={segment === "collectif" ? "page" : undefined}
