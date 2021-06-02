@@ -10,15 +10,27 @@
     <a
       rel="prefetch"
       aria-current={segment === undefined ? "page" : undefined}
-      href="/"><h1><img src="logo.png" alt="Site du collectif d'artistes Blast art" /></h1></a
+      href="/"
+      ><h1>
+        <img src="logo.png" alt="Site du collectif d'artistes Blast art" />
+      </h1></a
     >
     <a
       rel="prefetch"
       aria-current={segment === "blast" ? "page" : undefined}
       href="blast">PROJETS</a
-
     >
-    <a href="http://visite-virtuel.blast-art.fr" target="_blank" aria-label="Ouverture de la visite virtuelle dans un nouvel onglet">VISITE VIRTUELLE</a>
+    <a
+      href="http://visite-virtuel.blast-art.fr"
+      target="_blank"
+      aria-label="Ouverture de la visite virtuelle dans un nouvel onglet"
+      >VISITE VIRTUELLE</a
+    >
+    <a
+      rel="prefetch"
+      aria-current={segment === "video" ? "page" : undefined}
+      href="blast">VIDEO</a
+    >
     <a
       rel="prefetch"
       aria-current={segment === "collectif" ? "page" : undefined}
@@ -44,7 +56,6 @@
           viewBox="0 0 1280.000000 1225.000000"
           preserveAspectRatio="xMidYMid meet"
         >
-          
           <g
             transform="translate(0.000000,1225.000000) scale(0.100000,-0.100000)"
             fill="#ec51fd"
@@ -117,8 +128,7 @@
         </svg></button
       >
       <p class="info-prix">
-        <button class="snipcart-customer-signin">Mon compte
-        </button><br />
+        <button class="snipcart-customer-signin">Mon compte </button><br />
         Quantité : <span class="snipcart-items-count" /><br />
         Prix : <span class="snipcart-total-price" />
       </p>
@@ -218,48 +228,52 @@
     </header>
     <BurgerMenu padding={"25px"} backgroundColor={"#000"} menuColor={"#ef11a1"}>
       <a
-      rel="prefetch"
-      aria-current={segment === "blast" ? "page" : undefined}
-      href="blast">PROJETS</a
-    >
-    <a href="http://visite-virtuel.blast-art.fr" target="_blank">VISITE VIRTUELLE</a>
+        rel="prefetch"
+        aria-current={segment === "blast" ? "page" : undefined}
+        href="blast">PROJETS</a
+      >
       <a
-      rel="prefetch"
-      aria-current={segment === "video" ? "page" : undefined}
-      href="video">VIDEO</a
-    >
-    <a
-      rel="prefetch"
-      aria-current={segment === "collectif" ? "page" : undefined}
-      href="collectif">COLLECTIF</a
-    >
-    <a
-      rel="prefetch"
-      aria-current={segment === "presse" ? "page" : undefined}
-      href="presse">PRESSE</a
-    >
-    <a
-      rel="prefetch"
-      aria-current={segment === "shop" ? "page" : undefined}
-      href="shop">BOUTIQUE</a
-    >
-    <a class="snipcart-customer-signin" href="signin">MON COMPTE
-    </a>
-    <a
-      rel="prefetch"
-      aria-current={segment === "cgvcgu" ? "page" : undefined}
-      href="cgvcgu">CGV/CGU</a
-    >
-    <a
-      rel="prefetch"
-      aria-current={segment === "contact" ? "page" : undefined}
-      href="contact">CONTACT</a
-    >
-    <a
-      rel="prefetch"
-      aria-current={segment === "newsLetter" ? "page" : undefined}
-      href="newsLetter">NEWSLETTER</a
-    >
+        href="http://visite-virtuel.blast-art.fr"
+        target="_blank"
+        aria-label="Ouverture de la visite virtuelle dans un nouvel onglet"
+        >VISITE VIRTUELLE</a
+      >
+      <a
+        rel="prefetch"
+        aria-current={segment === "video" ? "page" : undefined}
+        href="video">VIDEO</a
+      >
+      <a
+        rel="prefetch"
+        aria-current={segment === "collectif" ? "page" : undefined}
+        href="collectif">COLLECTIF</a
+      >
+      <a
+        rel="prefetch"
+        aria-current={segment === "presse" ? "page" : undefined}
+        href="presse">PRESSE</a
+      >
+      <a
+        rel="prefetch"
+        aria-current={segment === "shop" ? "page" : undefined}
+        href="shop">BOUTIQUE</a
+      >
+      <a class="snipcart-customer-signin" href="signin">MON COMPTE </a>
+      <a
+        rel="prefetch"
+        aria-current={segment === "cgvcgu" ? "page" : undefined}
+        href="cgvcgu">CGV/CGU</a
+      >
+      <a
+        rel="prefetch"
+        aria-current={segment === "contact" ? "page" : undefined}
+        href="contact">CONTACT</a
+      >
+      <a
+        rel="prefetch"
+        aria-current={segment === "newsLetter" ? "page" : undefined}
+        href="newsLetter">NEWSLETTER</a
+      >
     </BurgerMenu>
   </div>
 {/if}
@@ -279,9 +293,9 @@
     font-weight: 300;
     padding-right: 20px;
   }
-  h1{
-    padding:0;
-    margin:0;
+  h1 {
+    padding: 0;
+    margin: 0;
   }
   svg {
     width: 30px;
@@ -296,20 +310,20 @@
     padding-right: 20px;
     font-size: 14px;
     padding-top: 0px;
-    margin-top:0px;
+    margin-top: 0px;
   }
   button {
     margin-top: 2px;
     background-color: #fff;
   }
-  .snipcart-customer-signin{
-    padding:0px;
-    margin:0px;
-    border:none;
+  .snipcart-customer-signin {
+    padding: 0px;
+    margin: 0px;
+    border: none;
     text-decoration: underline;
   }
-  .snipcart-customer-signin:hover{
-    text-decoration:underline #ef11a1;
+  .snipcart-customer-signin:hover {
+    text-decoration: underline #ef11a1;
   }
   p {
     margin: 5px 0px 0px 10px;
@@ -345,9 +359,8 @@
   a:hover {
     text-decoration: underline #ef11a1;
   }
-  
+
   @media (max-width: 809px) {
-    
     header {
       padding: 10px 0px 0px 50px;
       display: flex;
@@ -355,8 +368,8 @@
       height: 50px;
     }
     .burger {
-      position:fixed;
-      top:0px;
+      position: fixed;
+      top: 0px;
       display: flex;
       flex-direction: row-reverse;
       justify-content: space-between;
@@ -365,24 +378,24 @@
     a {
       font-size: 22px;
       padding: 0.5em;
-      color:#fff;
+      color: #fff;
     }
     .info-prix {
       display: none;
     }
-    .snipcart-checkout{
-      position:fixed;
-      top:5px;
-      right:10px;
+    .snipcart-checkout {
+      position: fixed;
+      top: 5px;
+      right: 10px;
     }
-    .snipcart-customer-signin{
-    padding:10px;
-    margin:0px;
-    border:none;
-    text-decoration: none;
-  }
-  .snipcart-customer-signin:hover{
-    text-decoration:underline #ef11a1;
-  }
+    .snipcart-customer-signin {
+      padding: 10px;
+      margin: 0px;
+      border: none;
+      text-decoration: none;
+    }
+    .snipcart-customer-signin:hover {
+      text-decoration: underline #ef11a1;
+    }
   }
 </style>
